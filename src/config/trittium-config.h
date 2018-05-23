@@ -1,9 +1,9 @@
-/* src/config/trittium-config.h.  Generated from trittium-config.h.in by configure.  */
-/* src/config/trittium-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/somnio-config.h.  Generated from somnio-config.h.in by configure.  */
+/* src/config/somnio-config.h.in.  Generated from configure.ac by autoheader.  */
 
-#ifndef TRITTIUM_CONFIG_H
+#ifndef SOMNIO_CONFIG_H
 
-#define TRITTIUM_CONFIG_H
+#define SOMNIO_CONFIG_H
 
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
@@ -268,16 +268,16 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "www.trittium.io"
+#define PACKAGE_BUGREPORT "www.somnio.io"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "Trittium Core"
+#define PACKAGE_NAME "Somnio Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Trittium Core 2.0.1"
+#define PACKAGE_STRING "Somnio Core 2.0.1"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "trittium"
+#define PACKAGE_TARNAME "somnio"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""
@@ -340,4 +340,4 @@
 /* Define for large files, on AIX-style hosts. */
 /* #undef _LARGE_FILES */
 
-#endif //TRITTIUM_CONFIG_H
+#endif //SOMNIO_CONFIG_H

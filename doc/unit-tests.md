@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with 'make check'.
 
-To run the trttiumd tests manually, launch src/test/test_trttium .
+To run the somniod tests manually, launch src/test/test_somnio .
 
-To add more trttiumd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more somniod tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the test/ directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the trttium-qt tests manually, launch src/qt/test/trttium-qt_test
+To run the somnio-qt tests manually, launch src/qt/test/somnio-qt_test
 
-To add more trttium-qt tests, add them to the `src/qt/test/` directory and
+To add more somnio-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

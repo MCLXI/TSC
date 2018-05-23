@@ -22,7 +22,7 @@
 /****************************************************************************************/
 
 WalletFrame {
-border-image: url(':/images/trittiumbg') 0 0 0 0 stretch stretch;
+border-image: url(':/images/somniobg') 0 0 0 0 stretch stretch;
 border-top:0px solid #000;
 margin:0;
 padding:0;
@@ -881,12 +881,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About Trittium Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Trittium Contents */
+/* About Somnio Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Somnio Contents */
 margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About Trittium text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About Somnio text */
 margin-right:10px;
 }
 
@@ -913,11 +913,11 @@ background-color:#ffffff;
 
 QLabel#labelOverviewHeaderRight {
 qproperty-alignment: 'AlignVCenter | AlignRight';
-background-image: url(':/images/trittium_logo_horizontal');
+background-image: url(':/images/somnio_logo_horizontal');
 background-repeat: no-repeat;
 }
 
-QWidget .QFrame#frame_Header { /* Header with Page-Title and TRITTIUM-image */
+QWidget .QFrame#frame_Header { /* Header with Page-Title and SOMNIO-image */
 min-width:400px;
 background-color:#ffffff;
 }
@@ -1556,7 +1556,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::indicator { /* Coin
 
 }
 
-QDialog#ZTrittiumControlDialog .QTreeWidget#treeWidget { /* zTrittium Control Widget Container */
+QDialog#ZSomnioControlDialog .QTreeWidget#treeWidget { /* zSomnio Control Widget Container */
 outline:0;
 background-color:#ffffff;
 border:1px solid #333;

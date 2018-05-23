@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your Trittium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços Trittium para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your Somnio addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços Somnio para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Trittium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços Trittium para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your Somnio addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços Somnio para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>Trittium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TRITTIUMs from being stolen by malware infecting your computer.</source>
-        <translation>Trittium vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas TRITTIUMs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>Somnio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SOMNIOs from being stolen by malware infecting your computer.</source>
+        <translation>Somnio vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas SOMNIOs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRITTIUM&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS TRITTIUM&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOMNIO&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS SOMNIO&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,7 +235,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Trittium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Somnio Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The Trittium address to sign the message with</source>
-        <translation>O endereço Trittium para assinar a mensagem</translation>
+        <source>The Somnio address to sign the message with</source>
+        <translation>O endereço Somnio para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Trittium address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço Trittium</translation>
+        <source>Sign the message to prove you own this Somnio address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço Somnio</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -291,12 +291,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The Trittium address the message was signed with</source>
-        <translation>O endereço Trittium que assinou a mensagem</translation>
+        <source>The Somnio address the message was signed with</source>
+        <translation>O endereço Somnio que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Trittium address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Trittium especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Somnio especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,16 +586,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     <message>
-        <source>Send coins to a Trittium address</source>
-        <translation>Enviar moedas para um endereço Trittium</translation>
+        <source>Send coins to a Somnio address</source>
+        <translation>Enviar moedas para um endereço Somnio</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and trittium: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e trittium: URIs)</translation>
+        <source>Request payments (generates QR codes and somnio: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e somnio: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,24 +606,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Trittium Core</source>
-        <translation>&amp;Sobre o Trittium Core</translation>
+        <source>&amp;About Somnio Core</source>
+        <translation>&amp;Sobre o Somnio Core</translation>
     </message>
     <message>
-        <source>Show information about Trittium Core</source>
-        <translation>Mostra informação sobre o Trittium Core</translation>
+        <source>Show information about Somnio Core</source>
+        <translation>Mostra informação sobre o Somnio Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Trittium</source>
-        <translation>Modificar opções de configuração para Trittium</translation>
+        <source>Modify configuration options for Somnio</source>
+        <translation>Modificar opções de configuração para Somnio</translation>
     </message>
     <message>
-        <source>Sign messages with your Trittium addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços Trittium para provar que você os detém</translation>
+        <source>Sign messages with your Somnio addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços Somnio para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Trittium addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços Trittium especificados</translation>
+        <source>Verify messages to ensure they were signed with specified Somnio addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços Somnio especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -654,8 +654,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a Trittium: URI or payment request</source>
-        <translation>Abrir um Trittium: URI ou requisição de pagamento</translation>
+        <source>Open a Somnio: URI or payment request</source>
+        <translation>Abrir um Somnio: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -666,12 +666,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the Trittium Core help message to get a list with possible Trittium command-line options</source>
-        <translation>Mostra a ajuda da Trittium Core para receber uma lista com possíveis opções de linha de comando Trittium</translation>
+        <source>Show the Somnio Core help message to get a list with possible Somnio command-line options</source>
+        <translation>Mostra a ajuda da Somnio Core para receber uma lista com possíveis opções de linha de comando Somnio</translation>
     </message>
     <message>
-        <source>Trittium Core client</source>
-        <translation>Cliente Core Trittium</translation>
+        <source>Somnio Core client</source>
+        <translation>Cliente Core Somnio</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -806,8 +806,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (trittium2.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (trittium2.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (somnio2.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (somnio2.conf). </translation>
     </message>
 </context>
 <context>
@@ -1083,8 +1083,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Trittium address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de Trittium</translation>
+        <source>The entered address "%1" is not a valid Somnio address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de Somnio</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1129,16 +1129,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Trittium Core</source>
-        <translation>Sobre o Trittium Core</translation>
+        <source>About Somnio Core</source>
+        <translation>Sobre o Somnio Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1172,16 +1172,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Trittium Core.</source>
-        <translation>Bem-vindo ao Trittium Core.</translation>
+        <source>Welcome to Somnio Core.</source>
+        <translation>Bem-vindo ao Somnio Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Trittium Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Trittium Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Somnio Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Somnio Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>Trittium Core will download and store a copy of the Trittium block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Trittium Core vai baixar e armazenar uma cópia da blockchain Trittium. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>Somnio Core will download and store a copy of the Somnio block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Somnio Core vai baixar e armazenar uma cópia da blockchain Somnio. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1192,8 +1192,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1448,48 +1448,48 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Favor selecionar o nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 TRITTIUM</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 TRITTIUM</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SOMNIO</source>
+        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 SOMNIO</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 TRITTIUM</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 TRITTIUM</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SOMNIO</source>
+        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 SOMNIO</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 masternodes separados</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 TRITTIUM to anonymize 10000 TRITTIUM</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 TRITTIUM para anonimizar 10000 TRITTIUM</translation>
+        <source>This option is the quickest and will cost about ~0.025 SOMNIO to anonymize 10000 SOMNIO</source>
+        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 SOMNIO para anonimizar 10000 SOMNIO</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 TRITTIUM to anonymize 10000 TRITTIUM</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 TRITTIUM para anonimizar 10000 TRITTIUM</translation>
+        <source>This option is moderately fast and will cost about 0.05 SOMNIO to anonymize 10000 SOMNIO</source>
+        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 SOMNIO para anonimizar 10000 SOMNIO</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
-        <source>0.1 TRITTIUM per 10000 TRITTIUM you anonymize.</source>
-        <translation>0.1 TRITTIUM por 10000 TRITTIUM que deixar anônima.</translation>
+        <source>0.1 SOMNIO per 10000 SOMNIO you anonymize.</source>
+        <translation>0.1 SOMNIO por 10000 SOMNIO que deixar anônima.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Trittium's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Trittium's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Somnio's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Trittium's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Trittium's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Somnio's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Trittium's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Trittium's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Somnio's.</translation>
     </message>
 </context>
 <context>
@@ -1542,8 +1542,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the Trittium client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente Trittium no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the Somnio client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente Somnio no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1562,12 +1562,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Trittium after logging in to the system.</source>
-        <translation>Iniciar automaticamente Trittium depois de logar no sistema.</translation>
+        <source>Automatically start Somnio after logging in to the system.</source>
+        <translation>Iniciar automaticamente Somnio depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Trittium on system login</source>
-        <translation>&amp;Iniciar Trittium ao logar no sistema</translation>
+        <source>&amp;Start Somnio on system login</source>
+        <translation>&amp;Iniciar Somnio ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1582,18 +1582,18 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Trittium.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do Trittium.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Somnio.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do Somnio.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/trittium-project/trittium-project-translations</source>
+https://www.transifex.com/somnio-project/somnio-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/trittium-project/trittium-project-translations</translation>
+https://www.transifex.com/somnio-project/somnio-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the Trittium network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede Trittium através de um proxy SOCKS5</translation>
+        <source>Connect to the Somnio network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede Somnio através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1727,8 +1727,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Trittium network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Trittium após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Somnio network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Somnio após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1816,8 +1816,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Trittium network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Trittium após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Somnio network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Somnio após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>0</source>
@@ -1923,8 +1923,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a Trittium address (e.g. %1)</source>
-        <translation>Insira um endereço Trittium (e.g. %1)</translation>
+        <source>Enter a Somnio address (e.g. %1)</source>
+        <translation>Insira um endereço Somnio (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2173,8 +2173,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the Trittium RPC console.</source>
-        <translation>Bem-vindo ao console da Trittium RPC</translation>
+        <source>Welcome to the Somnio RPC console.</source>
+        <translation>Bem-vindo ao console da Somnio RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2425,8 +2425,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 TRITTIUM</source>
-        <translation>0 TRITTIUM</translation>
+        <source>0 SOMNIO</source>
+        <translation>0 SOMNIO</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2465,12 +2465,12 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTRITTIUMs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTRITTIUMs in fee,&lt;br /&gt;while "at least" pays 1000 uTRITTIUMs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uTRITTIUMs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uTRITTIUMs em taxa,&lt;br /&gt; pagará pelo menos 1000 uTRITTIUMs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uSOMNIOs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSOMNIOs in fee,&lt;br /&gt;while "at least" pays 1000 uSOMNIOs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uSOMNIOs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uSOMNIOs em taxa,&lt;br /&gt; pagará pelo menos 1000 uSOMNIOs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Trittium transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Trittium do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Somnio transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Somnio do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2557,8 +2557,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid Trittium address</source>
-        <translation>Aviso: endereço Trittium inválido</translation>
+        <source>Warning: Invalid Somnio address</source>
+        <translation>Aviso: endereço Somnio inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2652,8 +2652,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The Trittium address to send the payment to</source>
-        <translation>O endereço Trittium para enviar o pagamento</translation>
+        <source>The Somnio address to send the payment to</source>
+        <translation>O endereço Somnio para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2715,8 +2715,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Trittium Core is shutting down...</source>
-        <translation>Trittium Core está desligando...</translation>
+        <source>Somnio Core is shutting down...</source>
+        <translation>Somnio Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2734,8 +2734,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The Trittium address to sign the message with</source>
-        <translation>O endereço Trittium para assinar a mensagem</translation>
+        <source>The Somnio address to sign the message with</source>
+        <translation>O endereço Somnio para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2766,16 +2766,16 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Trittium address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço Trittium</translation>
+        <source>Sign the message to prove you own this Somnio address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço Somnio</translation>
     </message>
     <message>
-        <source>The Trittium address the message was signed with</source>
-        <translation>O endereço Trittium que assinou a mensagem</translation>
+        <source>The Somnio address the message was signed with</source>
+        <translation>O endereço Somnio que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Trittium address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Trittium especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Somnio especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2857,8 +2857,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2873,8 +2873,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The Trittium Core developers</source>
-        <translation>Os desenvolvedores do Trittium Core</translation>
+        <source>The Somnio Core developers</source>
+        <translation>Os desenvolvedores do Somnio Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3357,8 +3357,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 TRITTIUM.</source>
-        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 TRITTIUM.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SOMNIO.</source>
+        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 SOMNIO.</translation>
     </message>
 </context>
 <context>
@@ -3408,14 +3408,14 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
     </message>
     </context>
 <context>
-    <name>trittium-core</name>
+    <name>somnio-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all Trittium specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas Trittium (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all Somnio specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas Somnio (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3430,12 +3430,12 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in TRITTIUM/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em TRITTIUM/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in SOMNIO/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em SOMNIO/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in TRITTIUM/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em TRITTIUM/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in SOMNIO/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em SOMNIO/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3458,8 +3458,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>SwiftTX requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 TRITTIUM.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 TRITTIUM.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 SOMNIO.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 SOMNIO.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3474,8 +3474,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Trittium Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core Trittium não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Somnio Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core Somnio não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3554,8 +3554,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Trittium Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do Trittium Core</translation>
+        <source>Copyright (C) 2015-%i The Somnio Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do Somnio Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3606,8 +3606,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Trittium Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Trittium Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Somnio Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Somnio Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3646,8 +3646,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in TRITTIUM/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em TRITTIUM/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in SOMNIO/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em SOMNIO/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4078,8 +4078,8 @@ https://www.transifex.com/trittium-project/trittium-project-translations</transl
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Trittium Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o Trittium Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Somnio Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o Somnio Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

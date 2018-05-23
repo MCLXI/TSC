@@ -186,6 +186,6 @@
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>trittium-core</name>
+    <name>somnio-core</name>
     </context>
 </TS>

@@ -1,5 +1,5 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2017-2018 The Trittium developers
+// Copyright (c) 2017-2018 The Somnio developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -53,4 +53,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZTRTTCONTROLDIALOG_H
+#endif // ZSMNCONTROLDIALOG_H

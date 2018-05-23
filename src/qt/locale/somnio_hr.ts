@@ -115,8 +115,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Trittium address the message was signed with</source>
-        <translation>Trittium adresa s kojom je potpisana poruka</translation>
+        <source>The Somnio address the message was signed with</source>
+        <translation>Somnio adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -150,8 +150,8 @@
         <translation>Otvori konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -162,8 +162,8 @@
         <translation>&amp;BIP38 alat</translation>
     </message>
     <message>
-        <source>Trittium Core client</source>
-        <translation>Trittium Core klijent</translation>
+        <source>Somnio Core client</source>
+        <translation>Somnio Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -256,15 +256,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -535,8 +535,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 TRITTIUM</source>
-        <translation>0 TRITTIUM</translation>
+        <source>0 SOMNIO</source>
+        <translation>0 SOMNIO</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -597,8 +597,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Trittium Core is shutting down...</source>
-        <translation>Trittium Core se gasi...</translation>
+        <source>Somnio Core is shutting down...</source>
+        <translation>Somnio Core se gasi...</translation>
     </message>
     </context>
 <context>
@@ -620,8 +620,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Trittium address the message was signed with</source>
-        <translation>Trittium adresa s kojom je potpisana poruka</translation>
+        <source>The Somnio address the message was signed with</source>
+        <translation>Somnio adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -635,8 +635,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -790,7 +790,7 @@
     </message>
     </context>
 <context>
-    <name>trittium-core</name>
+    <name>somnio-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Trittium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi Trittium per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your Somnio addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi Somnio per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your Trittium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi Trittium per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your Somnio addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi Somnio per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Trittium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TRITTIUMs from being stolen by malware infecting your computer.</source>
-        <translation>Trittium verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi TRITTIUM dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>Somnio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SOMNIOs from being stolen by malware infecting your computer.</source>
+        <translation>Somnio verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi SOMNIO dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRITTIUM&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI TRITTIUM&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOMNIO&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI SOMNIO&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a Trittium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo Trittium che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a Somnio Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo Somnio che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The Trittium address to sign the message with</source>
-        <translation>L'indirizzo Trittium per firmare il messaggio con</translation>
+        <source>The Somnio address to sign the message with</source>
+        <translation>L'indirizzo Somnio per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Trittium address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Trittium</translation>
+        <source>Sign the message to prove you own this Somnio address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Somnio</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The Trittium address the message was signed with</source>
-        <translation>L'indirizzo Trittium con cui è stato firmato il messaggio</translation>
+        <source>The Somnio address the message was signed with</source>
+        <translation>L'indirizzo Somnio con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Trittium address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Trittium specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Somnio specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     <message>
-        <source>Send coins to a Trittium address</source>
-        <translation>Invia monete all' indirizzo Trittium</translation>
+        <source>Send coins to a Somnio address</source>
+        <translation>Invia monete all' indirizzo Somnio</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and trittium: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e trittium: URIs)</translation>
+        <source>Request payments (generates QR codes and somnio: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e somnio: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Trittium Core</source>
-        <translation>&amp;Informazioni Trittium Core</translation>
+        <source>&amp;About Somnio Core</source>
+        <translation>&amp;Informazioni Somnio Core</translation>
     </message>
     <message>
-        <source>Show information about Trittium Core</source>
-        <translation>Visualizza informazioni su Trittium Core</translation>
+        <source>Show information about Somnio Core</source>
+        <translation>Visualizza informazioni su Somnio Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Trittium</source>
-        <translation>Modifica le opzioni di configurazione per Trittium</translation>
+        <source>Modify configuration options for Somnio</source>
+        <translation>Modifica le opzioni di configurazione per Somnio</translation>
     </message>
     <message>
-        <source>Sign messages with your Trittium addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi Trittium per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your Somnio addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi Somnio per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Trittium addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Trittium specifici</translation>
+        <source>Verify messages to ensure they were signed with specified Somnio addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Somnio specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a Trittium: URI or payment request</source>
-        <translation>Apri un Trittium: URI o richiesta di pagamento</translation>
+        <source>Open a Somnio: URI or payment request</source>
+        <translation>Apri un Somnio: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Trittium Core help message to get a list with possible Trittium command-line options</source>
-        <translation>Mostra il messaggio di aiuto Trittium Core per ottenere un elenco con le possibili opzioni di riga di comando Trittium</translation>
+        <source>Show the Somnio Core help message to get a list with possible Somnio command-line options</source>
+        <translation>Mostra il messaggio di aiuto Somnio Core per ottenere un elenco con le possibili opzioni di riga di comando Somnio</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (trittium2.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (trittium2.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (somnio2.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (somnio2.conf)</translation>
     </message>
 </context>
 <context>
@@ -888,8 +888,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -915,8 +915,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1144,8 +1144,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Trittium address to sign the message with</source>
-        <translation>L'indirizzo Trittium per firmare il messaggio con</translation>
+        <source>The Somnio address to sign the message with</source>
+        <translation>L'indirizzo Somnio per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1168,16 +1168,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Trittium address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Trittium</translation>
+        <source>Sign the message to prove you own this Somnio address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Somnio</translation>
     </message>
     <message>
-        <source>The Trittium address the message was signed with</source>
-        <translation>L'indirizzo Trittium con cui è stato firmato il messaggio</translation>
+        <source>The Somnio address the message was signed with</source>
+        <translation>L'indirizzo Somnio con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Trittium address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Trittium specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Somnio specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1215,8 +1215,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Core</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Core</translation>
     </message>
     </context>
 <context>
@@ -1314,7 +1314,7 @@ MultiSend: %1</translation>
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>trittium-core</name>
+    <name>somnio-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your Trittium addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina Trittium adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your Somnio addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina Somnio adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your Trittium addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina Trittium adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Somnio addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina Somnio adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Trittium will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TRITTIUMs from being stolen by malware infecting your computer.</source>
-        <translation>Trittium kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina TRITTIUMs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Somnio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SOMNIOs from being stolen by malware infecting your computer.</source>
+        <translation>Somnio kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SOMNIOs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TRITTIUM&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA TRITTIUM&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOMNIO&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA SOMNIO&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Trittium Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en Trittium adress som du vill kryptera med BIP 38.
+        <source>Enter a Somnio Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en Somnio adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The Trittium address to sign the message with</source>
-        <translation>Trittium adressen för signera meddelandet med</translation>
+        <source>The Somnio address to sign the message with</source>
+        <translation>Somnio adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Trittium address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Trittium adress</translation>
+        <source>Sign the message to prove you own this Somnio address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Somnio adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The Trittium address the message was signed with</source>
-        <translation>Trittium adressen meddelandet blev signerat med</translation>
+        <source>The Somnio address the message was signed with</source>
+        <translation>Somnio adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Trittium address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Trittium adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Somnio adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Kärna</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a Trittium address</source>
-        <translation>Skicka mynt till en Trittium adress</translation>
+        <source>Send coins to a Somnio address</source>
+        <translation>Skicka mynt till en Somnio adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and trittium: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och trittium: URls)</translation>
+        <source>Request payments (generates QR codes and somnio: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och somnio: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Trittium Core</source>
-        <translation>Om Trittium Kärnan</translation>
+        <source>&amp;About Somnio Core</source>
+        <translation>Om Somnio Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Trittium Core</source>
-        <translation>Visa information om Trittium Kärnan</translation>
+        <source>Show information about Somnio Core</source>
+        <translation>Visa information om Somnio Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Trittium</source>
-        <translation>Ändra konfigurationsval för Trittium</translation>
+        <source>Modify configuration options for Somnio</source>
+        <translation>Ändra konfigurationsval för Somnio</translation>
     </message>
     <message>
-        <source>Sign messages with your Trittium addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Trittium adress för att visa att du äger dem</translation>
+        <source>Sign messages with your Somnio addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Somnio adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Trittium addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Trittium adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified Somnio addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Somnio adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Trittium Core client</source>
-        <translation>Trittium kärn klient</translation>
+        <source>Somnio Core client</source>
+        <translation>Somnio kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Kärna</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Kärna</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1157,8 +1157,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Trittium address to sign the message with</source>
-        <translation>Trittium adressen för signera meddelandet med</translation>
+        <source>The Somnio address to sign the message with</source>
+        <translation>Somnio adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1181,16 +1181,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Trittium address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Trittium adress</translation>
+        <source>Sign the message to prove you own this Somnio address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Somnio adress</translation>
     </message>
     <message>
-        <source>The Trittium address the message was signed with</source>
-        <translation>Trittium adressen meddelandet blev signerat med</translation>
+        <source>The Somnio address the message was signed with</source>
+        <translation>Somnio adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Trittium address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Trittium adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Somnio adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1232,8 +1232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Trittium Core</source>
-        <translation>Trittium Kärna</translation>
+        <source>Somnio Core</source>
+        <translation>Somnio Kärna</translation>
     </message>
     </context>
 <context>
@@ -1419,7 +1419,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>trittium-core</name>
+    <name>somnio-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

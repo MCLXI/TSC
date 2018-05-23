@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The Trittium developers
+// Copyright (c) 2018 The Somnio developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -25,8 +25,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Trittium (http://www.trittium.io),
- * which enables instant payments to anyone, anywhere in the world. Trittium uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called Somnio (http://www.somnio.io),
+ * which enables instant payments to anyone, anywhere in the world. Somnio uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -65,18 +65,18 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/trittium2.conf are parsed in qt/trittium.cpp's main()
+    // If Qt is used, parameters/somnio2.conf are parsed in qt/somnio.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Trittium Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Somnio Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version")) {
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  trittiumd [options]                     " + _("Start Trittium Core Daemon") + "\n";
+                        "  somniod [options]                     " + _("Start Somnio Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -112,11 +112,11 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "trittium:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "somnio:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in trittiumd anymore. Use the trittium-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in somniod anymore. Use the somnio-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
@@ -175,7 +175,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect trittiumd signal handlers
+    // Connect somniod signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);
