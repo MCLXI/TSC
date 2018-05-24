@@ -107,7 +107,7 @@ public:
         vAlertPubKey = ParseHex("04c32c8ab64b43228550115a862847deb294b776a71d6395e9c49477d13eac413f022e40462770dbc665f8a32aeec2a5d87839239f9a0b91a85269f90e79ab0ccc");
         nDefaultPort = 30001;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Somnio starting difficulty is 1 / 2^12
-        nSubsidyHalvingInterval = 210000;
+        nSubsidyHalvingInterval = 2100000000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
@@ -115,7 +115,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 2 * 45; // Somnio: 1 day
         nTargetSpacing = 2 * 45; //Somnio: 1 minute
-        nMaturity = 120;
+        nMaturity = 90;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 48000000 * COIN; //500,000,000
 
@@ -189,7 +189,7 @@ public:
                 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);
-		base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);
+		base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 191);
 		base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
 		base58Prefixes[EXT_SECRET_KEY] = list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
@@ -209,7 +209,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "0464b1f34052a9fa87d18516fd97bfd70ed78a3424d59e9b9ffa9ea7fa35b50d376ec01b0923a2c7a8edfbfd2787247aadea861d4c6d8fb5814b708ddfb153aafc";
+        strSporkKey = "036b0da61657063bcb35c7a0f558b16d786ddec4fc50f7add407d4d9687f8eb08b";
         strObfuscationPoolDummyAddress = "Jeax8jHDQ1s2kHVjysEoTQncVdUrNBuXtp";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
 
