@@ -105,7 +105,7 @@ public:
         pchMessageStart[2] = 0x58;
         pchMessageStart[3] = 0x67;
         vAlertPubKey = ParseHex("04c32c8ab64b43228550115a862847deb294b776a71d6395e9c49477d13eac413f022e40462770dbc665f8a32aeec2a5d87839239f9a0b91a85269f90e79ab0ccc");
-        nDefaultPort = 30001;
+        nDefaultPort = 33888;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Somnio starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 2100000000;
         nMaxReorganizationDepth = 100;
@@ -183,9 +183,9 @@ public:
         assert(hashGenesisBlock == uint256("0000f7e0dc6464bf23cc0eb06754f9eb5c046f831c69f9f294fa146e8fbb4d59"));
         assert(genesis.hashMerkleRoot == uint256("6ebf64b3daf23cf486f32af4a1ae184cd8374300615992f7f3e0095e34c5cab8"));
 
-       // vSeeds.push_back(CDNSSeedData("somnionet.com", "seed.somnionet.com"));
-       // vSeeds.push_back(CDNSSeedData("somnio.cc", "explorer.somnio.cc"));
-       // vSeeds.push_back(CDNSSeedData("3rd-one", "199.188.205.252"));
+       vSeeds.push_back(CDNSSeedData("204.48.31.214", "204.48.31.214"));
+       vSeeds.push_back(CDNSSeedData("206.189.85.152", "206.189.85.152"));
+       vSeeds.push_back(CDNSSeedData("206.189.20.85", "206.189.20.85"));
                 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);
@@ -209,7 +209,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "036b0da61657063bcb35c7a0f558b16d786ddec4fc50f7add407d4d9687f8eb08b";
+        strSporkKey = "03d88cd66e4a59d4acc52c611cd86daa72dd1b78fc6ae1582174fdea9a7fe05368";
         strObfuscationPoolDummyAddress = "Jeax8jHDQ1s2kHVjysEoTQncVdUrNBuXtp";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
 

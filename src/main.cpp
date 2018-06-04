@@ -2129,7 +2129,7 @@ int64_t GetBlockValue(int nHeight)
     if (nHeight == 0) {
         nSubsidy = 1 * COIN;  //genesis
     } else if(nHeight == 1 ){
-        nSubsidy = 475000 * COIN;  //1,000,000
+        nSubsidy = 1000000 * COIN;  //1,000,000
     } else if(nHeight > 1 && nHeight <= 100) {
 		nSubsidy = 1 * COIN;
 	} else if(nHeight > 100 && nHeight <= 200) { //PoS phase
@@ -2169,7 +2169,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 	
 	// 80% for Masternodes
 	if (nHeight <= 1500) {
-	      ret = blockValue  / 100 * 0;
+	      ret = blockValue *.000001;
 	} else if (nHeight > 1) {
 		  ret = blockValue  / 100 * 85; //85%
 		
