@@ -168,7 +168,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../somnio.qrc"/>
+  <include location="../aisport.qrc"/>
  </resources>
  <connections/>
 </ui>

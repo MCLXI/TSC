@@ -1,39 +1,39 @@
-Somnio Core
+Aisport Core
 =====================
 
 Setup
 ---------------------
-[Somnio Core](http://Somniocoin.com) is the original Somnio client and it builds the backbone of the network. However, it downloads and stores the entire history of Somnio transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Aisport Core](http://Aisportcoin.com) is the original Aisport client and it builds the backbone of the network. However, it downloads and stores the entire history of Aisport transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Somnio on your native platform.
+The following are some helpful notes on how to run Aisport on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/somnio-qt (GUI, 32-bit) or bin/32/somniod (headless, 32-bit)
-- bin/64/somnio-qt (GUI, 64-bit) or bin/64/somniod (headless, 64-bit)
+- bin/32/aisport-qt (GUI, 32-bit) or bin/32/aisportd (headless, 32-bit)
+- bin/64/aisport-qt (GUI, 64-bit) or bin/64/aisportd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run somnio-qt.exe.
+Unpack the files into a directory, and then run aisport-qt.exe.
 
 ### OSX
 
-Drag Somnio-Qt to your applications folder, and then run Somnio-Qt.
+Drag Aisport-Qt to your applications folder, and then run Aisport-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Somnio Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [Aisport Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php) or on the [Somnio Forum](http://Somniocoin.com/).
-* Join one of our Discord groups [Somnio Discord Groups](https://discord.gg/YcnvMqt).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php) or on the [Aisport Forum](http://Aisportcoin.com/).
+* Join one of our Discord groups [Aisport Discord Groups](https://discord.gg/YcnvMqt).
 
 Building
 ---------------------
-The following are developer notes on how to build Somnio on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Aisport on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Somnio on your native platform
 
 Development
 ---------------------
-The Somnio repo's [root README](https://github.com/eastcoastcrypto/Somnio/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Aisport repo's [root README](https://github.com/eastcoastcrypto/Aisport/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -56,7 +56,7 @@ The Somnio repo's [root README](https://github.com/eastcoastcrypto/Somnio/blob/m
 ### Resources
 
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) .
-* Join the [Somnio-Dev] Discord groups [Somnio Discord Groups](https://discord.gg/YcnvMqt).
+* Join the [Aisport-Dev] Discord groups [Aisport Discord Groups](https://discord.gg/YcnvMqt).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

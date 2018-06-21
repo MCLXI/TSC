@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите Somnio адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your Aisport addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите Aisport адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите Somnio адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your Aisport addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите Aisport адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Somnio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMNs from being stolen by malware infecting your computer.</source>
-        <translation>Somnio сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия Somnio от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>Aisport will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AISs from being stolen by malware infecting your computer.</source>
+        <translation>Aisport сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия Aisport от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMN&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ SMN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AIS&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ AIS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Шифриране</translation>
     </message>
     <message>
-        <source>Enter a Somnio Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете Somnio адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
+        <source>Enter a Aisport Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете Aisport адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>Somnio адреса, с който да подпишете съобщението</translation>
+        <source>The Aisport address to sign the message with</source>
+        <translation>Aisport адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този Somnio адрес</translation>
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този Aisport адрес</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Въведете личният си BIP 38 ключ. Въведете тайната фраза в средното поле. Избери Дешифриращия Ключ за да изчислим личния ключ. След като ключа се дешифрира, за да добаите ключа към портфейла, кликнете "Импортирай адрес".</translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>Somnio адреса, който е подписано съобщението</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>Aisport адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Somnio адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Aisport адрес</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,24 +602,24 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Ядро</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Ядро</translation>
     </message>
     <message>
-        <source>Send coins to a Somnio address</source>
-        <translation>Изпратете монети до Somnio адрес</translation>
+        <source>Send coins to a Aisport address</source>
+        <translation>Изпратете монети до Aisport адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and somnio: URIs)</source>
-        <translation>Поискай плащане (генерира QR кодове и  Somnio:URI)</translation>
+        <source>Request payments (generates QR codes and aisport: URIs)</source>
+        <translation>Поискай плащане (генерира QR кодове и  Aisport:URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;Поверителност</translation>
     </message>
     <message>
-        <source>Privacy Action for zSMN and Obfuscation</source>
-        <translation>Поверителни действия за zSMN и Обфускация</translation>
+        <source>Privacy Action for zAIS and Obfuscation</source>
+        <translation>Поверителни действия за zAIS и Обфускация</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -630,24 +630,24 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About Somnio Core</source>
-        <translation>&amp;Относно Somnio Ядрото</translation>
+        <source>&amp;About Aisport Core</source>
+        <translation>&amp;Относно Aisport Ядрото</translation>
     </message>
     <message>
-        <source>Show information about Somnio Core</source>
-        <translation>Информациза за Somnio Ядрото</translation>
+        <source>Show information about Aisport Core</source>
+        <translation>Информациза за Aisport Ядрото</translation>
     </message>
     <message>
-        <source>Modify configuration options for Somnio</source>
-        <translation>Промени Somnio конфигурацията</translation>
+        <source>Modify configuration options for Aisport</source>
+        <translation>Промени Aisport конфигурацията</translation>
     </message>
     <message>
-        <source>Sign messages with your Somnio addresses to prove you own them</source>
-        <translation>Подпишете съобщения със своте Somnio адреси, за да докажете че са Ваши</translation>
+        <source>Sign messages with your Aisport addresses to prove you own them</source>
+        <translation>Подпишете съобщения със своте Aisport адреси, за да докажете че са Ваши</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Somnio addresses</source>
-        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните Somnio адреси</translation>
+        <source>Verify messages to ensure they were signed with specified Aisport addresses</source>
+        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните Aisport адреси</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -678,8 +678,8 @@
         <translation>Отвори Мастърноуд конфигурационния файл</translation>
     </message>
     <message>
-        <source>Open a Somnio: URI or payment request</source>
-        <translation>Отвори Somnio:URI платежно нареждане</translation>
+        <source>Open a Aisport: URI or payment request</source>
+        <translation>Отвори Aisport:URI платежно нареждане</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -690,16 +690,16 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the Somnio Core help message to get a list with possible Somnio command-line options</source>
-        <translation>Разкрийте Помощ за Somnio Ядрото, за да видите списък с възможни писмени команди.</translation>
+        <source>Show the Aisport Core help message to get a list with possible Aisport command-line options</source>
+        <translation>Разкрийте Помощ за Aisport Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>Somnio Core client</source>
-        <translation>Клиент Somnio Ядро</translation>
+        <source>Aisport Core client</source>
+        <translation>Клиент Aisport Ядро</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Somnio network</source>
-        <translation><numerusform>%n активни връзки към Somnio мрежата</numerusform><numerusform>%n активни свръзки към Somnio мрежата</numerusform></translation>
+        <source>%n active connection(s) to Aisport network</source>
+        <translation><numerusform>%n активни връзки към Aisport мрежата</numerusform><numerusform>%n активни свръзки към Aisport мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -853,8 +853,8 @@ Address: %4
         <translation>ТекстовЕтикет</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (somnio2.conf).</source>
-        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (somnio2.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (aisport2.conf).</source>
+        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (aisport2.conf).</translation>
     </message>
 </context>
 <context>
@@ -1142,8 +1142,8 @@ Address: %4
         <translation>Редактирай адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Somnio address.</source>
-        <translation>Зададения адрес "%1"не е валиден Somnio адрес.</translation>
+        <source>The entered address "%1" is not a valid Aisport address.</source>
+        <translation>Зададения адрес "%1"не е валиден Aisport адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1188,16 +1188,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Ядро</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Ядро</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Somnio Core</source>
-        <translation>Относно Somnio Ядрото</translation>
+        <source>About Aisport Core</source>
+        <translation>Относно Aisport Ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1243,16 +1243,16 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to Somnio Core.</source>
-        <translation>Добре Дошли в Somnio Ядрото</translation>
+        <source>Welcome to Aisport Core.</source>
+        <translation>Добре Дошли в Aisport Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Somnio Core will store its data.</source>
-        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде Somnio Ядрото ще съхранява своите данни.</translation>
+        <source>As this is the first time the program is launched, you can choose where Aisport Core will store its data.</source>
+        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде Aisport Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>Somnio Core will download and store a copy of the Somnio block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Somnio Ядрото ще изтегли и запише копие на целия Somnio блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
+        <source>Aisport Core will download and store a copy of the Aisport block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Aisport Ядрото ще изтегли и запише копие на целия Aisport блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1263,8 +1263,8 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Ядро</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1405,12 +1405,12 @@ Address: %4
         <translation>Въведете адреса на Получателя</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Somnio addresses after it matures.
-To Add: enter percentage to give and Somnio address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Aisport addresses after it matures.
+To Add: enter percentage to give and Aisport address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други Somnio адреси.
-Да Добавите: въведете процент и задайте Somnio адрес към вектора за МултиИзпращане
+        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други Aisport адреси.
+Да Добавите: въведете процент и задайте Aisport адрес към вектора за МултиИзпращане
 Да Прамахнете: Въведете адрес за изстриване и натиснете истрий (del).
 МултиИзпращането няма да бъде активирано докато не кликнете "Активирай"</translation>
     </message>
@@ -1548,47 +1548,47 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SMN</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 SMN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 AIS</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 AIS</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SMN</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 SMN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 AIS</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 AIS</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SMN to anonymize 10000 SMN</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 SMN за да скриете 10000 SMN</translation>
+        <source>This option is the quickest and will cost about ~0.025 AIS to anonymize 10000 AIS</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 AIS за да скриете 10000 AIS</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SMN to anonymize 10000 SMN</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 SMN за да скриете 10000 SMN</translation>
+        <source>This option is moderately fast and will cost about 0.05 AIS to anonymize 10000 AIS</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 AIS за да скриете 10000 AIS</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Това е най-бавния и най-сигурен вариант за скриване на SMN. Използването й ще струва</translation>
+        <translation>Това е най-бавния и най-сигурен вариант за скриване на AIS. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 SMN per 10000 SMN you anonymize.</source>
-        <translation>0.1 SMN за 10000 скрити SMN</translation>
+        <source>0.1 AIS per 10000 AIS you anonymize.</source>
+        <translation>0.1 AIS за 10000 скрити AIS</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Конфигурация на Обфускацията</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на елементарно ниво (%1 и 2 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на високо ниво (%1 и 8 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на максимално ниво (%1 и 16 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
 </context>
@@ -1650,8 +1650,8 @@ Please check the address and try again.</source>
         <translation>Aко изключите харча на непотвърдено ресто, рестото от превод&lt;br/&gt;не може да се използва, докато превода не получи поне 1 потвърждение. &lt;br/&gt;Това влияе и на начина по който общите Ви средства се преизчисляват.</translation>
     </message>
     <message>
-        <source>Automatically open the Somnio client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отвори Somnio порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
+        <source>Automatically open the Aisport client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отвори Aisport порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1670,12 +1670,12 @@ Please check the address and try again.</source>
         <translation>Експерт</translation>
     </message>
     <message>
-        <source>Automatically start Somnio after logging in to the system.</source>
-        <translation>Стартирай Somnio автоматично след влизане в системата.</translation>
+        <source>Automatically start Aisport after logging in to the system.</source>
+        <translation>Стартирай Aisport автоматично след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start Somnio on system login</source>
-        <translation>&amp;Стартирай Somnio заедно с операционната система</translation>
+        <source>&amp;Start Aisport on system login</source>
+        <translation>&amp;Стартирай Aisport заедно с операционната система</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1702,34 +1702,34 @@ Please check the address and try again.</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Somnio.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Aisport.</source>
         <translation>Промяна на езика. Настройката е активна след рестарт на портфейла.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/somnio-project/somnio-project-translations</source>
+https://www.transifex.com/aisport-project/aisport-project-translations</source>
         <translation>Липсващ език или непълен превод? Помогнете с преводите тук:
-https://www.transifex.com/somnio-project/somnio-project-translations</translation>
+https://www.transifex.com/aisport-project/aisport-project-translations</translation>
     </message>
     <message>
-        <source>Percentage of incoming SMN which get automatically converted to zSMN via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите SMN, който автоматично да се конвертира в zSMN посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming AIS which get automatically converted to zAIS via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите AIS, който автоматично да се конвертира в zAIS посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zSMN</source>
-        <translation>Процент автоматично сечени zSMN</translation>
+        <source>Percentage of autominted zAIS</source>
+        <translation>Процент автоматично сечени zAIS</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough SMN for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zSMN докато не се съберат достатъчно SMN за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough AIS for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zAIS докато не се съберат достатъчно AIS за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zSMN Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zSMN</translation>
+        <source>Preferred Automint zAIS Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zAIS</translation>
     </message>
     <message>
-        <source>Connect to the Somnio network through a SOCKS5 proxy.</source>
-        <translation>Свържи се с Somnio мрежата със SOCKS5 прокси.</translation>
+        <source>Connect to the Aisport network through a SOCKS5 proxy.</source>
+        <translation>Свържи се с Aisport мрежата със SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1859,8 +1859,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>От</translation>
     </message>
     <message>
-        <source>SMN Balances</source>
-        <translation>SMN Баланс</translation>
+        <source>AIS Balances</source>
+        <translation>AIS Баланс</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1887,8 +1887,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Възнаграждение от стейкване или мастърноуд, които все още не са узрели.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Somnio network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Somnio мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aisport network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Aisport мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1927,12 +1927,12 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Комбиниран общ баланс (само озрелите монети)</translation>
     </message>
     <message>
-        <source>SMN:</source>
-        <translation>SMN:</translation>
+        <source>AIS:</source>
+        <translation>AIS:</translation>
     </message>
     <message>
-        <source>zSMN:</source>
-        <translation>zSMN:</translation>
+        <source>zAIS:</source>
+        <translation>zAIS:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1974,12 +1974,12 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start somnio: click-to-pay handler</source>
-        <translation>Провал при стартирането на somnio: click-to-pay обработвател</translation>
+        <source>Cannot start aisport: click-to-pay handler</source>
+        <translation>Провал при стартирането на aisport: click-to-pay обработвател</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Somnio address or malformed URI parameters.</source>
-        <translation>URI не може да се парсне. Вероятна причина е невалиден Somnio адрес или зле-форматирани URI Параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Aisport address or malformed URI parameters.</source>
+        <translation>URI не може да се парсне. Вероятна причина е невалиден Aisport адрес или зле-форматирани URI Параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2060,24 +2060,24 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>SMN which were anonymized via Zerocin Protocol</source>
-        <translation>SMN скрити посредством Зерокойн протокола</translation>
+        <source>AIS which were anonymized via Zerocin Protocol</source>
+        <translation>AIS скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>Zerocoin SMN (zSMN)</source>
-        <translation>Zerocoin SMN (zSMN)</translation>
+        <source>Zerocoin AIS (zAIS)</source>
+        <translation>Zerocoin AIS (zAIS)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Somnio network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Somnio мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aisport network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Aisport мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>Въведете колко SMN  да се конвертират в zSMN</translation>
+        <translation>Въведете колко AIS  да се конвертират в zAIS</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2088,16 +2088,16 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>0</translation>
     </message>
     <message>
-        <source>zSMN</source>
-        <translation>zSMN</translation>
+        <source>zAIS</source>
+        <translation>zAIS</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Налични за сечене:</translation>
     </message>
     <message>
-        <source>0.000 000 00 SMN</source>
-        <translation>0.000 000 00 SMN</translation>
+        <source>0.000 000 00 AIS</source>
+        <translation>0.000 000 00 AIS</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2133,11 +2133,11 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
     </message>
     <message>
         <source>zPhr Control</source>
-        <translation>zSMN Контрол</translation>
+        <translation>zAIS Контрол</translation>
     </message>
     <message>
         <source>zPhr Selected:</source>
-        <translation>Избрани zSMN:</translation>
+        <translation>Избрани zAIS:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2156,8 +2156,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>0 zSMN</source>
-        <translation>0 zSMN</translation>
+        <source>0 zAIS</source>
+        <translation>0 zAIS</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2176,7 +2176,7 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The Somnio address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The Aisport address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation>Адреса на който да изпратим плащането. Ако е празно - плащането е до себе си.</translation>
     </message>
     <message>
@@ -2209,7 +2209,7 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zSMN от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zAIS от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2376,8 +2376,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Копирай сумата</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the Somnio network yet.</source>
-        <translation>Zerocoin функцията все още не е активирана в Somnio мрежата.</translation>
+        <source>Zerocoin functionality is not enabled on the Aisport network yet.</source>
+        <translation>Zerocoin функцията все още не е активирана в Aisport мрежата.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2396,8 +2396,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Успешно изсечени</translation>
     </message>
     <message>
-        <source> zSMN in </source>
-        <translation>zSMN в</translation>
+        <source> zAIS in </source>
+        <translation>zAIS в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2430,8 +2430,8 @@ Please be patient...</source>
         <translation>Без 'Плати На' адрес, плащането е локално</translation>
     </message>
     <message>
-        <source>Invalid Somnio Address</source>
-        <translation>Невалиден Somnio адрес</translation>
+        <source>Invalid Aisport Address</source>
+        <translation>Невалиден Aisport адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2475,7 +2475,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Spend #: </source>
-        <translation>zSMN Похарчени #:</translation>
+        <translation>zAIS Похарчени #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2499,7 +2499,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Mint</source>
-        <translation>Сечене на zSMN</translation>
+        <translation>Сечене на zAIS</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -2521,8 +2521,8 @@ Please be patient...</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Somnio address (e.g. %1)</source>
-        <translation>Задайте Somnio адрес (например %1)</translation>
+        <source>Enter a Aisport address (e.g. %1)</source>
+        <translation>Задайте Aisport адрес (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2659,8 +2659,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Somnio debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отвори Somnio дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
+        <source>Open the Aisport debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отвори Aisport дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2827,8 +2827,8 @@ Please be patient...</source>
         <translation>Изходящи:</translation>
     </message>
     <message>
-        <source>Welcome to the Somnio RPC console.</source>
-        <translation>Добре Дошли в RPC конзолата на Somnio.</translation>
+        <source>Welcome to the Aisport RPC console.</source>
+        <translation>Добре Дошли в RPC конзолата на Aisport.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2898,12 +2898,12 @@ Please be patient...</source>
         <translation>Незадължителен етикет, който да асоциираме с адреса за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Somnio network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Somnio мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aisport network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Aisport мрежата.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Somnio network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Somnio мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Aisport network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Aisport мрежата.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3127,8 +3127,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 SMN</source>
-        <translation>0 SMN</translation>
+        <source>0 AIS</source>
+        <translation>0 AIS</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3179,15 +3179,15 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSMNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSMNs in fee,&lt;br /&gt;while "at least" pays 1000 uSMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uSMN и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uSMN входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uSMN. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uAISs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAISs in fee,&lt;br /&gt;while "at least" pays 1000 uAISs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uAIS и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uAIS входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uAIS. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSMNs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSMNs in fee,&lt;br /&gt;while "total at least" pays 1000 uSMNs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uSMN и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uSMN входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uSMN. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uAISs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAISs in fee,&lt;br /&gt;while "total at least" pays 1000 uAISs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uAIS и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uAIS входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uAIS. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Somnio transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Aisport transactions than the network can process.</source>
         <translation>Няма проблем да платите минималната такса, стига обема преводи да е по-малък от наличното място в блоковете. &lt;br /&gt;Но имайте впредвид, че това може да се окаже в превод, който никога не получава потвърждение ако заявките за преводи са повече от колкото мрежата може да понесе.</translation>
     </message>
     <message>
@@ -3235,8 +3235,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized SMN</source>
-        <translation>Анонимизиран SMN</translation>
+        <source>Anonymized AIS</source>
+        <translation>Анонимизиран AIS</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3295,8 +3295,8 @@ Please be patient...</source>
         <translation>анонимни средства</translation>
     </message>
     <message>
-        <source>Warning: Invalid Somnio address</source>
-        <translation>Предупреждение: Невалиден SMN адрес</translation>
+        <source>Warning: Invalid Aisport address</source>
+        <translation>Предупреждение: Невалиден AIS адрес</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3402,8 +3402,8 @@ Please be patient...</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The Somnio address to send the payment to</source>
-        <translation>Somnio адреса - получател на плащането</translation>
+        <source>The Aisport address to send the payment to</source>
+        <translation>Aisport адреса - получател на плащането</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3442,8 +3442,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Somnio: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Somnio network.</source>
-        <translation>Съобщение, което е било прикачено към Somnio:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по Somnio мрежата.</translation>
+        <source>A message that was attached to the Aisport: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aisport network.</source>
+        <translation>Съобщение, което е било прикачено към Aisport:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по Aisport мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3469,8 +3469,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Somnio Core is shutting down...</source>
-        <translation>Изключване на Somnio Ядрото...</translation>
+        <source>Aisport Core is shutting down...</source>
+        <translation>Изключване на Aisport Ядрото...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3492,8 +3492,8 @@ Please be patient...</source>
         <translation>Може да подписвате съобщения с Вашите адреси, за да докажете че сте техен притежател. Внимавайте да не подписвате нищо съмнително, тъй като има хакерски атаки, които целят да придобият вашата самоличност. Само подписвайте пълен и ясен текст, с който сте напълно съгласни.</translation>
     </message>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>Somnio адреса, с който да подпишете съобщението</translation>
+        <source>The Aisport address to sign the message with</source>
+        <translation>Aisport адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3524,16 +3524,16 @@ Please be patient...</source>
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този Somnio адрес</translation>
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този Aisport адрес</translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>Somnio адреса, който е подписано съобщението</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>Aisport адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Somnio адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Aisport адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3619,8 +3619,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Ядро</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3635,8 +3635,8 @@ Please be patient...</source>
         <translation>Dash Core разработчици</translation>
     </message>
     <message>
-        <source>The Somnio Core developers</source>
-        <translation>Somnio Core разработчици</translation>
+        <source>The Aisport Core developers</source>
+        <translation>Aisport Core разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3956,23 +3956,23 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted Phr to zPhr</source>
-        <translation>Конвертиран SMN във zSMN</translation>
+        <translation>Конвертиран AIS във zAIS</translation>
     </message>
     <message>
         <source>Spent zPhr</source>
-        <translation>Похарчени zSMN</translation>
+        <translation>Похарчени zAIS</translation>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен SMN от zSMN</translation>
+        <translation>Получен AIS от zAIS</translation>
     </message>
     <message>
         <source>Minted Change as zPhr from zPhr Spend</source>
-        <translation>Исечено ресто като zSMN от похарчените zSMN</translation>
+        <translation>Исечено ресто като zAIS от похарчените zAIS</translation>
     </message>
     <message>
         <source>Converted zPhr to Phr</source>
-        <translation>Конвертирани zSMN в SMN</translation>
+        <translation>Конвертирани zAIS в AIS</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3980,7 +3980,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Accumulator</source>
-        <translation>zSMN Акумулатор</translation>
+        <translation>zAIS Акумулатор</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4087,7 +4087,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен SMN от zSMN</translation>
+        <translation>Получен AIS от zAIS</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4099,7 +4099,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zPhr</source>
-        <translation>Харчене на Zerocoin, Ресто в zSMN</translation>
+        <translation>Харчене на Zerocoin, Ресто в zAIS</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4215,8 +4215,8 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SMN.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 SMN.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 AIS.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 AIS.</translation>
     </message>
 </context>
 <context>
@@ -4262,7 +4262,7 @@ Please be patient...</source>
     <name>ZPhrControlDialog</name>
     <message>
         <source>Select zPhr to Spend</source>
-        <translation>Изберете zSMN за Изпращане</translation>
+        <translation>Изберете zAIS за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4274,7 +4274,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr</source>
-        <translation>zSMN</translation>
+        <translation>zAIS</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4286,7 +4286,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>somnio-core</name>
+    <name>aisport-core</name>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
         <translation>Промяна на поведението на автоматично финализираното гласоподаване. mode=auto: Гласувай само за точни финализирани бюджети, които съвпадат с моят генериран бюджет. (string, default:auto)</translation>
@@ -4304,8 +4304,8 @@ Please be patient...</source>
         <translation>Изтрий всички преводи от портфейла и възстанови само тези части от блокчейна - сканира при стартиране.</translation>
     </message>
     <message>
-        <source>Disable all Somnio specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключи всякаква Somnio функционалност (Мастърноудове, Обфускация, SwiftTX, Бюджетиране) (0-1 default: %u)</translation>
+        <source>Disable all Aisport specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключи всякаква Aisport функционалност (Мастърноудове, Обфускация, SwiftTX, Бюджетиране) (0-1 default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4344,12 +4344,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in SMN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в SMN/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in AIS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в AIS/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in SMN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в SMN/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in AIS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в AIS/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

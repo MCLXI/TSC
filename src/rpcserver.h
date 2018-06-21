@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * Somnio RPC command dispatcher.
+ * Aisport RPC command dispatcher.
  */
 class CRPCTable
 {

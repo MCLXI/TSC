@@ -45,7 +45,7 @@ public:
         SpendZeroConfChange, // bool
         ZeromintPercentage,  // int
         ZeromintPrefDenom,   // int
-        AnonymizeSomnioAmount, //int
+        AnonymizeAisportAmount, //int
         ShowMasternodesTab,  // bool
         Listen,              // bool
         OptionIDRowCount,
@@ -92,7 +92,7 @@ signals:
     void displayUnitChanged(int unit);
     void zeromintPercentageChanged(int);
     void preferredDenomChanged(int);
-    void anonymizeSomnioAmountChanged(int);
+    void anonymizeAisportAmountChanged(int);
     void coinControlFeaturesChanged(bool);
 };
 

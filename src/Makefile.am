@@ -66,15 +66,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += somniod
+  bin_PROGRAMS += aisportd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += somnio-cli somnio-tx
+  bin_PROGRAMS += aisport-cli aisport-tx
 endif
 
 .PHONY: FORCE
-# somnio core #
+# aisport core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \
@@ -190,7 +190,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between somniod and somnio-qt
+# server: shared between aisportd and aisport-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -236,7 +236,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between somniod and somnio-qt, but only linked
+# wallet: shared between aisportd and aisport-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -356,7 +356,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between somniod, and somnio-qt and non-server tools
+# common: shared between aisportd, and aisport-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   accumulators.cpp \
@@ -416,7 +416,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between somnio-cli and somnio-qt
+# cli: shared between aisport-cli and aisport-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -426,7 +426,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-somniod_LDADD = \
+aisportd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -438,26 +438,26 @@ somniod_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-somniod_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+aisportd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-somniod_LDADD += libbitcoin_wallet.a
+aisportd_LDADD += libbitcoin_wallet.a
 endif
-somniod_SOURCES = somniod.cpp
+aisportd_SOURCES = aisportd.cpp
 #
 
 if TARGET_WINDOWS
-somniod_SOURCES += somniod-res.rc
+aisportd_SOURCES += aisportd-res.rc
 endif
 
-somniod_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-somniod_CPPFLAGS = $(BITCOIN_INCLUDES)
-somniod_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+aisportd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+aisportd_CPPFLAGS = $(BITCOIN_INCLUDES)
+aisportd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# somnio-cli binary #
-somnio_cli_LDADD = \
+# aisport-cli binary #
+aisport_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
@@ -465,14 +465,14 @@ somnio_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-somnio_cli_SOURCES = \
-  somnio-cli.cpp
+aisport_cli_SOURCES = \
+  aisport-cli.cpp
 
-somnio_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+aisport_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# somnio-tx binary #
-somnio_tx_LDADD = \
+# aisport-tx binary #
+aisport_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -482,15 +482,15 @@ somnio_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-somnio_tx_SOURCES = somnio-tx.cpp
-somnio_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+aisport_tx_SOURCES = aisport-tx.cpp
+aisport_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-somnio_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+aisport_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-somnio_cli_SOURCES += somnio-cli-res.rc
+aisport_cli_SOURCES += aisport-cli-res.rc
 endif
-somnio_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+aisport_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

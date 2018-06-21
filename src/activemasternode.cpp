@@ -12,7 +12,7 @@
 #include "spork.h"
 
 //
-// Bootup the Masternode, look for a 5000 SMN input and register on the network
+// Bootup the Masternode, look for a 5000 AIS input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {

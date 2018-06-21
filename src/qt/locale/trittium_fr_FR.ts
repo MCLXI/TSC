@@ -152,16 +152,16 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>Somnio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMNs from being stolen by malware infecting your computer.</source>
-        <translation>Somnio va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos SMNs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>Aisport will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AISs from being stolen by malware infecting your computer.</source>
+        <translation>Aisport va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos AISs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMN&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS SMN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AIS&lt;/b&gt;!</source>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS AIS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -211,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a Somnio Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse Somnio que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a Aisport Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse Aisport que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>L'adresse Somnio avec laquelle signer le message</translation>
+        <source>The Aisport address to sign the message with</source>
+        <translation>L'adresse Aisport avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Somnio</translation>
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse Aisport</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>L'adresse Somnio avec laquelle le message a été signé</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>L'adresse Aisport avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Somnio renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Aisport renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a Somnio address</source>
-        <translation>Envoyer des pièces à une adresse Somnio</translation>
+        <source>Send coins to a Aisport address</source>
+        <translation>Envoyer des pièces à une adresse Aisport</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for Somnio</source>
-        <translation>Modifier les options de configuration pour Somnio</translation>
+        <source>Modify configuration options for Aisport</source>
+        <translation>Modifier les options de configuration pour Aisport</translation>
     </message>
     <message>
-        <source>Sign messages with your Somnio addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse Somnio pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your Aisport addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse Aisport pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Somnio addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Somnio spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified Aisport addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Aisport spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (somnio2.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (somnio2.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (aisport2.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (aisport2.conf).</translation>
     </message>
 </context>
 <context>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Somnio address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse Somnio valide</translation>
+        <source>The entered address "%1" is not a valid Aisport address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse Aisport valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1038,32 +1038,32 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Veuillez sélectionner un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SMN</source>
-        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 SMN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 AIS</source>
+        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 AIS</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SMN</source>
-        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 SMN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 AIS</source>
+        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 AIS</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utiliser 16 masternodes différentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SMN to anonymize 10000 SMN</source>
-        <translation>Cette option est la plus rapide, et coutera ~0.025 SMN pour anonymiser 10000 SMN</translation>
+        <source>This option is the quickest and will cost about ~0.025 AIS to anonymize 10000 AIS</source>
+        <translation>Cette option est la plus rapide, et coutera ~0.025 AIS pour anonymiser 10000 AIS</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SMN to anonymize 10000 SMN</source>
-        <translation>Cette option est moyennement rapide, et coutera 0.05 SMN pour anonymiser 10000 SMN</translation>
+        <source>This option is moderately fast and will cost about 0.05 AIS to anonymize 10000 AIS</source>
+        <translation>Cette option est moyennement rapide, et coutera 0.05 AIS pour anonymiser 10000 AIS</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Il s'agit de l'option la plus lente est la plus sécurisé. Utiliser l'anonymat maximum coutera</translation>
     </message>
     <message>
-        <source>0.1 SMN per 10000 SMN you anonymize.</source>
-        <translation>0.1 SMN par 10000 SMN vous anonymisez.</translation>
+        <source>0.1 AIS per 10000 AIS you anonymize.</source>
+        <translation>0.1 AIS par 10000 AIS vous anonymisez.</translation>
     </message>
     </context>
 <context>
@@ -1433,8 +1433,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Après commission</translation>
     </message>
     <message>
-        <source>0 SMN</source>
-        <translation>0 SMN</translation>
+        <source>0 AIS</source>
+        <translation>0 AIS</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1524,8 +1524,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The Somnio address to send the payment to</source>
-        <translation>L'adresse Somnio à laquelle envoyer le paiement</translation>
+        <source>The Aisport address to send the payment to</source>
+        <translation>L'adresse Aisport à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1570,8 +1570,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>L'adresse Somnio avec laquelle signer le message</translation>
+        <source>The Aisport address to sign the message with</source>
+        <translation>L'adresse Aisport avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1598,16 +1598,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse Somnio</translation>
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse Aisport</translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>L'adresse Somnio avec laquelle le message a été signé</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>L'adresse Aisport avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Somnio renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse Aisport renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1808,7 +1808,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>somnio-core</name>
+    <name>aisport-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

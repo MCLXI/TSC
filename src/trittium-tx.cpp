@@ -47,10 +47,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Somnio Core somnio-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Aisport Core aisport-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  somnio-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded somnio transaction") + "\n" +
-                               "  somnio-tx [options] -create [commands]   " + _("Create hex-encoded somnio transaction") + "\n" +
+                               "  aisport-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded aisport transaction") + "\n" +
+                               "  aisport-tx [options] -create [commands]   " + _("Create hex-encoded aisport transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -552,7 +552,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded somnio transaction
+            // param: hex-encoded aisport transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

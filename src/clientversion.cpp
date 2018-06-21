@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both somniod and somnio-qt, to make it harder for attackers to
+ * for both aisportd and aisport-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Somnio Core");
+const std::string CLIENT_NAME("Aisport Core");
 
 /**
  * Client version number

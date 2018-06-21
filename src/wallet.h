@@ -80,28 +80,28 @@ enum AvailableCoinsType {
     ALL_COINS = 1,
     ONLY_DENOMINATED = 2,
     ONLY_NOT10000IFMN = 3,
-    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 SMN at the same time
+    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 AIS at the same time
     ONLY_10000 = 5,                        // find masternode outputs including locked ones (use with caution)
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zSMN send
+// Possible states for zAIS send
 enum ZerocoinSpendStatus {
-    ZSMN_SPEND_OKAY = 0,                            // No error
-    ZSMN_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZSMN_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZSMN_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZSMN_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZSMN_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZSMN_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZSMN_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZSMN_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZSMN_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZSMN_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZSMN_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZSMN_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZSMN_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZSMN_SPENT_USED_ZSMN = 14                       // Coin has already been spend
+    ZAIS_SPEND_OKAY = 0,                            // No error
+    ZAIS_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZAIS_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZAIS_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZAIS_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZAIS_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZAIS_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZAIS_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZAIS_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZAIS_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZAIS_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZAIS_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZAIS_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZAIS_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZAIS_SPENT_USED_ZAIS = 14                       // Coin has already been spend
 };
 
 struct CompactTallyItem {
@@ -206,7 +206,7 @@ public:
     std::string ResetMintZerocoin(bool fExtendedSearch);
     std::string ResetSpentZerocoin();
     void ReconsiderZerocoins(std::list<CZerocoinMint>& listMintsRestored);
-    void ZSomnioBackupWallet();
+    void ZAisportBackupWallet();
 
     /** Zerocin entry changed.
     * @note called with lock cs_wallet held.
@@ -309,7 +309,7 @@ public:
         return fEnableZeromint;
     }
 
-    void setZSomnioAutoBackups(bool fEnabled)
+    void setZAisportAutoBackups(bool fEnabled)
     {
         fBackupMints = fEnabled;
     }

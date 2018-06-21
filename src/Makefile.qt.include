@@ -1,34 +1,34 @@
-bin_PROGRAMS += qt/somnio-qt
+bin_PROGRAMS += qt/aisport-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# somnio qt core #
+# aisport qt core #
 QT_TS = \
-  qt/locale/somnio_bg.ts \
-  qt/locale/somnio_ca.ts \
-  qt/locale/somnio_cs.ts \
-  qt/locale/somnio_da.ts \
-  qt/locale/somnio_de.ts \
-  qt/locale/somnio_en.ts \
-  qt/locale/somnio_en_US.ts \
-  qt/locale/somnio_es.ts \
-  qt/locale/somnio_fi.ts \
-  qt/locale/somnio_fr_FR.ts \
-  qt/locale/somnio_hr.ts \
-  qt/locale/somnio_it.ts \
-  qt/locale/somnio_ja.ts \
-  qt/locale/somnio_ko_KR.ts \
-  qt/locale/somnio_nl.ts \
-  qt/locale/somnio_pl.ts \
-  qt/locale/somnio_pt.ts \
-  qt/locale/somnio_pt_BR.ts \
-  qt/locale/somnio_ro_RO.ts \
-  qt/locale/somnio_ru.ts \
-  qt/locale/somnio_sk.ts \
-  qt/locale/somnio_sv.ts \
-  qt/locale/somnio_tr.ts \
-  qt/locale/somnio_uk.ts \
-  qt/locale/somnio_zh_CN.ts \
-  qt/locale/somnio_zh_TW.ts
+  qt/locale/aisport_bg.ts \
+  qt/locale/aisport_ca.ts \
+  qt/locale/aisport_cs.ts \
+  qt/locale/aisport_da.ts \
+  qt/locale/aisport_de.ts \
+  qt/locale/aisport_en.ts \
+  qt/locale/aisport_en_US.ts \
+  qt/locale/aisport_es.ts \
+  qt/locale/aisport_fi.ts \
+  qt/locale/aisport_fr_FR.ts \
+  qt/locale/aisport_hr.ts \
+  qt/locale/aisport_it.ts \
+  qt/locale/aisport_ja.ts \
+  qt/locale/aisport_ko_KR.ts \
+  qt/locale/aisport_nl.ts \
+  qt/locale/aisport_pl.ts \
+  qt/locale/aisport_pt.ts \
+  qt/locale/aisport_pt_BR.ts \
+  qt/locale/aisport_ro_RO.ts \
+  qt/locale/aisport_ru.ts \
+  qt/locale/aisport_sk.ts \
+  qt/locale/aisport_sv.ts \
+  qt/locale/aisport_tr.ts \
+  qt/locale/aisport_uk.ts \
+  qt/locale/aisport_zh_CN.ts \
+  qt/locale/aisport_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -54,7 +54,7 @@ QT_FORMS_UI = \
   qt/forms/sendcoinsentry.ui \
   qt/forms/signverifymessagedialog.ui \
   qt/forms/transactiondescdialog.ui \
-  qt/forms/zsomniocontroldialog.ui
+  qt/forms/zaisportcontroldialog.ui
 
 QT_MOC_CPP = \
   qt/moc_addressbookpage.cpp \
@@ -107,23 +107,23 @@ QT_MOC_CPP = \
   qt/moc_walletframe.cpp \
   qt/moc_walletmodel.cpp \
   qt/moc_walletview.cpp \
-  qt/moc_zsomniocontroldialog.cpp
+  qt/moc_zaisportcontroldialog.cpp
 
 BITCOIN_MM = \
   qt/macdockiconhandler.mm \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/somnio.moc \
+  qt/aisport.moc \
   qt/bitcoinamountfield.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_somnio.cpp
-QT_QRC = qt/somnio.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_somnio_locale.cpp
-QT_QRC_LOCALE = qt/somnio_locale.qrc
+QT_QRC_CPP = qt/qrc_aisport.cpp
+QT_QRC = qt/aisport.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_aisport_locale.cpp
+QT_QRC_LOCALE = qt/aisport_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -187,7 +187,7 @@ BITCOIN_QT_H = \
   qt/walletmodeltransaction.h \
   qt/walletview.h \
   qt/winshutdownmonitor.h \
-  qt/zsomniocontroldialog.h
+  qt/zaisportcontroldialog.h
 
 RES_ICONS = \
   qt/res/icons/add.png \
@@ -241,12 +241,12 @@ RES_ICONS = \
   qt/res/icons/tx_input.png \
   qt/res/icons/tx_output.png \
   qt/res/icons/tx_mined.png \
-  qt/res/icons/unit_somnio.png \
-  qt/res/icons/unit_msomnio.png \
-  qt/res/icons/unit_usomnio.png \
-  qt/res/icons/unit_tsomnio.png \
-  qt/res/icons/unit_tmsomnio.png \
-  qt/res/icons/unit_tusomnio.png
+  qt/res/icons/unit_aisport.png \
+  qt/res/icons/unit_maisport.png \
+  qt/res/icons/unit_uaisport.png \
+  qt/res/icons/unit_taisport.png \
+  qt/res/icons/unit_tmaisport.png \
+  qt/res/icons/unit_tuaisport.png
 
 BITCOIN_QT_CPP = \
   qt/bitcoinaddressvalidator.cpp \
@@ -308,7 +308,7 @@ BITCOIN_QT_CPP += \
   qt/walletmodel.cpp \
   qt/walletmodeltransaction.cpp \
   qt/walletview.cpp \
-  qt/zsomniocontroldialog.cpp
+  qt/zaisportcontroldialog.cpp
 
 endif
 
@@ -316,7 +316,7 @@ RES_IMAGES = \
   qt/res/images/about.png \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
-  qt/res/images/somnio_logo_horizontal.png \
+  qt/res/images/aisport_logo_horizontal.png \
   qt/res/images/downArrow.png \
   qt/res/images/downArrow_small.png \
   qt/res/images/upArrow_small.png \
@@ -332,7 +332,7 @@ RES_CSS = \
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
 
-BITCOIN_RC = qt/res/somnio-qt-res.rc
+BITCOIN_RC = qt/res/aisport-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms
@@ -352,69 +352,69 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_somnio_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_aisport_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# somnio-qt binary #
-qt_somnio_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# aisport-qt binary #
+qt_aisport_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-qt_somnio_qt_SOURCES = qt/somnio.cpp
+qt_aisport_qt_SOURCES = qt/aisport.cpp
 if TARGET_DARWIN
-  qt_somnio_qt_SOURCES += $(BITCOIN_MM)
+  qt_aisport_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_somnio_qt_SOURCES += $(BITCOIN_RC)
+  qt_aisport_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_somnio_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_aisport_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_somnio_qt_LDADD += $(LIBBITCOIN_WALLET)
+qt_aisport_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_somnio_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_aisport_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_somnio_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_aisport_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-qt_somnio_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_somnio_qt_LIBTOOLFLAGS = --tag CXX
+qt_aisport_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_aisport_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 .SECONDARY: $(QT_QM)
 
-qt/somniostrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
+qt/aisportstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/somniostrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/aisportstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/somnio_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/aisport_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@test -f $(@D)/$(<F) || cp -f $< $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name somnio_locale $(@D)/$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name aisport_locale $(@D)/$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name somnio $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name aisport $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno
 
 CLEANFILES += $(CLEAN_QT)
 
-somnio_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_somnio_qt_OBJECTS) qt/somnio-qt$(EXEEXT) $(LIBBITCOINQT)
+aisport_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_aisport_qt_OBJECTS) qt/aisport-qt$(EXEEXT) $(LIBBITCOINQT)
 
-somnio_qt : qt/somnio-qt$(EXEEXT)
+aisport_qt : qt/aisport-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

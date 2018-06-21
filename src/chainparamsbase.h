@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between somnio-cli and somniod)
- * of a given instance of the Somnio system.
+ * CBaseChainParams defines the base parameters (shared between aisport-cli and aisportd)
+ * of a given instance of the Aisport system.
  */
 class CBaseChainParams
 {

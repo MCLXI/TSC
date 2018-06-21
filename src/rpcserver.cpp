@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The Somnio developers
+// Copyright (c) 2018 The Aisport developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -238,10 +238,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Somnio server.");
+            "\nStop Aisport server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Somnio server stopping";
+    return "Aisport server stopping";
 }
 
 
@@ -319,36 +319,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Somnio features */
-        {"somnio", "masternode", &masternode, true, true, false},
-        {"somnio", "listmasternodes", &listmasternodes, true, true, false},
-        {"somnio", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"somnio", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"somnio", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"somnio", "masternodedebug", &masternodedebug, true, true, false},
-        {"somnio", "startmasternode", &startmasternode, true, true, false},
-        {"somnio", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"somnio", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"somnio", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"somnio", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"somnio", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"somnio", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"somnio", "mnbudget", &mnbudget, true, true, false},
-        {"somnio", "preparebudget", &preparebudget, true, true, false},
-        {"somnio", "submitbudget", &submitbudget, true, true, false},
-        {"somnio", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"somnio", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"somnio", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"somnio", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"somnio", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"somnio", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"somnio", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"somnio", "checkbudgets", &checkbudgets, true, true, false},
-        {"somnio", "mnsync", &mnsync, true, true, false},
-        {"somnio", "spork", &spork, true, true, false},
-        {"somnio", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* Aisport features */
+        {"aisport", "masternode", &masternode, true, true, false},
+        {"aisport", "listmasternodes", &listmasternodes, true, true, false},
+        {"aisport", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"aisport", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"aisport", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"aisport", "masternodedebug", &masternodedebug, true, true, false},
+        {"aisport", "startmasternode", &startmasternode, true, true, false},
+        {"aisport", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"aisport", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"aisport", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"aisport", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"aisport", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"aisport", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"aisport", "mnbudget", &mnbudget, true, true, false},
+        {"aisport", "preparebudget", &preparebudget, true, true, false},
+        {"aisport", "submitbudget", &submitbudget, true, true, false},
+        {"aisport", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"aisport", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"aisport", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"aisport", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"aisport", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"aisport", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"aisport", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"aisport", "checkbudgets", &checkbudgets, true, true, false},
+        {"aisport", "mnsync", &mnsync, true, true, false},
+        {"aisport", "spork", &spork, true, true, false},
+        {"aisport", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"somnio", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"aisport", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -627,16 +627,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use somniod, or the -server option to somnio-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use aisportd, or the -server option to aisport-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=somniorpc\n"
+                                               "rpcuser=aisportrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"Somnio Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"Aisport Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1087,7 +1087,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> somnio-cli " + methodname + " " + args + "\n";
+    return "> aisport-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

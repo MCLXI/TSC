@@ -62,12 +62,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan Somnio adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your Aisport addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan Aisport adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan Somnio adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your Aisport addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan Aisport adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>Somnio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SOMNIOs from being stolen by malware infecting your computer.</source>
-        <translation>Somnio şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, SOMNIO'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>Aisport will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AISPORTs from being stolen by malware infecting your computer.</source>
+        <translation>Aisport şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, AISPORT'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOMNIO&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AISPORT&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -242,8 +242,8 @@
         <translation>&amp;BIP 38 şifrele</translation>
     </message>
     <message>
-        <source>Enter a Somnio Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir Somnio Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
+        <source>Enter a Aisport Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir Aisport Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
 </translation>
     </message>
     <message>
@@ -251,8 +251,8 @@
         <translation>adres</translation>
     </message>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için Somnio adresi
+        <source>The Aisport address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için Aisport adresi
 </translation>
     </message>
     <message>
@@ -289,8 +289,8 @@
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>Bu Somnio adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>Bu Aisport adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
@@ -316,12 +316,12 @@
         <translation>BIP 38 şifreli özel anahtarını girin. Orta kutuya şifreyi  girin. Özel anahtarı hesaplamak için Anahtarın Çözülmesini tıklayın. Anahtar çözüldükten sonra 'Alma Adresi'ni tıklamak, bu özel anahtarı cüzdana ekleyecektir.</translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>Mesajın imzalandığı Somnio adresi</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>Mesajın imzalandığı Aisport adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>Belirtilen Somnio adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>Belirtilen Aisport adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -613,16 +613,16 @@
         <translation>Sekme tablosu</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio CORE</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport CORE</translation>
     </message>
     <message>
-        <source>Send coins to a Somnio address</source>
-        <translation>Koinleri Somnio adresine gönder</translation>
+        <source>Send coins to a Aisport address</source>
+        <translation>Koinleri Aisport adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and somnio: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve somnio üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and aisport: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve aisport üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -637,24 +637,24 @@
         <translation>Masternodları ara</translation>
     </message>
     <message>
-        <source>&amp;About Somnio Core</source>
+        <source>&amp;About Aisport Core</source>
         <translation>Pıvx core Hakkında</translation>
     </message>
     <message>
-        <source>Show information about Somnio Core</source>
+        <source>Show information about Aisport Core</source>
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
-        <source>Modify configuration options for Somnio</source>
-        <translation>Somnio için yapılandırma seçeneklerini değiştirin</translation>
+        <source>Modify configuration options for Aisport</source>
+        <translation>Aisport için yapılandırma seçeneklerini değiştirin</translation>
     </message>
     <message>
-        <source>Sign messages with your Somnio addresses to prove you own them</source>
-        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı Somnio adresleriyle imzalayın</translation>
+        <source>Sign messages with your Aisport addresses to prove you own them</source>
+        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı Aisport adresleriyle imzalayın</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Somnio addresses</source>
-        <translation>Belirtilen Somnio adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
+        <source>Verify messages to ensure they were signed with specified Aisport addresses</source>
+        <translation>Belirtilen Aisport adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -686,8 +686,8 @@
         <translation>Açık Masternode yapılandırma dosyası</translation>
     </message>
     <message>
-        <source>Open a Somnio: URI or payment request</source>
-        <translation>Bir Somnio: URI veya ödeme isteği açın</translation>
+        <source>Open a Aisport: URI or payment request</source>
+        <translation>Bir Aisport: URI veya ödeme isteği açın</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -698,12 +698,12 @@
         <translation>Kaşif penceresini engelle</translation>
     </message>
     <message>
-        <source>Show the Somnio Core help message to get a list with possible Somnio command-line options</source>
-        <translation>Olası Somnio komut satırı seçeneklerine sahip bir liste almak için Somnio Core yardım mesajını gösterin</translation>
+        <source>Show the Aisport Core help message to get a list with possible Aisport command-line options</source>
+        <translation>Olası Aisport komut satırı seçeneklerine sahip bir liste almak için Aisport Core yardım mesajını gösterin</translation>
     </message>
     <message>
-        <source>Somnio Core client</source>
-        <translation>Somnio Core istemci</translation>
+        <source>Aisport Core client</source>
+        <translation>Aisport Core istemci</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -834,8 +834,8 @@ Adres: %4</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (somnio2.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (somnio2.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (aisport2.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (aisport2.conf).
 </translation>
     </message>
 </context>
@@ -1121,8 +1121,8 @@ Adres: %4</translation>
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio CORE</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport CORE</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -1144,16 +1144,16 @@ Adres: %4</translation>
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to Somnio Core.</source>
-        <translation>Somnio Core'a hoşgeldiniz.</translation>
+        <source>Welcome to Aisport Core.</source>
+        <translation>Aisport Core'a hoşgeldiniz.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Varsayılan veri dosyasını kullanınız</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio CORE</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport CORE</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1508,8 +1508,8 @@ Adres: %4</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için Somnio adresi
+        <source>The Aisport address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için Aisport adresi
 </translation>
     </message>
     <message>
@@ -1538,17 +1538,17 @@ Adres: %4</translation>
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>Bu Somnio adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>Bu Aisport adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>Mesajın imzalandığı Somnio adresi</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>Mesajın imzalandığı Aisport adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>Belirtilen Somnio adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>Belirtilen Aisport adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1587,8 +1587,8 @@ Adres: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio CORE</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport CORE</translation>
     </message>
     </context>
 <context>
@@ -1694,7 +1694,7 @@ Adres: %4</translation>
     </message>
     </context>
 <context>
-    <name>somnio-core</name>
+    <name>aisport-core</name>
     <message>
         <source>Error</source>
         <translation>hata</translation>

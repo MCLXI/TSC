@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши Somnio-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your Aisport addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши Aisport-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши Somnio-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your Aisport addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши Aisport-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Somnio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMNs from being stolen by malware infecting your computer.</source>
-        <translation>Somnio сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Somnio от кражи с использованием вредоносного ПО.</translation>
+        <source>Aisport will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AISs from being stolen by malware infecting your computer.</source>
+        <translation>Aisport сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Aisport от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMN&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ SMN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AIS&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ AIS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a Somnio Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите Somnio адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a Aisport Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите Aisport адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>Адрес Somnio для подписи сообщения с помощью</translation>
+        <source>The Aisport address to sign the message with</source>
+        <translation>Адрес Aisport для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Somnio</translation>
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Aisport</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>Адрес Somnio, которым подписано сообщение</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>Адрес Aisport, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Somnio адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Aisport адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,23 +594,23 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
-        <source>Send coins to a Somnio address</source>
-        <translation>Отправить монеты на Somnio адрес</translation>
+        <source>Send coins to a Aisport address</source>
+        <translation>Отправить монеты на Aisport адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and somnio: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и Somnio: URI)</translation>
+        <source>Request payments (generates QR codes and aisport: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и Aisport: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;Конфиденциальность</translation>
     </message>
     <message>
-        <source>Privacy Action for zSMN and Obfuscation</source>
+        <source>Privacy Action for zAIS and Obfuscation</source>
         <translation>Конфиденциальное действие и обфускация</translation>
     </message>
     <message>
@@ -622,24 +622,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About Somnio Core</source>
-        <translation>&amp;О Somnio Core</translation>
+        <source>&amp;About Aisport Core</source>
+        <translation>&amp;О Aisport Core</translation>
     </message>
     <message>
-        <source>Show information about Somnio Core</source>
-        <translation>Показать информацию о Somnio Core</translation>
+        <source>Show information about Aisport Core</source>
+        <translation>Показать информацию о Aisport Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Somnio</source>
-        <translation>Изменение параметров конфигурации Somnio</translation>
+        <source>Modify configuration options for Aisport</source>
+        <translation>Изменение параметров конфигурации Aisport</translation>
     </message>
     <message>
-        <source>Sign messages with your Somnio addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими Somnio адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your Aisport addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими Aisport адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Somnio addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным Somnio адресом </translation>
+        <source>Verify messages to ensure they were signed with specified Aisport addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным Aisport адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,8 +670,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a Somnio: URI or payment request</source>
-        <translation>Открыть Somnio: URI или запрос платежа</translation>
+        <source>Open a Aisport: URI or payment request</source>
+        <translation>Открыть Aisport: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,12 +682,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the Somnio Core help message to get a list with possible Somnio command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Somnio</translation>
+        <source>Show the Aisport Core help message to get a list with possible Aisport command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Aisport</translation>
     </message>
     <message>
-        <source>Somnio Core client</source>
-        <translation>Клиент Somnio Core</translation>
+        <source>Aisport Core client</source>
+        <translation>Клиент Aisport Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -825,8 +825,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (somnio2.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (somnio2.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (aisport2.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (aisport2.conf).</translation>
     </message>
 </context>
 <context>
@@ -1110,8 +1110,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Somnio address.</source>
-        <translation>Введенный адрес "%1" не является Somnio адресом.</translation>
+        <source>The entered address "%1" is not a valid Aisport address.</source>
+        <translation>Введенный адрес "%1" не является Aisport адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1156,16 +1156,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Somnio Core</source>
-        <translation>О Somnio Core</translation>
+        <source>About Aisport Core</source>
+        <translation>О Aisport Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1211,16 +1211,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Somnio Core.</source>
-        <translation>Добро пожаловать в Somnio Core.</translation>
+        <source>Welcome to Aisport Core.</source>
+        <translation>Добро пожаловать в Aisport Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Somnio Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Somnio Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Aisport Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Aisport Core.</translation>
     </message>
     <message>
-        <source>Somnio Core will download and store a copy of the Somnio block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Somnio Core загрузит и сохранит копию цепочки блоков Somnio. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>Aisport Core will download and store a copy of the Aisport block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Aisport Core загрузит и сохранит копию цепочки блоков Aisport. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1231,8 +1231,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1373,12 +1373,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Somnio addresses after it matures.
-To Add: enter percentage to give and Somnio address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Aisport addresses after it matures.
+To Add: enter percentage to give and Aisport address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие Somnio адреса.
-Для добавления: введите передаваемый процент и Somnio адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие Aisport адреса.
+Для добавления: введите передаваемый процент и Aisport адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1516,48 +1516,48 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SMN</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 SMN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 AIS</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 AIS</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SMN</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 SMN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 AIS</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 AIS</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SMN to anonymize 10000 SMN</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 SMN для анонимизации 10000 SMN</translation>
+        <source>This option is the quickest and will cost about ~0.025 AIS to anonymize 10000 AIS</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 AIS для анонимизации 10000 AIS</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SMN to anonymize 10000 SMN</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 SMN для анонимизации 10000 SMN</translation>
+        <source>This option is moderately fast and will cost about 0.05 AIS to anonymize 10000 AIS</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 AIS для анонимизации 10000 AIS</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 SMN per 10000 SMN you anonymize.</source>
-        <translation>0.1 SMN за 10000 SMN которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 AIS per 10000 AIS you anonymize.</source>
+        <translation>0.1 AIS за 10000 AIS которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки Somnio.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки Aisport.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки Somnio.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки Aisport.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки Somnio.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки Aisport.</translation>
     </message>
 </context>
 <context>
@@ -1618,8 +1618,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the Somnio client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт Somnio через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the Aisport client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт Aisport через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1638,12 +1638,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start Somnio after logging in to the system.</source>
-        <translation>Автоматически запускать Somnio после входа в систему.</translation>
+        <source>Automatically start Aisport after logging in to the system.</source>
+        <translation>Автоматически запускать Aisport после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start Somnio on system login</source>
-        <translation>&amp;Запускать Somnio при входе в систему</translation>
+        <source>&amp;Start Aisport on system login</source>
+        <translation>&amp;Запускать Aisport при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1670,34 +1670,34 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Somnio.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Somnio.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Aisport.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Aisport.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/somnio-project/somnio-project-translations</source>
+https://www.transifex.com/aisport-project/aisport-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/somnio-project/somnio-project-translations</translation>
+https://www.transifex.com/aisport-project/aisport-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming SMN which get automatically converted to zSMN via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих SMN, которые автоматически конвертируются в zSMN благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming AIS which get automatically converted to zAIS via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих AIS, которые автоматически конвертируются в zAIS благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zSMN</source>
-        <translation>Процент  авточеканненых zSMN</translation>
+        <source>Percentage of autominted zAIS</source>
+        <translation>Процент  авточеканненых zAIS</translation>
     </message>
     <message>
-        <source>Preferred Automint zSMN Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zSMN</translation>
+        <source>Preferred Automint zAIS Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zAIS</translation>
     </message>
     <message>
-        <source>Connect to the Somnio network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети Somnio через SOCKS5 прокси.</translation>
+        <source>Connect to the Aisport network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети Aisport через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1827,8 +1827,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Вид</translation>
     </message>
     <message>
-        <source>SMN Balances</source>
-        <translation>Баланс SMN</translation>
+        <source>AIS Balances</source>
+        <translation>Баланс AIS</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1855,8 +1855,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Somnio network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Somnio после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aisport network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Aisport после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1891,12 +1891,12 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>SMN:</source>
-        <translation>SMN:</translation>
+        <source>AIS:</source>
+        <translation>AIS:</translation>
     </message>
     <message>
-        <source>zSMN:</source>
-        <translation>zSMN:</translation>
+        <source>zAIS:</source>
+        <translation>zAIS:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1934,12 +1934,12 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start somnio: click-to-pay handler</source>
-        <translation>Не удалось запустить somnio: обработчик click-to-pay </translation>
+        <source>Cannot start aisport: click-to-pay handler</source>
+        <translation>Не удалось запустить aisport: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Somnio address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный Somnio адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Aisport address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный Aisport адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2020,16 +2020,16 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>SMN which were anonymized via Zerocin Protocol</source>
-        <translation>SMN, который был анонимно использован через Zerocoin протокол</translation>
+        <source>AIS which were anonymized via Zerocin Protocol</source>
+        <translation>AIS, который был анонимно использован через Zerocoin протокол</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Действия Zerocoin </translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Somnio network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Somnio после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aisport network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Aisport после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
@@ -2191,8 +2191,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a Somnio address (e.g. %1)</source>
-        <translation>Введите адрес Somnio (например %1)</translation>
+        <source>Enter a Aisport address (e.g. %1)</source>
+        <translation>Введите адрес Aisport (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2325,8 +2325,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Somnio debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки Somnio. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the Aisport debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки Aisport. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2486,8 +2486,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the Somnio RPC console.</source>
-        <translation>Добро пожаловать в окружение Somnio RPC.</translation>
+        <source>Welcome to the Aisport RPC console.</source>
+        <translation>Добро пожаловать в окружение Aisport RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2706,8 +2706,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 SMN</source>
-        <translation>0 SMN</translation>
+        <source>0 AIS</source>
+        <translation>0 AIS</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2786,8 +2786,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid Somnio address</source>
-        <translation>Предупреждение: неправильный Somnio адрес</translation>
+        <source>Warning: Invalid Aisport address</source>
+        <translation>Предупреждение: неправильный Aisport адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2840,8 +2840,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Somnio Core is shutting down...</source>
-        <translation>Somnio Core выключается...</translation>
+        <source>Aisport Core is shutting down...</source>
+        <translation>Aisport Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2851,8 +2851,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>Адрес Somnio для подписи сообщения с помощью</translation>
+        <source>The Aisport address to sign the message with</source>
+        <translation>Адрес Aisport для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2875,16 +2875,16 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Somnio</translation>
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Aisport</translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>Адрес Somnio, которым подписано сообщение</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>Адрес Aisport, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Somnio адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Aisport адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2930,8 +2930,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2946,8 +2946,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>The Somnio Core developers</source>
-        <translation>Разработчики Somnio Core</translation>
+        <source>The Aisport Core developers</source>
+        <translation>Разработчики Aisport Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3205,7 +3205,7 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
     </message>
     </context>
 <context>
-    <name>somnio-core</name>
+    <name>aisport-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>
@@ -3239,8 +3239,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Somnio Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики Somnio Core</translation>
+        <source>Copyright (C) 2015-%i The Aisport Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики Aisport Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

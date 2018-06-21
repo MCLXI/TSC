@@ -1,10 +1,10 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2017-2018 The Somnio developers
+// Copyright (c) 2017-2018 The Aisport developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZSOMNIOCONTROLDIALOG_H
-#define ZSOMNIOCONTROLDIALOG_H
+#ifndef ZAISPORTCONTROLDIALOG_H
+#define ZAISPORTCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -15,16 +15,16 @@ class CZerocoinMint;
 class WalletModel;
 
 namespace Ui {
-class ZSomnioControlDialog;
+class ZAisportControlDialog;
 }
 
-class ZSomnioControlDialog : public QDialog
+class ZAisportControlDialog : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit ZSomnioControlDialog(QWidget *parent);
-    ~ZSomnioControlDialog();
+    explicit ZAisportControlDialog(QWidget *parent);
+    ~ZAisportControlDialog();
 
     void setModel(WalletModel* model);
 
@@ -33,7 +33,7 @@ public:
     static std::vector<CZerocoinMint> GetSelectedMints();
 
 private:
-    Ui::ZSomnioControlDialog *ui;
+    Ui::ZAisportControlDialog *ui;
     WalletModel* model;
     PrivacyDialog* privacyDialog;
 
@@ -53,4 +53,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZSMNCONTROLDIALOG_H
+#endif // ZAISCONTROLDIALOG_H

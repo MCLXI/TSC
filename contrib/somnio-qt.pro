@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/somnio-config.h \
+           src/aisport-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/somnio-config.h \
+           src/config/aisport-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/somnio.moc \
+           src/qt/aisport.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/somnio-cli.cpp \
-           src/somnio-tx.cpp \
-           src/somnio.cpp \
+           src/aisport-cli.cpp \
+           src/aisport-tx.cpp \
+           src/aisport.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/somnio.cpp \
-           src/qt/somniostrings.cpp \
+           src/qt/aisport.cpp \
+           src/qt/aisportstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_somnio.cpp \
+           src/test/test_aisport.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/somnio.qrc src/qt/somnio_locale.qrc
+RESOURCES += src/qt/aisport.qrc src/qt/aisport_locale.qrc
 
-TRANSLATIONS += src/qt/locale/somnio_bg.ts \
-                src/qt/locale/somnio_de.ts \
-                src/qt/locale/somnio_en.ts \
-                src/qt/locale/somnio_es.ts \
-                src/qt/locale/somnio_fi.ts \
-                src/qt/locale/somnio_fr.ts \
-                src/qt/locale/somnio_it.ts \
-                src/qt/locale/somnio_ja.ts \
-                src/qt/locale/somnio_pl.ts \
-                src/qt/locale/somnio_pt.ts \
-                src/qt/locale/somnio_ru.ts \
-                src/qt/locale/somnio_sk.ts \
-                src/qt/locale/somnio_sv.ts \
-                src/qt/locale/somnio_vi.ts \
-                src/qt/locale/somnio_zh_CN.ts \
-                src/qt/locale/somnio_zh_TW.ts
+TRANSLATIONS += src/qt/locale/aisport_bg.ts \
+                src/qt/locale/aisport_de.ts \
+                src/qt/locale/aisport_en.ts \
+                src/qt/locale/aisport_es.ts \
+                src/qt/locale/aisport_fi.ts \
+                src/qt/locale/aisport_fr.ts \
+                src/qt/locale/aisport_it.ts \
+                src/qt/locale/aisport_ja.ts \
+                src/qt/locale/aisport_pl.ts \
+                src/qt/locale/aisport_pt.ts \
+                src/qt/locale/aisport_ru.ts \
+                src/qt/locale/aisport_sk.ts \
+                src/qt/locale/aisport_sv.ts \
+                src/qt/locale/aisport_vi.ts \
+                src/qt/locale/aisport_zh_CN.ts \
+                src/qt/locale/aisport_zh_TW.ts

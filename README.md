@@ -1,3 +1,3 @@
 Update coming soon!
-# SMNCore
-# SMNCoin
+# AISCore
+# AISCoin

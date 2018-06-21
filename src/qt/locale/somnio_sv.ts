@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina Somnio adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your Aisport addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina Aisport adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina Somnio adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Aisport addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina Aisport adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Somnio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SOMNIOs from being stolen by malware infecting your computer.</source>
-        <translation>Somnio kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SOMNIOs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Aisport will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AISPORTs from being stolen by malware infecting your computer.</source>
+        <translation>Aisport kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina AISPORTs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOMNIO&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA SOMNIO&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AISPORT&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA AISPORT&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Somnio Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en Somnio adress som du vill kryptera med BIP 38.
+        <source>Enter a Aisport Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en Aisport adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>Somnio adressen för signera meddelandet med</translation>
+        <source>The Aisport address to sign the message with</source>
+        <translation>Aisport adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Somnio adress</translation>
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Aisport adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>Somnio adressen meddelandet blev signerat med</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>Aisport adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Somnio adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Aisport adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Kärna</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a Somnio address</source>
-        <translation>Skicka mynt till en Somnio adress</translation>
+        <source>Send coins to a Aisport address</source>
+        <translation>Skicka mynt till en Aisport adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and somnio: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och somnio: URls)</translation>
+        <source>Request payments (generates QR codes and aisport: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och aisport: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Somnio Core</source>
-        <translation>Om Somnio Kärnan</translation>
+        <source>&amp;About Aisport Core</source>
+        <translation>Om Aisport Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Somnio Core</source>
-        <translation>Visa information om Somnio Kärnan</translation>
+        <source>Show information about Aisport Core</source>
+        <translation>Visa information om Aisport Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Somnio</source>
-        <translation>Ändra konfigurationsval för Somnio</translation>
+        <source>Modify configuration options for Aisport</source>
+        <translation>Ändra konfigurationsval för Aisport</translation>
     </message>
     <message>
-        <source>Sign messages with your Somnio addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Somnio adress för att visa att du äger dem</translation>
+        <source>Sign messages with your Aisport addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Aisport adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Somnio addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Somnio adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified Aisport addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Aisport adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Somnio Core client</source>
-        <translation>Somnio kärn klient</translation>
+        <source>Aisport Core client</source>
+        <translation>Aisport kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Kärna</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Kärna</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1157,8 +1157,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>Somnio adressen för signera meddelandet med</translation>
+        <source>The Aisport address to sign the message with</source>
+        <translation>Aisport adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1181,16 +1181,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Somnio adress</translation>
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Aisport adress</translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>Somnio adressen meddelandet blev signerat med</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>Aisport adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Somnio adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Aisport adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1232,8 +1232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Kärna</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Kärna</translation>
     </message>
     </context>
 <context>
@@ -1419,7 +1419,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>somnio-core</name>
+    <name>aisport-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Somnio"
-            VALUE "FileDescription",    "Somnio-cli (OSS RPC client for Somnio)"
+            VALUE "CompanyName",        "Aisport"
+            VALUE "FileDescription",    "Aisport-cli (OSS RPC client for Aisport)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "somnio-cli"
+            VALUE "InternalName",       "aisport-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "somnio-cli.exe"
-            VALUE "ProductName",        "Somnio-cli"
+            VALUE "OriginalFilename",   "aisport-cli.exe"
+            VALUE "ProductName",        "Aisport-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

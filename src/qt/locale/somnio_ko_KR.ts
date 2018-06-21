@@ -62,12 +62,12 @@
         <translation>받는 주소</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>이 주소들은 전송할 Somnio 주소입니다. 송금하기 전 항상 금액과 전송할 주소를 확인해주세요.</translation>
+        <source>These are your Aisport addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>이 주소들은 전송할 Aisport 주소입니다. 송금하기 전 항상 금액과 전송할 주소를 확인해주세요.</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>이 주소들은 전송 받을 Somnio 주소입니다. 각 트랜잭션별로 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
+        <source>These are your Aisport addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>이 주소들은 전송 받을 Aisport 주소입니다. 각 트랜잭션별로 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>Somnio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SOMNIOs from being stolen by malware infecting your computer.</source>
-        <translation>Somnio는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 SOMNIOs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>Aisport will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AISPORTs from being stolen by malware infecting your computer.</source>
+        <translation>Aisport는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 AISPORTs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SOMNIO&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 SOMNIO를 잃게 됩니다&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AISPORT&lt;/b&gt;!</source>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 AISPORT를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 암호화</translation>
     </message>
     <message>
-        <source>Enter a Somnio Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38을 사용하여 암호화 할 Somnio 주소를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 암호화를 누르면 암호화된 개인 키가 계산됩니다.</translation>
+        <source>Enter a Aisport Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38을 사용하여 암호화 할 Aisport 주소를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 암호화를 누르면 암호화된 개인 키가 계산됩니다.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>주소:</translation>
     </message>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>메세지를 서명하기 위한 Somnio 주소</translation>
+        <source>The Aisport address to sign the message with</source>
+        <translation>메세지를 서명하기 위한 Aisport 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>이 Somnio 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>이 Aisport 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>BIP 38 암호화 된 개인 키를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 키를 암호해제 후 '주소 가져오기'를 클릭하면 개인 키가 지갑에 추가됩니다.</translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>메세지에 서명된 Somnio 주소</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>메세지에 서명된 Aisport 주소</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>메세지가 지정된 Somnio 주소로 서명되었는지 확인해주세요</translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>메세지가 지정된 Aisport 주소로 서명되었는지 확인해주세요</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,24 +602,24 @@
         <translation>탭 도구 모음</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
-        <source>Send coins to a Somnio address</source>
-        <translation>Somnio 주소로 전송하기</translation>
+        <source>Send coins to a Aisport address</source>
+        <translation>Aisport 주소로 전송하기</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and somnio: URIs)</source>
-        <translation>결제 요청 (QR 코드 및 somnio: URI 생성)</translation>
+        <source>Request payments (generates QR codes and aisport: URIs)</source>
+        <translation>결제 요청 (QR 코드 및 aisport: URI 생성)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;프라이버시</translation>
     </message>
     <message>
-        <source>Privacy Action for zSOMNIO and Obfuscation</source>
-        <translation>zSOMNIO와 난독화를 위한 프라이버스 작업</translation>
+        <source>Privacy Action for zAISPORT and Obfuscation</source>
+        <translation>zAISPORT와 난독화를 위한 프라이버스 작업</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -630,24 +630,24 @@
         <translation>마스터노드 검색</translation>
     </message>
     <message>
-        <source>&amp;About Somnio Core</source>
-        <translation>Somnio Core &amp;정보</translation>
+        <source>&amp;About Aisport Core</source>
+        <translation>Aisport Core &amp;정보</translation>
     </message>
     <message>
-        <source>Show information about Somnio Core</source>
-        <translation>Somnio Core에 대한 정보 표시</translation>
+        <source>Show information about Aisport Core</source>
+        <translation>Aisport Core에 대한 정보 표시</translation>
     </message>
     <message>
-        <source>Modify configuration options for Somnio</source>
-        <translation>Somnio에 대한 구성 옵션 수정</translation>
+        <source>Modify configuration options for Aisport</source>
+        <translation>Aisport에 대한 구성 옵션 수정</translation>
     </message>
     <message>
-        <source>Sign messages with your Somnio addresses to prove you own them</source>
-        <translation>Somnio 주소로 메시지에 서명하여 소유하고 있음을 증명하십시오.</translation>
+        <source>Sign messages with your Aisport addresses to prove you own them</source>
+        <translation>Aisport 주소로 메시지에 서명하여 소유하고 있음을 증명하십시오.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Somnio addresses</source>
-        <translation>메시지가 지정된 Somnio 주소로 서명되었는지 확인합니다.</translation>
+        <source>Verify messages to ensure they were signed with specified Aisport addresses</source>
+        <translation>메시지가 지정된 Aisport 주소로 서명되었는지 확인합니다.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -678,8 +678,8 @@
         <translation>마스터노드 구성 파일 열기</translation>
     </message>
     <message>
-        <source>Open a Somnio: URI or payment request</source>
-        <translation>Somnio: URI 또는 ​​결제 요청 열기</translation>
+        <source>Open a Aisport: URI or payment request</source>
+        <translation>Aisport: URI 또는 ​​결제 요청 열기</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -690,16 +690,16 @@
         <translation>블록 탐색 창</translation>
     </message>
     <message>
-        <source>Show the Somnio Core help message to get a list with possible Somnio command-line options</source>
-        <translation>Somnio Core 도움말 메세지를 표시하여 사용 가능한 Somnio 명령행 옵션 목록 표시</translation>
+        <source>Show the Aisport Core help message to get a list with possible Aisport command-line options</source>
+        <translation>Aisport Core 도움말 메세지를 표시하여 사용 가능한 Aisport 명령행 옵션 목록 표시</translation>
     </message>
     <message>
-        <source>Somnio Core client</source>
-        <translation>Somnio Core 클라이언트</translation>
+        <source>Aisport Core client</source>
+        <translation>Aisport Core 클라이언트</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Somnio network</source>
-        <translation><numerusform>%n 개 Somnio 네트웍에 연결</numerusform></translation>
+        <source>%n active connection(s) to Aisport network</source>
+        <translation><numerusform>%n 개 Aisport 네트웍에 연결</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -853,8 +853,8 @@ Address: %4
         <translation>텍스트라벨</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (somnio2.conf).</source>
-        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (somnio2.conf)에 txindex = 1을 설정해야합니다.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (aisport2.conf).</source>
+        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (aisport2.conf)에 txindex = 1을 설정해야합니다.</translation>
     </message>
 </context>
 <context>
@@ -1142,8 +1142,8 @@ Address: %4
         <translation>보내는 주소 수정</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Somnio address.</source>
-        <translation>입력된 주소 "%1"는 올바른 Somnio 주소가 아닙니다.</translation>
+        <source>The entered address "%1" is not a valid Aisport address.</source>
+        <translation>입력된 주소 "%1"는 올바른 Aisport 주소가 아닙니다.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1188,16 +1188,16 @@ Address: %4
         <translation>버전</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Somnio Core</source>
-        <translation>Somnio Core 정보</translation>
+        <source>About Aisport Core</source>
+        <translation>Aisport Core 정보</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1243,16 +1243,16 @@ Address: %4
         <translation>환영합니다</translation>
     </message>
     <message>
-        <source>Welcome to Somnio Core.</source>
-        <translation>Somnio Core에 오신 것을 환영합니다.</translation>
+        <source>Welcome to Aisport Core.</source>
+        <translation>Aisport Core에 오신 것을 환영합니다.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Somnio Core will store its data.</source>
-        <translation>이 프로그램이 처음 실행되었으므로 Somnio Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
+        <source>As this is the first time the program is launched, you can choose where Aisport Core will store its data.</source>
+        <translation>이 프로그램이 처음 실행되었으므로 Aisport Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Somnio Core will download and store a copy of the Somnio block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Somnio Core는 Somnio 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
+        <source>Aisport Core will download and store a copy of the Aisport block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Aisport Core는 Aisport 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1263,8 +1263,8 @@ Address: %4
         <translation>사용자 지정 데이터 디렉토리 사용:</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1405,12 +1405,12 @@ Address: %4
         <translation>보낼 주소 입력</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Somnio addresses after it matures.
-To Add: enter percentage to give and Somnio address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Aisport addresses after it matures.
+To Add: enter percentage to give and Aisport address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>다중전송을 사용하면 성취 한 뒤 다른 Somnio 주소 목록에 최대 100% 스테이크 또는 마스터노드 보상을 자동으로 보낼 수 있습니다.
-추가하려면 : 부여 할 백분율과 다중전송 벡터에 추가 할 Somnio 주소를 입력하십시오.
+        <translation>다중전송을 사용하면 성취 한 뒤 다른 Aisport 주소 목록에 최대 100% 스테이크 또는 마스터노드 보상을 자동으로 보낼 수 있습니다.
+추가하려면 : 부여 할 백분율과 다중전송 벡터에 추가 할 Aisport 주소를 입력하십시오.
 삭제하려면 삭제할 주소를 입력하고 삭제를 누릅니다.
 활성화를 클릭하지 않으면 다중전송이 활성화되지 않습니다.</translation>
     </message>
@@ -1548,48 +1548,48 @@ Please check the address and try again.</source>
         <translation>익명화 레벨을 선택해주세요.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SOMNIO</source>
-        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 SOMNIO 를 섞을 수 있습니다.</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 AISPORT</source>
+        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 AISPORT 를 섞을 수 있습니다.</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SOMNIO</source>
-        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 SOMNIO 를 섞을 수 있습니다.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 AISPORT</source>
+        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 AISPORT 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16개의 개별 마스터노드를 사용</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SOMNIO to anonymize 10000 SOMNIO</source>
-        <translation>이 옵션은 가장 빠르게 전송되며 10000 SOMNIO 익명화에 약 ~0.025 SOMNIO의 비용이 들어갑니다.</translation>
+        <source>This option is the quickest and will cost about ~0.025 AISPORT to anonymize 10000 AISPORT</source>
+        <translation>이 옵션은 가장 빠르게 전송되며 10000 AISPORT 익명화에 약 ~0.025 AISPORT의 비용이 들어갑니다.</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SOMNIO to anonymize 10000 SOMNIO</source>
-        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 SOMNIO 익명화에 약 0.05 SOMNIO의 비용이 들어갑니다.</translation>
+        <source>This option is moderately fast and will cost about 0.05 AISPORT to anonymize 10000 AISPORT</source>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 AISPORT 익명화에 약 0.05 AISPORT의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>이것은 가장 느리고 안전한 옵션입니다. 최고 익명성을 사용하면 비용이 발생합니다.</translation>
     </message>
     <message>
-        <source>0.1 SOMNIO per 10000 SOMNIO you anonymize.</source>
-        <translation>10000 SOMNIO 익명화에 0.1 SOMNIO 가 듭니다.</translation>
+        <source>0.1 AISPORT per 10000 AISPORT you anonymize.</source>
+        <translation>10000 AISPORT 익명화에 0.1 AISPORT 가 듭니다.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>난독화 구성</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 2 rounds) Somnio의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 2 rounds) Aisport의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 8 rounds) Somnio의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 8 rounds) Aisport의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Somnio's configuration screen.</source>
-        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 16 rounds) Somnio의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 16 rounds) Aisport의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -1650,8 +1650,8 @@ Please check the address and try again.</source>
         <translation>확인되지 않은 변경사항을 사용하지 않도록 설정하면 해당 트랜잭션에 하나 이상의 컨펌이 진행되야&lt;br/&gt;트랜잭션에 변경사항을 적용할 수 있습니다.&lt;br/&gt;또한 이것은 잔액 계산 방식에도 영향을 줍니다.</translation>
     </message>
     <message>
-        <source>Automatically open the Somnio client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>라우터에서 Somnio 클라이언트 포트를 자동으로 엽니다. 이 기능은 라우터가 UPnP를 지원하고 활성화 된 경우에만 사용할 수 있습니다.</translation>
+        <source>Automatically open the Aisport client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>라우터에서 Aisport 클라이언트 포트를 자동으로 엽니다. 이 기능은 라우터가 UPnP를 지원하고 활성화 된 경우에만 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1670,12 +1670,12 @@ Please check the address and try again.</source>
         <translation>전문적</translation>
     </message>
     <message>
-        <source>Automatically start Somnio after logging in to the system.</source>
-        <translation>시스템 로그인 후 Somnio을 자동으로 시작합니다.</translation>
+        <source>Automatically start Aisport after logging in to the system.</source>
+        <translation>시스템 로그인 후 Aisport을 자동으로 시작합니다.</translation>
     </message>
     <message>
-        <source>&amp;Start Somnio on system login</source>
-        <translation>&amp;시스템 로그인시 Somnio 시작</translation>
+        <source>&amp;Start Aisport on system login</source>
+        <translation>&amp;시스템 로그인시 Aisport 시작</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1702,38 +1702,38 @@ Please check the address and try again.</source>
         <translation>&amp;네트워크</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Somnio.</source>
-        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 Somnio을 다시 시작한 후에 적용됩니다.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Aisport.</source>
+        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 Aisport을 다시 시작한 후에 적용됩니다.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/somnio-project/somnio-project-translations</source>
+https://www.transifex.com/aisport-project/aisport-project-translations</source>
         <translation>지원 언어가 없거나 번역이 불완전한가요? 번역을 도와주세요 :
-https://www.transifex.com/somnio-project/somnio-project-translations</translation>
+https://www.transifex.com/aisport-project/aisport-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Percentage of incoming SOMNIO which get automatically converted to zSOMNIO via Zerocoin Protocol (min: 10%)</source>
-        <translation>SOMNIO수신시 자동변환 zSOMNIO 퍼센트 (최소값:10%)</translation>
+        <source>Percentage of incoming AISPORT which get automatically converted to zAISPORT via Zerocoin Protocol (min: 10%)</source>
+        <translation>AISPORT수신시 자동변환 zAISPORT 퍼센트 (최소값:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zSOMNIO</source>
-        <translation>자동 변환되는 zSOMNIO 퍼센트</translation>
+        <source>Percentage of autominted zAISPORT</source>
+        <translation>자동 변환되는 zAISPORT 퍼센트</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough SOMNIO for this denomination is available</source>
-        <translation>이 디노미네이션의 SOMNIO가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough AISPORT for this denomination is available</source>
+        <translation>이 디노미네이션의 AISPORT가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
-        <source>Preferred Automint zSOMNIO Denomination</source>
-        <translation>선호하는 자동생성 zSOMNIO 디노미네이션 </translation>
+        <source>Preferred Automint zAISPORT Denomination</source>
+        <translation>선호하는 자동생성 zAISPORT 디노미네이션 </translation>
     </message>
     <message>
-        <source>Connect to the Somnio network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 프록시를 통해 Somnio 네트워크에 연결해주세요.</translation>
+        <source>Connect to the Aisport network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 프록시를 통해 Aisport 네트워크에 연결해주세요.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>Form</translation>
     </message>
     <message>
-        <source>SOMNIO Balances</source>
-        <translation>SOMNIO 잔액</translation>
+        <source>AISPORT Balances</source>
+        <translation>AISPORT 잔액</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1891,8 +1891,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>아직 완료되지 않은 스테이크 및 마스터노드 보상</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Somnio network after a connection is established, but this process has not completed yet.</source>
-        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Somnio 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aisport network after a connection is established, but this process has not completed yet.</source>
+        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Aisport 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1931,12 +1931,12 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>전체 잔액 (대기중 코인 포함)</translation>
     </message>
     <message>
-        <source>SOMNIO:</source>
-        <translation>SOMNIO:</translation>
+        <source>AISPORT:</source>
+        <translation>AISPORT:</translation>
     </message>
     <message>
-        <source>zSOMNIO:</source>
-        <translation>zSOMNIO:</translation>
+        <source>zAISPORT:</source>
+        <translation>zAISPORT:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1978,12 +1978,12 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>잘못된 결제 주소 %1</translation>
     </message>
     <message>
-        <source>Cannot start somnio: click-to-pay handler</source>
-        <translation>Somnio을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
+        <source>Cannot start aisport: click-to-pay handler</source>
+        <translation>Aisport을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Somnio address or malformed URI parameters.</source>
-        <translation>URI를 분석할 수 없습니다! 이는 잘못된 Somnio 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Aisport address or malformed URI parameters.</source>
+        <translation>URI를 분석할 수 없습니다! 이는 잘못된 Aisport 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2064,24 +2064,24 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>SOMNIO which were anonymized via Zerocin Protocol</source>
-        <translation>제로코인 프로토콜을 통해 익명화된 SOMNIO</translation>
+        <source>AISPORT which were anonymized via Zerocin Protocol</source>
+        <translation>제로코인 프로토콜을 통해 익명화된 AISPORT</translation>
     </message>
     <message>
-        <source>Zerocoin SOMNIO (zSOMNIO)</source>
-        <translation>제로코인 SOMNIO (zSOMNIO)</translation>
+        <source>Zerocoin AISPORT (zAISPORT)</source>
+        <translation>제로코인 AISPORT (zAISPORT)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>제로코인 관리:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Somnio network after a connection is established, but this process has not completed yet.</source>
-        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Somnio 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aisport network after a connection is established, but this process has not completed yet.</source>
+        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Aisport 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>zSOMNIO로 변환할 SOMNIO 수량을 입력하세요.</translation>
+        <translation>zAISPORT로 변환할 AISPORT 수량을 입력하세요.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2092,16 +2092,16 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>0</translation>
     </message>
     <message>
-        <source>zSOMNIO</source>
-        <translation>zSOMNIO</translation>
+        <source>zAISPORT</source>
+        <translation>zAISPORT</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>생성 가능한 수량 :</translation>
     </message>
     <message>
-        <source>0.000 000 00 SOMNIO</source>
-        <translation>0.000 000 00 SOMNIO</translation>
+        <source>0.000 000 00 AISPORT</source>
+        <translation>0.000 000 00 AISPORT</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2137,11 +2137,11 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
     </message>
     <message>
         <source>zPhr Control</source>
-        <translation>zSOMNIO 설정</translation>
+        <translation>zAISPORT 설정</translation>
     </message>
     <message>
         <source>zPhr Selected:</source>
-        <translation>선택한 zSOMNIO : </translation>
+        <translation>선택한 zAISPORT : </translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2160,8 +2160,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>가능한 잔액:</translation>
     </message>
     <message>
-        <source>0 zSOMNIO</source>
-        <translation>0 zSOMNIO</translation>
+        <source>0 zAISPORT</source>
+        <translation>0 zAISPORT</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2180,8 +2180,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>지불 &amp;대상:</translation>
     </message>
     <message>
-        <source>The Somnio address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>SOMNIO를 전송할 Somnio 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
+        <source>The Aisport address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>AISPORT를 전송할 Aisport 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2380,8 +2380,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>금액 복사</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the Somnio network yet.</source>
-        <translation>제로 코인 기능 상태가 Somnio 네트워크 상에서 이루어지지 않습니다.</translation>
+        <source>Zerocoin functionality is not enabled on the Aisport network yet.</source>
+        <translation>제로 코인 기능 상태가 Aisport 네트워크 상에서 이루어지지 않습니다.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2400,8 +2400,8 @@ https://www.transifex.com/somnio-project/somnio-project-translations</translatio
         <translation>성공적으로 발행됨</translation>
     </message>
     <message>
-        <source> zSOMNIO in </source>
-        <translation> zSOMNIO in </translation>
+        <source> zAISPORT in </source>
+        <translation> zAISPORT in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2434,8 +2434,8 @@ Please be patient...</source>
         <translation>주소를 입력하지 않아, 신규 주소를 생성합니다.</translation>
     </message>
     <message>
-        <source>Invalid Somnio Address</source>
-        <translation>잘못된 Somnio 주소</translation>
+        <source>Invalid Aisport Address</source>
+        <translation>잘못된 Aisport 주소</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2503,7 +2503,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Mint</source>
-        <translation>zSOMNIO 생성</translation>
+        <translation>zAISPORT 생성</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -2525,8 +2525,8 @@ Please be patient...</source>
         <translation>금액</translation>
     </message>
     <message>
-        <source>Enter a Somnio address (e.g. %1)</source>
-        <translation>Somnio 주소를 입력하세요 (예 %1)</translation>
+        <source>Enter a Aisport address (e.g. %1)</source>
+        <translation>Aisport 주소를 입력하세요 (예 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2663,8 +2663,8 @@ Please be patient...</source>
         <translation>블록체인</translation>
     </message>
     <message>
-        <source>Open the Somnio debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>현재 데이터 디렉토리에서 Somnio 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
+        <source>Open the Aisport debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>현재 데이터 디렉토리에서 Aisport 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2832,8 +2832,8 @@ Please be patient...</source>
         <translation>출력:</translation>
     </message>
     <message>
-        <source>Welcome to the Somnio RPC console.</source>
-        <translation>Somnio RPC 콘솔에 오신 것을 환영합니다.</translation>
+        <source>Welcome to the Aisport RPC console.</source>
+        <translation>Aisport RPC 콘솔에 오신 것을 환영합니다.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2903,12 +2903,12 @@ Please be patient...</source>
         <translation>새로운 수신 주소와 연결할 선택적 라벨.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Somnio network.</source>
-        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다. 참고: Somnio 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aisport network.</source>
+        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다. 참고: Aisport 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Somnio network.</source>
-        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다.&lt;br&gt;참고: Somnio 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Aisport network.</source>
+        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다.&lt;br&gt;참고: Aisport 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3132,8 +3132,8 @@ Please be patient...</source>
         <translation>UTXO 크기:</translation>
     </message>
     <message>
-        <source>0 SOMNIO</source>
-        <translation>0 SOMNIO</translation>
+        <source>0 AISPORT</source>
+        <translation>0 AISPORT</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3184,16 +3184,16 @@ Please be patient...</source>
         <translation>코인 자동으로 선택됨</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSOMNIOs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSOMNIOs in fee,&lt;br /&gt;while "at least" pays 1000 uSOMNIOs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uSOMNIOs로 설정되고,&lt;br /&gt;1000 uSOMNIOs 안에는 최소 "킬로바이트당" 250 uSOMNIOs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uAISPORTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAISPORTs in fee,&lt;br /&gt;while "at least" pays 1000 uAISPORTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uAISPORTs로 설정되고,&lt;br /&gt;1000 uAISPORTs 안에는 최소 "킬로바이트당" 250 uAISPORTs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uSOMNIOs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSOMNIOs in fee,&lt;br /&gt;while "total at least" pays 1000 uSOMNIOs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uSOMNIOs로 설정되고,&lt;br /&gt;1000 uSOMNIOs 안에는 전체에서 최소 "킬로바이트당" 250 uSOMNIOs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uAISPORTs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAISPORTs in fee,&lt;br /&gt;while "total at least" pays 1000 uAISPORTs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uAISPORTs로 설정되고,&lt;br /&gt;1000 uAISPORTs 안에는 전체에서 최소 "킬로바이트당" 250 uAISPORTs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Somnio transactions than the network can process.</source>
-        <translation>블록의 공간보다 트랜잭션량이 적으면 최소 수수료만 지불하면 됩니다.&lt;br /&gt;하지만 Somnio 트랜잭션 수가 많으면 미확인된 트랜잭션로 네트워크가 처리할 수도 있습니다.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Aisport transactions than the network can process.</source>
+        <translation>블록의 공간보다 트랜잭션량이 적으면 최소 수수료만 지불하면 됩니다.&lt;br /&gt;하지만 Aisport 트랜잭션 수가 많으면 미확인된 트랜잭션로 네트워크가 처리할 수도 있습니다.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3240,8 +3240,8 @@ Please be patient...</source>
         <translation>&amp;받는 사람 추가</translation>
     </message>
     <message>
-        <source>Anonymized SOMNIO</source>
-        <translation>익명화 SOMNIO</translation>
+        <source>Anonymized AISPORT</source>
+        <translation>익명화 AISPORT</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3300,8 +3300,8 @@ Please be patient...</source>
         <translation>익명 자금</translation>
     </message>
     <message>
-        <source>Warning: Invalid Somnio address</source>
-        <translation>경고: 잘못된 Somnio 주소</translation>
+        <source>Warning: Invalid Aisport address</source>
+        <translation>경고: 잘못된 Aisport 주소</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3407,8 +3407,8 @@ Please be patient...</source>
         <translation>지불 &amp;대상:</translation>
     </message>
     <message>
-        <source>The Somnio address to send the payment to</source>
-        <translation>전송할 Somnio 주소</translation>
+        <source>The Aisport address to send the payment to</source>
+        <translation>전송할 Aisport 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3447,8 +3447,8 @@ Please be patient...</source>
         <translation>메세지:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Somnio: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Somnio network.</source>
-        <translation>참조용으로 트랜잭션과 함께 기록되는 Somnio : URI에 첨부된 메세지입니다. 참고: 이 메세지는 Somnio 네트워크를 통해 전송되지 않습니다.</translation>
+        <source>A message that was attached to the Aisport: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aisport network.</source>
+        <translation>참조용으로 트랜잭션과 함께 기록되는 Aisport : URI에 첨부된 메세지입니다. 참고: 이 메세지는 Aisport 네트워크를 통해 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3474,8 +3474,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Somnio Core is shutting down...</source>
-        <translation>Somnio Core가 종료됩니다...</translation>
+        <source>Aisport Core is shutting down...</source>
+        <translation>Aisport Core가 종료됩니다...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3497,8 +3497,8 @@ Please be patient...</source>
         <translation>자신의 주소로 메세지에 서명할 수 있습니다. 피싱 공격으로 사용자를 속일 수 있으므로 서명에 주의해주세요. 동의하는 바에 한하여 서명하십시오.</translation>
     </message>
     <message>
-        <source>The Somnio address to sign the message with</source>
-        <translation>메세지를 서명하기 위한 Somnio 주소</translation>
+        <source>The Aisport address to sign the message with</source>
+        <translation>메세지를 서명하기 위한 Aisport 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3529,16 +3529,16 @@ Please be patient...</source>
         <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Somnio address</source>
-        <translation>이 Somnio 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
+        <source>Sign the message to prove you own this Aisport address</source>
+        <translation>이 Aisport 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
     </message>
     <message>
-        <source>The Somnio address the message was signed with</source>
-        <translation>메세지에 서명된 Somnio 주소</translation>
+        <source>The Aisport address the message was signed with</source>
+        <translation>메세지에 서명된 Aisport 주소</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Somnio address</source>
-        <translation>메세지가 지정된 Somnio 주소로 서명되었는지 확인해주세요</translation>
+        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
+        <translation>메세지가 지정된 Aisport 주소로 서명되었는지 확인해주세요</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3624,8 +3624,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3640,8 +3640,8 @@ Please be patient...</source>
         <translation>Dash Core 개발자</translation>
     </message>
     <message>
-        <source>The Somnio Core developers</source>
-        <translation>Somnio Core 개발자</translation>
+        <source>The Aisport Core developers</source>
+        <translation>Aisport Core 개발자</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3962,19 +3962,19 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted Phr to zPhr</source>
-        <translation>zSOMNIO로 변환된 SOMNIO</translation>
+        <translation>zAISPORT로 변환된 AISPORT</translation>
     </message>
     <message>
         <source>Spent zPhr</source>
-        <translation>전송된 zSOMNIO</translation>
+        <translation>전송된 zAISPORT</translation>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>zSOMNIO로 전송받은 SOMNIO</translation>
+        <translation>zAISPORT로 전송받은 AISPORT</translation>
     </message>
     <message>
         <source>Minted Change as zPhr from zPhr Spend</source>
-        <translation>zSOMNIO 전송후 남은 잔돈 zSOMNIO 생성됨</translation>
+        <translation>zAISPORT 전송후 남은 잔돈 zAISPORT 생성됨</translation>
     </message>
     <message>
         <source>Converted zPhr to Phr</source>
@@ -4097,7 +4097,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>zSOMNIO로 전송받은 SOMNIO</translation>
+        <translation>zAISPORT로 전송받은 AISPORT</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4109,7 +4109,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zPhr</source>
-        <translation>제로코인 전송, 잔돈은 zSOMNIO</translation>
+        <translation>제로코인 전송, 잔돈은 zAISPORT</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4233,8 +4233,8 @@ Please be patient...</source>
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SOMNIO.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 SOMNIO로 제한됩니다.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 AISPORT.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 AISPORT로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -4280,7 +4280,7 @@ Please be patient...</source>
     <name>ZPhrControlDialog</name>
     <message>
         <source>Select zPhr to Spend</source>
-        <translation>전송할 zSOMNIO 선택</translation>
+        <translation>전송할 zAISPORT 선택</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4304,7 +4304,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>somnio-core</name>
+    <name>aisport-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx 메타 데이터 유지 예 : 계정 소유자 및 지불 요청 정보, 2 = tx 메타 데이터 삭제)</translation>
@@ -4334,8 +4334,8 @@ Please be patient...</source>
         <translation>계산된 누산기 체크포인트는 블록 인덱스에 의해 기록되는 것이 아닙니다.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Somnio Core is probably already running.</source>
-        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. Somnio Core는 이미 실행 중입니다.</translation>
+        <source>Cannot obtain a lock on data directory %s. Aisport Core is probably already running.</source>
+        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. Aisport Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4354,8 +4354,8 @@ Please be patient...</source>
         <translation>지갑의 모든 트랜잭션들을 삭제하고 오직 블록체인을 통한 트랜잭션 부분들만 복구합니다 -시작 시 다시 스캔</translation>
     </message>
     <message>
-        <source>Disable all Somnio specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Somnio의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
+        <source>Disable all Aisport specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Aisport의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4394,12 +4394,12 @@ Please be patient...</source>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in SOMNIO/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (SOMNIO/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in AISPORT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (AISPORT/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in SOMNIO/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (SOMNIO/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in AISPORT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (AISPORT/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4494,44 +4494,44 @@ Please be patient...</source>
         <translation>이 제품은 OpenSSL이 개발한 Open SSL 툴킷 &lt;https://www.openssl.org/&gt; 에서 사용하기 위한 프로젝트 소프트웨어, Eric Young이 개발한 암호화 소프트웨어, Thomas Bernard가 개발한 UPnP 소프트웨어가 포함되어 있습니다.</translation>
     </message>
     <message>
-        <source>To use somniod, or the -server option to somnio-qt, you must set an rpcpassword in the configuration file:
+        <source>To use aisportd, or the -server option to aisport-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=somniorpc
+rpcuser=aisportrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Somnio Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Aisport Alert" admin@foo.com
 </source>
-        <translation>Somniod 또는 Somnio-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
+        <translation>Aisportd 또는 Aisport-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
 %s
 다음 무작위 암호를 사용하는 것을 추천합니다:
-rpcuser=Somniopc
+rpcuser=Aisportpc
 rpcpassword=%s
 (이 비밀번호는 기억할 필요가 없습니다)
 유저 이름과 비밀번호는 반드시 달라야 합니다.
 파일이 존재하지 않는다면 작성자만 읽기 가능한 권한으로 파일을 생성하십시오.
 또한 문제 발생 알림을 받을려면 alertnotify를 설정하는 것을 추천합니다.
-예시: alertnotify=echo %%s | mail -s "Somnio Alert" admin@foo.com
+예시: alertnotify=echo %%s | mail -s "Aisport Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Somnio Core is probably already running.</source>
-        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. Somnio Core는 이미 실행 중입니다.</translation>
+        <source>Unable to bind to %s on this computer. Aisport Core is probably already running.</source>
+        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. Aisport Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 SOMNIO.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 SOMNIO과 일치하지 않음.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 AISPORT.</source>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 AISPORT과 일치하지 않음.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 SOMNIO.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 SOMNIO와 같지 않음</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 AISPORT.</source>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 AISPORT와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4546,8 +4546,8 @@ rpcpassword=%s
         <translation>경고 : -paytxfee가 매우 높게 설정되었습니다! 이것은 전송할 경우 지불 할 트랜잭션 수수료입니다.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Somnio Core will not work properly.</source>
-        <translation>경고: 컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 Somnio 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Aisport Core will not work properly.</source>
+        <translation>경고: 컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 Aisport 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4702,8 +4702,8 @@ rpcpassword=%s
         <translation>Copyright (C) 2014-%i The Dash Core 개발자들</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Somnio Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Somnio Core 개발자</translation>
+        <source>Copyright (C) 2015-%i The Aisport Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Aisport Core 개발자</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4782,8 +4782,8 @@ rpcpassword=%s
         <translation>wallet.dat을 불러오는 중 오류가 발생했습니다: 지갑 손상됨</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Somnio Core</source>
-        <translation>wallet.dat를 로드하는 중 오류가 발생했습니다. 지갑에 최신 버전의 Somnio 코어가 필요합니다.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Aisport Core</source>
+        <translation>wallet.dat를 로드하는 중 오류가 발생했습니다. 지갑에 최신 버전의 Aisport 코어가 필요합니다.</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4834,8 +4834,8 @@ rpcpassword=%s
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in SOMNIO/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (SOMNIO/kB) (기본값: %s)</translation>
+        <source>Fee (in AISPORT/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (AISPORT/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4894,8 +4894,8 @@ rpcpassword=%s
         <translation>정보</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Somnio Core is shutting down.</source>
-        <translation>초기화 정확성 검사에 실패 했습니다. Somnio Core가 종료됩니다.</translation>
+        <source>Initialization sanity check failed. Aisport Core is shutting down.</source>
+        <translation>초기화 정확성 검사에 실패 했습니다. Aisport Core가 종료됩니다.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5570,8 +5570,8 @@ rpcpassword=%s
         <translation>지갑이 잠겼습니다.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Somnio Core to complete</source>
-        <translation>지갑을 다시 작성해야 합니다: 완료하려면 Somnio 코어를 재시작해야 합니다</translation>
+        <source>Wallet needed to be rewritten: restart Aisport Core to complete</source>
+        <translation>지갑을 다시 작성해야 합니다: 완료하려면 Aisport 코어를 재시작해야 합니다</translation>
     </message>
     <message>
         <source>Wallet options:</source>

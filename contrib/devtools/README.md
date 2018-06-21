@@ -18,7 +18,7 @@ For example:
   ./github-merge.py 3077
 
 (in any git repository) will help you merge pull request #3077 for the
-Jiyo-Project/Jiyo repository.
+AIS-Project/AIS repository.
 
 What it does:
 * Fetch master and the pull request.
@@ -36,16 +36,16 @@ couldn't mess with the sources.
 
 Setup
 ---------
-Configuring the github-merge tool for the Jiyo repository is done in the following way:
+Configuring the github-merge tool for the AIS repository is done in the following way:
 
-    git config githubmerge.repository Jiyo-Project/Jiyo
+    git config githubmerge.repository AIS-Project/AIS
     git config githubmerge.testcmd "make -j4 check" (adapt to whatever you want to use for testing)
     git config --global user.signingkey mykeyid (if you want to GPG sign)
 
 optimize-pngs.py
 ================
 
-A script to optimize png files in the Jiyo
+A script to optimize png files in the AIS
 repository (requires pngcrush).
 
 fix-copyright-headers.py

@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les teves adreces Somnio per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
+        <source>These are your Aisport addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les teves adreces Aisport per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
     </message>
     <message>
-        <source>These are your Somnio addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les teves adreces Somnio per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
+        <source>These are your Aisport addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les teves adreces Aisport per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Somnio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMNs from being stolen by malware infecting your computer.</source>
-        <translation>Somnio es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus SMN de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>Aisport will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AISs from being stolen by malware infecting your computer.</source>
+        <translation>Aisport es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus AIS de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMN&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES SMNS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AIS&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES AISS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -418,12 +418,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
-        <source>Send coins to a Somnio address</source>
-        <translation>Envia monedes a una adreça Somnio</translation>
+        <source>Send coins to a Aisport address</source>
+        <translation>Envia monedes a una adreça Aisport</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -434,8 +434,8 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Somnio Core</source>
-        <translation>&amp;Sobre Somnio Core</translation>
+        <source>&amp;About Aisport Core</source>
+        <translation>&amp;Sobre Aisport Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -458,12 +458,12 @@
         <translation>Obre el fitxer de configuració del Masternode</translation>
     </message>
     <message>
-        <source>Somnio Core client</source>
-        <translation>Client Somnio core</translation>
+        <source>Aisport Core client</source>
+        <translation>Client Aisport core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Somnio network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Somnio</numerusform><numerusform>%n connexions actives a la xarxa Somnio</numerusform></translation>
+        <source>%n active connection(s) to Aisport network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Aisport</numerusform><numerusform>%n connexions actives a la xarxa Aisport</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -814,8 +814,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Somnio address.</source>
-        <translation>L'adreça introduïda "%1" no és una adreça Somnio vàlida.</translation>
+        <source>The entered address "%1" is not a valid Aisport address.</source>
+        <translation>L'adreça introduïda "%1" no és una adreça Aisport vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -860,16 +860,16 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Somnio Core</source>
-        <translation>Sobre Somnio Core</translation>
+        <source>About Aisport Core</source>
+        <translation>Sobre Aisport Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -915,12 +915,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Somnio Core.</source>
-        <translation>Benvingut a Somnio Core.</translation>
+        <source>Welcome to Aisport Core.</source>
+        <translation>Benvingut a Aisport Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Somnio Core will store its data.</source>
-        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Somnio Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Aisport Core will store its data.</source>
+        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Aisport Core.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -931,8 +931,8 @@
         <translation>Usar una carpeta de dades personalitzada:</translation>
     </message>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1142,24 +1142,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SMN</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 SMN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 AIS</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 AIS</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SMN</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 SMN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 AIS</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 AIS</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SMN to anonymize 10000 SMN</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 SMN per anonimitzar 10000 SMN</translation>
+        <source>This option is the quickest and will cost about ~0.025 AIS to anonymize 10000 AIS</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 AIS per anonimitzar 10000 AIS</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SMN to anonymize 10000 SMN</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 SMN per anonimitzar 10000 SMN</translation>
+        <source>This option is moderately fast and will cost about 0.05 AIS to anonymize 10000 AIS</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 AIS per anonimitzar 10000 AIS</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1208,8 +1208,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Somnio after logging in to the system.</source>
-        <translation>Inicia Somnio automàticament després d'identificar-te en el sistema.</translation>
+        <source>Automatically start Aisport after logging in to the system.</source>
+        <translation>Inicia Aisport automàticament després d'identificar-te en el sistema.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1271,12 +1271,12 @@
         <translation>Total:</translation>
     </message>
     <message>
-        <source>SMN:</source>
-        <translation>SMN:</translation>
+        <source>AIS:</source>
+        <translation>AIS:</translation>
     </message>
     <message>
-        <source>zSMN:</source>
-        <translation>zSMN:</translation>
+        <source>zAIS:</source>
+        <translation>zAIS:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1304,20 +1304,20 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>Zerocoin SMN (zSMN)</source>
-        <translation>Zerocoin SMN (zSMN)</translation>
+        <source>Zerocoin AIS (zAIS)</source>
+        <translation>Zerocoin AIS (zAIS)</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zSMN</source>
-        <translation>zSMN</translation>
+        <source>zAIS</source>
+        <translation>zAIS</translation>
     </message>
     <message>
-        <source>0.000 000 00 SMN</source>
-        <translation>0.000 000 00 SMN</translation>
+        <source>0.000 000 00 AIS</source>
+        <translation>0.000 000 00 AIS</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1332,8 +1332,8 @@
         <translation>Import:</translation>
     </message>
     <message>
-        <source>0 zSMN</source>
-        <translation>0 zSMN</translation>
+        <source>0 zAIS</source>
+        <translation>0 zAIS</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1719,8 +1719,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Somnio Core is shutting down...</source>
-        <translation>Somnio Core s'està tancant...</translation>
+        <source>Aisport Core is shutting down...</source>
+        <translation>Aisport Core s'està tancant...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1785,8 +1785,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Somnio Core</source>
-        <translation>Somnio Core</translation>
+        <source>Aisport Core</source>
+        <translation>Aisport Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1984,7 +1984,7 @@
     </message>
     </context>
 <context>
-    <name>somnio-core</name>
+    <name>aisport-core</name>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>
