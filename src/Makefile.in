@@ -535,9 +535,9 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bitcoinaddressvalidator.cpp \
 	qt/res/icons/tx_output.png qt/res/icons/tx_mined.png \
 	qt/res/icons/unit_aisport.png qt/res/icons/unit_maisport.png \
 	qt/res/icons/unit_uaisport.png qt/res/icons/unit_taisport.png \
-	qt/res/icons/unit_tmaisport.png qt/res/icons/unit_tuaisport.png \
-	qt/res/images/about.png qt/res/images/splash.png \
-	qt/res/images/splash_testnet.png \
+	qt/res/icons/unit_tmaisport.png \
+	qt/res/icons/unit_tuaisport.png qt/res/images/about.png \
+	qt/res/images/splash.png qt/res/images/splash_testnet.png \
 	qt/res/images/aisport_logo_horizontal.png \
 	qt/res/images/downArrow.png qt/res/images/downArrow_small.png \
 	qt/res/images/upArrow_small.png \
@@ -761,88 +761,10 @@ libbitcoinconsensus_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 @ENABLE_QT_TRUE@am__EXEEXT_4 = qt/aisport-qt$(EXEEXT)
 @ENABLE_QT_TESTS_TRUE@am__EXEEXT_5 = qt/test/test_aisport-qt$(EXEEXT)
 PROGRAMS = $(bin_PROGRAMS)
-am__qt_aisport_qt_SOURCES_DIST = qt/aisport.cpp qt/macdockiconhandler.mm \
-	qt/macnotificationhandler.mm qt/res/aisport-qt-res.rc
-@ENABLE_QT_TRUE@am__objects_10 =  \
-@ENABLE_QT_TRUE@	qt/qt_aisport_qt-macdockiconhandler.$(OBJEXT) \
-@ENABLE_QT_TRUE@	qt/qt_aisport_qt-macnotificationhandler.$(OBJEXT)
-@ENABLE_QT_TRUE@@TARGET_DARWIN_TRUE@am__objects_11 =  \
-@ENABLE_QT_TRUE@@TARGET_DARWIN_TRUE@	$(am__objects_10)
-@ENABLE_QT_TRUE@am__objects_12 = qt/res/aisport-qt-res.$(OBJEXT)
-@ENABLE_QT_TRUE@@TARGET_WINDOWS_TRUE@am__objects_13 =  \
-@ENABLE_QT_TRUE@@TARGET_WINDOWS_TRUE@	$(am__objects_12)
-@ENABLE_QT_TRUE@am_qt_aisport_qt_OBJECTS =  \
-@ENABLE_QT_TRUE@	qt/qt_aisport_qt-aisport.$(OBJEXT) \
-@ENABLE_QT_TRUE@	$(am__objects_11) $(am__objects_13)
-qt_aisport_qt_OBJECTS = $(am_qt_aisport_qt_OBJECTS)
-@ENABLE_QT_TRUE@@ENABLE_ZMQ_TRUE@am__DEPENDENCIES_2 =  \
-@ENABLE_QT_TRUE@@ENABLE_ZMQ_TRUE@	$(LIBBITCOIN_ZMQ) \
-@ENABLE_QT_TRUE@@ENABLE_ZMQ_TRUE@	$(am__DEPENDENCIES_1)
-am__DEPENDENCIES_3 = $(am__append_2)
-am__DEPENDENCIES_4 = $(am__append_3)
-@ENABLE_QT_TRUE@qt_aisport_qt_DEPENDENCIES = qt/libbitcoinqt.a \
-@ENABLE_QT_TRUE@	$(LIBBITCOIN_SERVER) $(am__append_28) \
-@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_2) $(LIBBITCOIN_CLI) \
-@ENABLE_QT_TRUE@	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
-@ENABLE_QT_TRUE@	$(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) \
-@ENABLE_QT_TRUE@	$(LIBBITCOIN_ZEROCOIN) $(am__DEPENDENCIES_3) \
-@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_4) $(am__DEPENDENCIES_1) \
-@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-@ENABLE_QT_TRUE@	$(LIBSECP256K1) $(am__DEPENDENCIES_1) \
-@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_1)
-qt_aisport_qt_LINK = $(LIBTOOL) $(AM_V_lt) $(qt_aisport_qt_LIBTOOLFLAGS) \
-	$(LIBTOOLFLAGS) --mode=link $(OBJCXXLD) $(AM_OBJCXXFLAGS) \
-	$(OBJCXXFLAGS) $(qt_aisport_qt_LDFLAGS) $(LDFLAGS) -o $@
-am__qt_test_test_aisport_qt_SOURCES_DIST = qt/test/test_main.cpp \
-	qt/test/uritests.cpp qt/test/uritests.h \
-	qt/test/paymentrequestdata.h qt/test/paymentservertests.h \
-	qt/test/paymentservertests.cpp
-@ENABLE_QT_TESTS_TRUE@@ENABLE_WALLET_TRUE@am__objects_14 = qt/test/qt_test_test_aisport_qt-paymentservertests.$(OBJEXT)
-@ENABLE_QT_TESTS_TRUE@am_qt_test_test_aisport_qt_OBJECTS = qt/test/qt_test_test_aisport_qt-test_main.$(OBJEXT) \
-@ENABLE_QT_TESTS_TRUE@	qt/test/qt_test_test_aisport_qt-uritests.$(OBJEXT) \
-@ENABLE_QT_TESTS_TRUE@	$(am__objects_1) $(am__objects_14)
-@ENABLE_QT_TESTS_TRUE@@ENABLE_WALLET_TRUE@am__objects_15 = qt/test/qt_test_test_aisport_qt-moc_paymentservertests.$(OBJEXT)
-@ENABLE_QT_TESTS_TRUE@am__objects_16 = qt/test/qt_test_test_aisport_qt-moc_uritests.$(OBJEXT) \
-@ENABLE_QT_TESTS_TRUE@	$(am__objects_15)
-@ENABLE_QT_TESTS_TRUE@nodist_qt_test_test_aisport_qt_OBJECTS =  \
-@ENABLE_QT_TESTS_TRUE@	$(am__objects_16)
-qt_test_test_aisport_qt_OBJECTS = $(am_qt_test_test_aisport_qt_OBJECTS) \
-	$(nodist_qt_test_test_aisport_qt_OBJECTS)
-@ENABLE_QT_TESTS_TRUE@@ENABLE_ZMQ_TRUE@am__DEPENDENCIES_5 =  \
-@ENABLE_QT_TESTS_TRUE@@ENABLE_ZMQ_TRUE@	$(LIBBITCOIN_ZMQ) \
-@ENABLE_QT_TESTS_TRUE@@ENABLE_ZMQ_TRUE@	$(am__DEPENDENCIES_1)
-@ENABLE_QT_TESTS_TRUE@qt_test_test_aisport_qt_DEPENDENCIES =  \
-@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOINQT) $(LIBBITCOIN_SERVER) \
-@ENABLE_QT_TESTS_TRUE@	$(am__append_35) $(am__DEPENDENCIES_5) \
-@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) \
-@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) \
-@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_UNIVALUE) \
-@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_ZEROCOIN) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_3) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_4) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) $(LIBSECP256K1) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
-@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1)
-qt_test_test_aisport_qt_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
-	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
-	$(AM_CXXFLAGS) $(CXXFLAGS) $(qt_test_test_aisport_qt_LDFLAGS) \
-	$(LDFLAGS) -o $@
 am__aisport_cli_SOURCES_DIST = aisport-cli.cpp aisport-cli-res.rc
-@TARGET_WINDOWS_TRUE@am__objects_17 = aisport-cli-res.$(OBJEXT)
+@TARGET_WINDOWS_TRUE@am__objects_10 = aisport-cli-res.$(OBJEXT)
 am_aisport_cli_OBJECTS = aisport_cli-aisport-cli.$(OBJEXT) \
-	$(am__objects_17)
+	$(am__objects_10)
 aisport_cli_OBJECTS = $(am_aisport_cli_OBJECTS)
 aisport_cli_DEPENDENCIES = $(LIBBITCOIN_CLI) $(LIBBITCOIN_UTIL) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
@@ -859,15 +781,17 @@ aisport_tx_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) \
 	$(CXXFLAGS) $(aisport_tx_LDFLAGS) $(LDFLAGS) -o $@
 am__aisportd_SOURCES_DIST = aisportd.cpp aisportd-res.rc
-@TARGET_WINDOWS_TRUE@am__objects_18 = aisportd-res.$(OBJEXT)
-am_aisportd_OBJECTS = aisportd-aisportd.$(OBJEXT) $(am__objects_18)
+@TARGET_WINDOWS_TRUE@am__objects_11 = aisportd-res.$(OBJEXT)
+am_aisportd_OBJECTS = aisportd-aisportd.$(OBJEXT) $(am__objects_11)
 aisportd_OBJECTS = $(am_aisportd_OBJECTS)
-@ENABLE_ZMQ_TRUE@am__DEPENDENCIES_6 = $(LIBBITCOIN_ZMQ) \
+am__DEPENDENCIES_2 = $(am__append_2)
+am__DEPENDENCIES_3 = $(am__append_3)
+@ENABLE_ZMQ_TRUE@am__DEPENDENCIES_4 = $(LIBBITCOIN_ZMQ) \
 @ENABLE_ZMQ_TRUE@	$(am__DEPENDENCIES_1)
 aisportd_DEPENDENCIES = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_COMMON) \
 	$(LIBBITCOIN_UNIVALUE) $(LIBBITCOIN_ZEROCOIN) \
-	$(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(am__DEPENDENCIES_3) \
-	$(am__DEPENDENCIES_4) $(LIBSECP256K1) $(am__DEPENDENCIES_6) \
+	$(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(am__DEPENDENCIES_2) \
+	$(am__DEPENDENCIES_3) $(LIBSECP256K1) $(am__DEPENDENCIES_4) \
 	$(am__append_11) $(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
@@ -875,6 +799,85 @@ aisportd_DEPENDENCIES = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_COMMON) \
 aisportd_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) \
 	$(CXXFLAGS) $(aisportd_LDFLAGS) $(LDFLAGS) -o $@
+am__qt_aisport_qt_SOURCES_DIST = qt/aisport.cpp \
+	qt/macdockiconhandler.mm qt/macnotificationhandler.mm \
+	qt/res/aisport-qt-res.rc
+@ENABLE_QT_TRUE@am__objects_12 =  \
+@ENABLE_QT_TRUE@	qt/qt_aisport_qt-macdockiconhandler.$(OBJEXT) \
+@ENABLE_QT_TRUE@	qt/qt_aisport_qt-macnotificationhandler.$(OBJEXT)
+@ENABLE_QT_TRUE@@TARGET_DARWIN_TRUE@am__objects_13 =  \
+@ENABLE_QT_TRUE@@TARGET_DARWIN_TRUE@	$(am__objects_12)
+@ENABLE_QT_TRUE@am__objects_14 = qt/res/aisport-qt-res.$(OBJEXT)
+@ENABLE_QT_TRUE@@TARGET_WINDOWS_TRUE@am__objects_15 =  \
+@ENABLE_QT_TRUE@@TARGET_WINDOWS_TRUE@	$(am__objects_14)
+@ENABLE_QT_TRUE@am_qt_aisport_qt_OBJECTS =  \
+@ENABLE_QT_TRUE@	qt/qt_aisport_qt-aisport.$(OBJEXT) \
+@ENABLE_QT_TRUE@	$(am__objects_13) $(am__objects_15)
+qt_aisport_qt_OBJECTS = $(am_qt_aisport_qt_OBJECTS)
+@ENABLE_QT_TRUE@@ENABLE_ZMQ_TRUE@am__DEPENDENCIES_5 =  \
+@ENABLE_QT_TRUE@@ENABLE_ZMQ_TRUE@	$(LIBBITCOIN_ZMQ) \
+@ENABLE_QT_TRUE@@ENABLE_ZMQ_TRUE@	$(am__DEPENDENCIES_1)
+@ENABLE_QT_TRUE@qt_aisport_qt_DEPENDENCIES = qt/libbitcoinqt.a \
+@ENABLE_QT_TRUE@	$(LIBBITCOIN_SERVER) $(am__append_28) \
+@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_5) $(LIBBITCOIN_CLI) \
+@ENABLE_QT_TRUE@	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
+@ENABLE_QT_TRUE@	$(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) \
+@ENABLE_QT_TRUE@	$(LIBBITCOIN_ZEROCOIN) $(am__DEPENDENCIES_2) \
+@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_3) $(am__DEPENDENCIES_1) \
+@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
+@ENABLE_QT_TRUE@	$(LIBSECP256K1) $(am__DEPENDENCIES_1) \
+@ENABLE_QT_TRUE@	$(am__DEPENDENCIES_1)
+qt_aisport_qt_LINK = $(LIBTOOL) $(AM_V_lt) \
+	$(qt_aisport_qt_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
+	$(OBJCXXLD) $(AM_OBJCXXFLAGS) $(OBJCXXFLAGS) \
+	$(qt_aisport_qt_LDFLAGS) $(LDFLAGS) -o $@
+am__qt_test_test_aisport_qt_SOURCES_DIST = qt/test/test_main.cpp \
+	qt/test/uritests.cpp qt/test/uritests.h \
+	qt/test/paymentrequestdata.h qt/test/paymentservertests.h \
+	qt/test/paymentservertests.cpp
+@ENABLE_QT_TESTS_TRUE@@ENABLE_WALLET_TRUE@am__objects_16 = qt/test/qt_test_test_aisport_qt-paymentservertests.$(OBJEXT)
+@ENABLE_QT_TESTS_TRUE@am_qt_test_test_aisport_qt_OBJECTS = qt/test/qt_test_test_aisport_qt-test_main.$(OBJEXT) \
+@ENABLE_QT_TESTS_TRUE@	qt/test/qt_test_test_aisport_qt-uritests.$(OBJEXT) \
+@ENABLE_QT_TESTS_TRUE@	$(am__objects_1) $(am__objects_16)
+@ENABLE_QT_TESTS_TRUE@@ENABLE_WALLET_TRUE@am__objects_17 = qt/test/qt_test_test_aisport_qt-moc_paymentservertests.$(OBJEXT)
+@ENABLE_QT_TESTS_TRUE@am__objects_18 = qt/test/qt_test_test_aisport_qt-moc_uritests.$(OBJEXT) \
+@ENABLE_QT_TESTS_TRUE@	$(am__objects_17)
+@ENABLE_QT_TESTS_TRUE@nodist_qt_test_test_aisport_qt_OBJECTS =  \
+@ENABLE_QT_TESTS_TRUE@	$(am__objects_18)
+qt_test_test_aisport_qt_OBJECTS =  \
+	$(am_qt_test_test_aisport_qt_OBJECTS) \
+	$(nodist_qt_test_test_aisport_qt_OBJECTS)
+@ENABLE_QT_TESTS_TRUE@@ENABLE_ZMQ_TRUE@am__DEPENDENCIES_6 =  \
+@ENABLE_QT_TESTS_TRUE@@ENABLE_ZMQ_TRUE@	$(LIBBITCOIN_ZMQ) \
+@ENABLE_QT_TESTS_TRUE@@ENABLE_ZMQ_TRUE@	$(am__DEPENDENCIES_1)
+@ENABLE_QT_TESTS_TRUE@qt_test_test_aisport_qt_DEPENDENCIES =  \
+@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOINQT) $(LIBBITCOIN_SERVER) \
+@ENABLE_QT_TESTS_TRUE@	$(am__append_35) $(am__DEPENDENCIES_6) \
+@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) \
+@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) \
+@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_UNIVALUE) \
+@ENABLE_QT_TESTS_TRUE@	$(LIBBITCOIN_ZEROCOIN) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_2) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_3) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) $(LIBSECP256K1) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1) \
+@ENABLE_QT_TESTS_TRUE@	$(am__DEPENDENCIES_1)
+qt_test_test_aisport_qt_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
+	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
+	$(AM_CXXFLAGS) $(CXXFLAGS) $(qt_test_test_aisport_qt_LDFLAGS) \
+	$(LDFLAGS) -o $@
 am__test_test_aisport_SOURCES_DIST =  \
 	test/zerocoin_implementation_tests.cpp \
 	test/zerocoin_denomination_tests.cpp \
@@ -965,7 +968,7 @@ test_test_aisport_OBJECTS = $(am_test_test_aisport_OBJECTS) \
 @ENABLE_TESTS_TRUE@	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
 @ENABLE_TESTS_TRUE@	$(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) \
 @ENABLE_TESTS_TRUE@	$(LIBBITCOIN_ZEROCOIN) \
-@ENABLE_TESTS_TRUE@	$(am__DEPENDENCIES_3) $(am__DEPENDENCIES_4) \
+@ENABLE_TESTS_TRUE@	$(am__DEPENDENCIES_2) $(am__DEPENDENCIES_3) \
 @ENABLE_TESTS_TRUE@	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 @ENABLE_TESTS_TRUE@	$(LIBSECP256K1) $(am__DEPENDENCIES_1) \
 @ENABLE_TESTS_TRUE@	$(am__DEPENDENCIES_1) $(am__append_20) \
@@ -1055,11 +1058,12 @@ SOURCES = $(crypto_libbitcoin_crypto_a_SOURCES) \
 	$(qt_libbitcoinqt_a_SOURCES) \
 	$(nodist_qt_libbitcoinqt_a_SOURCES) \
 	$(univalue_libbitcoin_univalue_a_SOURCES) \
-	$(libbitcoinconsensus_la_SOURCES) $(qt_aisport_qt_SOURCES) \
-	$(qt_test_test_aisport_qt_SOURCES) \
-	$(nodist_qt_test_test_aisport_qt_SOURCES) $(aisport_cli_SOURCES) \
+	$(libbitcoinconsensus_la_SOURCES) $(aisport_cli_SOURCES) \
 	$(aisport_tx_SOURCES) $(aisportd_SOURCES) \
-	$(test_test_aisport_SOURCES) $(nodist_test_test_aisport_SOURCES)
+	$(qt_aisport_qt_SOURCES) $(qt_test_test_aisport_qt_SOURCES) \
+	$(nodist_qt_test_test_aisport_qt_SOURCES) \
+	$(test_test_aisport_SOURCES) \
+	$(nodist_test_test_aisport_SOURCES)
 DIST_SOURCES = $(crypto_libbitcoin_crypto_a_SOURCES) \
 	$(libbitcoin_cli_a_SOURCES) $(libbitcoin_common_a_SOURCES) \
 	$(libbitcoin_server_a_SOURCES) \
@@ -1070,10 +1074,9 @@ DIST_SOURCES = $(crypto_libbitcoin_crypto_a_SOURCES) \
 	$(am__qt_libbitcoinqt_a_SOURCES_DIST) \
 	$(univalue_libbitcoin_univalue_a_SOURCES) \
 	$(am__libbitcoinconsensus_la_SOURCES_DIST) \
-	$(am__qt_aisport_qt_SOURCES_DIST) \
-	$(am__qt_test_test_aisport_qt_SOURCES_DIST) \
 	$(am__aisport_cli_SOURCES_DIST) $(aisport_tx_SOURCES) \
-	$(am__aisportd_SOURCES_DIST) \
+	$(am__aisportd_SOURCES_DIST) $(am__qt_aisport_qt_SOURCES_DIST) \
+	$(am__qt_test_test_aisport_qt_SOURCES_DIST) \
 	$(am__test_test_aisport_SOURCES_DIST)
 RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \
 	ctags-recursive dvi-recursive html-recursive info-recursive \
@@ -2357,8 +2360,8 @@ EXTRA_DIST = leveldb $(am__append_18)
 @ENABLE_QT_TRUE@qt_aisport_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
 @ENABLE_QT_TRUE@  $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-@ENABLE_QT_TRUE@qt_aisport_qt_SOURCES = qt/aisport.cpp $(am__append_26) \
-@ENABLE_QT_TRUE@	$(am__append_27)
+@ENABLE_QT_TRUE@qt_aisport_qt_SOURCES = qt/aisport.cpp \
+@ENABLE_QT_TRUE@	$(am__append_26) $(am__append_27)
 @ENABLE_QT_TRUE@qt_aisport_qt_LDADD = qt/libbitcoinqt.a \
 @ENABLE_QT_TRUE@	$(LIBBITCOIN_SERVER) $(am__append_28) \
 @ENABLE_QT_TRUE@	$(am__append_29) $(LIBBITCOIN_CLI) \
@@ -2990,6 +2993,18 @@ clean-binPROGRAMS:
 	list=`for p in $$list; do echo "$$p"; done | sed 's/$(EXEEXT)$$//'`; \
 	echo " rm -f" $$list; \
 	rm -f $$list
+
+aisport-cli$(EXEEXT): $(aisport_cli_OBJECTS) $(aisport_cli_DEPENDENCIES) $(EXTRA_aisport_cli_DEPENDENCIES) 
+	@rm -f aisport-cli$(EXEEXT)
+	$(AM_V_CXXLD)$(aisport_cli_LINK) $(aisport_cli_OBJECTS) $(aisport_cli_LDADD) $(LIBS)
+
+aisport-tx$(EXEEXT): $(aisport_tx_OBJECTS) $(aisport_tx_DEPENDENCIES) $(EXTRA_aisport_tx_DEPENDENCIES) 
+	@rm -f aisport-tx$(EXEEXT)
+	$(AM_V_CXXLD)$(aisport_tx_LINK) $(aisport_tx_OBJECTS) $(aisport_tx_LDADD) $(LIBS)
+
+aisportd$(EXEEXT): $(aisportd_OBJECTS) $(aisportd_DEPENDENCIES) $(EXTRA_aisportd_DEPENDENCIES) 
+	@rm -f aisportd$(EXEEXT)
+	$(AM_V_CXXLD)$(aisportd_LINK) $(aisportd_OBJECTS) $(aisportd_LDADD) $(LIBS)
 qt/qt_aisport_qt-aisport.$(OBJEXT): qt/$(am__dirstamp) \
 	qt/$(DEPDIR)/$(am__dirstamp)
 qt/qt_aisport_qt-macdockiconhandler.$(OBJEXT): qt/$(am__dirstamp) \
@@ -3028,18 +3043,6 @@ qt/test/qt_test_test_aisport_qt-moc_paymentservertests.$(OBJEXT):  \
 qt/test/test_aisport-qt$(EXEEXT): $(qt_test_test_aisport_qt_OBJECTS) $(qt_test_test_aisport_qt_DEPENDENCIES) $(EXTRA_qt_test_test_aisport_qt_DEPENDENCIES) qt/test/$(am__dirstamp)
 	@rm -f qt/test/test_aisport-qt$(EXEEXT)
 	$(AM_V_CXXLD)$(qt_test_test_aisport_qt_LINK) $(qt_test_test_aisport_qt_OBJECTS) $(qt_test_test_aisport_qt_LDADD) $(LIBS)
-
-aisport-cli$(EXEEXT): $(aisport_cli_OBJECTS) $(aisport_cli_DEPENDENCIES) $(EXTRA_aisport_cli_DEPENDENCIES) 
-	@rm -f aisport-cli$(EXEEXT)
-	$(AM_V_CXXLD)$(aisport_cli_LINK) $(aisport_cli_OBJECTS) $(aisport_cli_LDADD) $(LIBS)
-
-aisport-tx$(EXEEXT): $(aisport_tx_OBJECTS) $(aisport_tx_DEPENDENCIES) $(EXTRA_aisport_tx_DEPENDENCIES) 
-	@rm -f aisport-tx$(EXEEXT)
-	$(AM_V_CXXLD)$(aisport_tx_LINK) $(aisport_tx_OBJECTS) $(aisport_tx_LDADD) $(LIBS)
-
-aisportd$(EXEEXT): $(aisportd_OBJECTS) $(aisportd_DEPENDENCIES) $(EXTRA_aisportd_DEPENDENCIES) 
-	@rm -f aisportd$(EXEEXT)
-	$(AM_V_CXXLD)$(aisportd_LINK) $(aisportd_OBJECTS) $(aisportd_LDADD) $(LIBS)
 test/$(am__dirstamp):
 	@$(MKDIR_P) test
 	@: > test/$(am__dirstamp)
@@ -3058,8 +3061,8 @@ test/test_test_aisport-tutorial_zerocoin.$(OBJEXT):  \
 	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_aisport-libzerocoin_tests.$(OBJEXT):  \
 	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
-test/test_test_aisport-allocator_tests.$(OBJEXT): test/$(am__dirstamp) \
-	test/$(DEPDIR)/$(am__dirstamp)
+test/test_test_aisport-allocator_tests.$(OBJEXT):  \
+	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_aisport-base32_tests.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_aisport-base58_tests.$(OBJEXT): test/$(am__dirstamp) \
@@ -3104,10 +3107,10 @@ test/test_test_aisport-script_P2SH_tests.$(OBJEXT):  \
 	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_aisport-script_tests.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
-test/test_test_aisport-scriptnum_tests.$(OBJEXT): test/$(am__dirstamp) \
-	test/$(DEPDIR)/$(am__dirstamp)
-test/test_test_aisport-serialize_tests.$(OBJEXT): test/$(am__dirstamp) \
-	test/$(DEPDIR)/$(am__dirstamp)
+test/test_test_aisport-scriptnum_tests.$(OBJEXT):  \
+	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
+test/test_test_aisport-serialize_tests.$(OBJEXT):  \
+	test/$(am__dirstamp) test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_aisport-sighash_tests.$(OBJEXT): test/$(am__dirstamp) \
 	test/$(DEPDIR)/$(am__dirstamp)
 test/test_test_aisport-sigopcount_tests.$(OBJEXT):  \
@@ -3160,6 +3163,9 @@ mostlyclean-compile:
 distclean-compile:
 	-rm -f *.tab.c
 
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/aisport_cli-aisport-cli.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/aisport_tx-aisport-tx.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/aisportd-aisportd.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_cli_a-rpcclient.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-accumulatormap.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-accumulators.Po@am__quote@
@@ -3248,9 +3254,6 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoinconsensus_la-pubkey.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoinconsensus_la-uint256.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoinconsensus_la-utilstrencodings.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/aisport_cli-aisport-cli.Po@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/aisport_tx-aisport-tx.Po@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/aisportd-aisportd.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@compat/$(DEPDIR)/libbitcoin_util_a-glibc_compat.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@compat/$(DEPDIR)/libbitcoin_util_a-glibc_sanity.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@compat/$(DEPDIR)/libbitcoin_util_a-glibcxx_compat.Po@am__quote@
@@ -3306,6 +3309,9 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@primitives/$(DEPDIR)/libbitcoin_common_a-zerocoin.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@primitives/$(DEPDIR)/libbitcoin_wallet_a-zerocoin.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@primitives/$(DEPDIR)/libbitcoinconsensus_la-transaction.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_aisport_qt-aisport.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_aisport_qt-macdockiconhandler.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_aisport_qt-macnotificationhandler.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_libbitcoinqt_a-addressbookpage.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_libbitcoinqt_a-addresstablemodel.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_libbitcoinqt_a-askpassphrasedialog.Po@am__quote@
@@ -3415,9 +3421,6 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_libbitcoinqt_a-walletview.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_libbitcoinqt_a-winshutdownmonitor.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_libbitcoinqt_a-zaisportcontroldialog.Po@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_aisport_qt-macdockiconhandler.Po@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_aisport_qt-macnotificationhandler.Po@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_aisport_qt-aisport.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@qt/test/$(DEPDIR)/qt_test_test_aisport_qt-moc_paymentservertests.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@qt/test/$(DEPDIR)/qt_test_test_aisport_qt-moc_uritests.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@qt/test/$(DEPDIR)/qt_test_test_aisport_qt-paymentservertests.Po@am__quote@
@@ -6968,6 +6971,48 @@ compat/libbitcoinconsensus_la-glibcxx_compat.lo: compat/glibcxx_compat.cpp
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
 @am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(libbitcoinconsensus_la_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o compat/libbitcoinconsensus_la-glibcxx_compat.lo `test -f 'compat/glibcxx_compat.cpp' || echo '$(srcdir)/'`compat/glibcxx_compat.cpp
 
+aisport_cli-aisport-cli.o: aisport-cli.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisport_cli-aisport-cli.o -MD -MP -MF $(DEPDIR)/aisport_cli-aisport-cli.Tpo -c -o aisport_cli-aisport-cli.o `test -f 'aisport-cli.cpp' || echo '$(srcdir)/'`aisport-cli.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisport_cli-aisport-cli.Tpo $(DEPDIR)/aisport_cli-aisport-cli.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisport-cli.cpp' object='aisport_cli-aisport-cli.o' libtool=no @AMDEPBACKSLASH@
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisport_cli-aisport-cli.o `test -f 'aisport-cli.cpp' || echo '$(srcdir)/'`aisport-cli.cpp
+
+aisport_cli-aisport-cli.obj: aisport-cli.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisport_cli-aisport-cli.obj -MD -MP -MF $(DEPDIR)/aisport_cli-aisport-cli.Tpo -c -o aisport_cli-aisport-cli.obj `if test -f 'aisport-cli.cpp'; then $(CYGPATH_W) 'aisport-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/aisport-cli.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisport_cli-aisport-cli.Tpo $(DEPDIR)/aisport_cli-aisport-cli.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisport-cli.cpp' object='aisport_cli-aisport-cli.obj' libtool=no @AMDEPBACKSLASH@
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisport_cli-aisport-cli.obj `if test -f 'aisport-cli.cpp'; then $(CYGPATH_W) 'aisport-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/aisport-cli.cpp'; fi`
+
+aisport_tx-aisport-tx.o: aisport-tx.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisport_tx-aisport-tx.o -MD -MP -MF $(DEPDIR)/aisport_tx-aisport-tx.Tpo -c -o aisport_tx-aisport-tx.o `test -f 'aisport-tx.cpp' || echo '$(srcdir)/'`aisport-tx.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisport_tx-aisport-tx.Tpo $(DEPDIR)/aisport_tx-aisport-tx.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisport-tx.cpp' object='aisport_tx-aisport-tx.o' libtool=no @AMDEPBACKSLASH@
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisport_tx-aisport-tx.o `test -f 'aisport-tx.cpp' || echo '$(srcdir)/'`aisport-tx.cpp
+
+aisport_tx-aisport-tx.obj: aisport-tx.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisport_tx-aisport-tx.obj -MD -MP -MF $(DEPDIR)/aisport_tx-aisport-tx.Tpo -c -o aisport_tx-aisport-tx.obj `if test -f 'aisport-tx.cpp'; then $(CYGPATH_W) 'aisport-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/aisport-tx.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisport_tx-aisport-tx.Tpo $(DEPDIR)/aisport_tx-aisport-tx.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisport-tx.cpp' object='aisport_tx-aisport-tx.obj' libtool=no @AMDEPBACKSLASH@
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisport_tx-aisport-tx.obj `if test -f 'aisport-tx.cpp'; then $(CYGPATH_W) 'aisport-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/aisport-tx.cpp'; fi`
+
+aisportd-aisportd.o: aisportd.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisportd_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisportd-aisportd.o -MD -MP -MF $(DEPDIR)/aisportd-aisportd.Tpo -c -o aisportd-aisportd.o `test -f 'aisportd.cpp' || echo '$(srcdir)/'`aisportd.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisportd-aisportd.Tpo $(DEPDIR)/aisportd-aisportd.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisportd.cpp' object='aisportd-aisportd.o' libtool=no @AMDEPBACKSLASH@
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisportd_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisportd-aisportd.o `test -f 'aisportd.cpp' || echo '$(srcdir)/'`aisportd.cpp
+
+aisportd-aisportd.obj: aisportd.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisportd_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisportd-aisportd.obj -MD -MP -MF $(DEPDIR)/aisportd-aisportd.Tpo -c -o aisportd-aisportd.obj `if test -f 'aisportd.cpp'; then $(CYGPATH_W) 'aisportd.cpp'; else $(CYGPATH_W) '$(srcdir)/aisportd.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisportd-aisportd.Tpo $(DEPDIR)/aisportd-aisportd.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisportd.cpp' object='aisportd-aisportd.obj' libtool=no @AMDEPBACKSLASH@
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisportd_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisportd-aisportd.obj `if test -f 'aisportd.cpp'; then $(CYGPATH_W) 'aisportd.cpp'; else $(CYGPATH_W) '$(srcdir)/aisportd.cpp'; fi`
+
 qt/qt_aisport_qt-aisport.o: qt/aisport.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_aisport_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT qt/qt_aisport_qt-aisport.o -MD -MP -MF qt/$(DEPDIR)/qt_aisport_qt-aisport.Tpo -c -o qt/qt_aisport_qt-aisport.o `test -f 'qt/aisport.cpp' || echo '$(srcdir)/'`qt/aisport.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) qt/$(DEPDIR)/qt_aisport_qt-aisport.Tpo qt/$(DEPDIR)/qt_aisport_qt-aisport.Po
@@ -7051,48 +7096,6 @@ qt/test/qt_test_test_aisport_qt-moc_paymentservertests.obj: qt/test/moc_payments
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='qt/test/moc_paymentservertests.cpp' object='qt/test/qt_test_test_aisport_qt-moc_paymentservertests.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
 @am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_test_test_aisport_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o qt/test/qt_test_test_aisport_qt-moc_paymentservertests.obj `if test -f 'qt/test/moc_paymentservertests.cpp'; then $(CYGPATH_W) 'qt/test/moc_paymentservertests.cpp'; else $(CYGPATH_W) '$(srcdir)/qt/test/moc_paymentservertests.cpp'; fi`
-
-aisport_cli-aisport-cli.o: aisport-cli.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisport_cli-aisport-cli.o -MD -MP -MF $(DEPDIR)/aisport_cli-aisport-cli.Tpo -c -o aisport_cli-aisport-cli.o `test -f 'aisport-cli.cpp' || echo '$(srcdir)/'`aisport-cli.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisport_cli-aisport-cli.Tpo $(DEPDIR)/aisport_cli-aisport-cli.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisport-cli.cpp' object='aisport_cli-aisport-cli.o' libtool=no @AMDEPBACKSLASH@
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisport_cli-aisport-cli.o `test -f 'aisport-cli.cpp' || echo '$(srcdir)/'`aisport-cli.cpp
-
-aisport_cli-aisport-cli.obj: aisport-cli.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisport_cli-aisport-cli.obj -MD -MP -MF $(DEPDIR)/aisport_cli-aisport-cli.Tpo -c -o aisport_cli-aisport-cli.obj `if test -f 'aisport-cli.cpp'; then $(CYGPATH_W) 'aisport-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/aisport-cli.cpp'; fi`
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisport_cli-aisport-cli.Tpo $(DEPDIR)/aisport_cli-aisport-cli.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisport-cli.cpp' object='aisport_cli-aisport-cli.obj' libtool=no @AMDEPBACKSLASH@
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisport_cli-aisport-cli.obj `if test -f 'aisport-cli.cpp'; then $(CYGPATH_W) 'aisport-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/aisport-cli.cpp'; fi`
-
-aisport_tx-aisport-tx.o: aisport-tx.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisport_tx-aisport-tx.o -MD -MP -MF $(DEPDIR)/aisport_tx-aisport-tx.Tpo -c -o aisport_tx-aisport-tx.o `test -f 'aisport-tx.cpp' || echo '$(srcdir)/'`aisport-tx.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisport_tx-aisport-tx.Tpo $(DEPDIR)/aisport_tx-aisport-tx.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisport-tx.cpp' object='aisport_tx-aisport-tx.o' libtool=no @AMDEPBACKSLASH@
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisport_tx-aisport-tx.o `test -f 'aisport-tx.cpp' || echo '$(srcdir)/'`aisport-tx.cpp
-
-aisport_tx-aisport-tx.obj: aisport-tx.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisport_tx-aisport-tx.obj -MD -MP -MF $(DEPDIR)/aisport_tx-aisport-tx.Tpo -c -o aisport_tx-aisport-tx.obj `if test -f 'aisport-tx.cpp'; then $(CYGPATH_W) 'aisport-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/aisport-tx.cpp'; fi`
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisport_tx-aisport-tx.Tpo $(DEPDIR)/aisport_tx-aisport-tx.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisport-tx.cpp' object='aisport_tx-aisport-tx.obj' libtool=no @AMDEPBACKSLASH@
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisport_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisport_tx-aisport-tx.obj `if test -f 'aisport-tx.cpp'; then $(CYGPATH_W) 'aisport-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/aisport-tx.cpp'; fi`
-
-aisportd-aisportd.o: aisportd.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisportd_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisportd-aisportd.o -MD -MP -MF $(DEPDIR)/aisportd-aisportd.Tpo -c -o aisportd-aisportd.o `test -f 'aisportd.cpp' || echo '$(srcdir)/'`aisportd.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisportd-aisportd.Tpo $(DEPDIR)/aisportd-aisportd.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisportd.cpp' object='aisportd-aisportd.o' libtool=no @AMDEPBACKSLASH@
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisportd_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisportd-aisportd.o `test -f 'aisportd.cpp' || echo '$(srcdir)/'`aisportd.cpp
-
-aisportd-aisportd.obj: aisportd.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisportd_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT aisportd-aisportd.obj -MD -MP -MF $(DEPDIR)/aisportd-aisportd.Tpo -c -o aisportd-aisportd.obj `if test -f 'aisportd.cpp'; then $(CYGPATH_W) 'aisportd.cpp'; else $(CYGPATH_W) '$(srcdir)/aisportd.cpp'; fi`
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/aisportd-aisportd.Tpo $(DEPDIR)/aisportd-aisportd.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='aisportd.cpp' object='aisportd-aisportd.obj' libtool=no @AMDEPBACKSLASH@
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(aisportd_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o aisportd-aisportd.obj `if test -f 'aisportd.cpp'; then $(CYGPATH_W) 'aisportd.cpp'; else $(CYGPATH_W) '$(srcdir)/aisportd.cpp'; fi`
 
 test/test_test_aisport-zerocoin_implementation_tests.o: test/zerocoin_implementation_tests.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(test_test_aisport_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT test/test_test_aisport-zerocoin_implementation_tests.o -MD -MP -MF test/$(DEPDIR)/test_test_aisport-zerocoin_implementation_tests.Tpo -c -o test/test_test_aisport-zerocoin_implementation_tests.o `test -f 'test/zerocoin_implementation_tests.cpp' || echo '$(srcdir)/'`test/zerocoin_implementation_tests.cpp

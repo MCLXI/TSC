@@ -113,11 +113,11 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 2 * 45; // Aisport: 1 day
-        nTargetSpacing = 2 * 45; //Aisport: 1 minute
+        nTargetTimespan = 2 * 60; // Aisport: 1 day
+        nTargetSpacing = 2 * 60; //Aisport: 1 minute
         nMaturity = 90;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 48000000 * COIN; //500,000,000
+        nMaxMoneyOut = 29300000 * COIN; //500,000,000
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 100000;
