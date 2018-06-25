@@ -326,7 +326,7 @@ Value masternodeconnect(const Array& params, bool fHelp)
             "1. \"address\"     (string, required) IP or net address to connect to\n"
 
             "\nExamples:\n" +
-            HelpExampleCli("masternodeconnect", "\"192.168.0.6:33888\"") + HelpExampleRpc("masternodeconnect", "\"192.168.0.6:33888\""));
+            HelpExampleCli("masternodeconnect", "\"192.168.0.6:37888\"") + HelpExampleRpc("masternodeconnect", "\"192.168.0.6:37888\""));
 
     std::string strAddress = params[0].get_str();
 
