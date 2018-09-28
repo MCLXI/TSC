@@ -1,22 +1,22 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2017-2018 The Aisport developers
+// Copyright (c) 2017-2018 The TSCB developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zaisportcontroldialog.h"
-#include "ui_zaisportcontroldialog.h"
+#include "zTSCBcontroldialog.h"
+#include "ui_zTSCBcontroldialog.h"
 
 #include "main.h"
 #include "walletmodel.h"
 
 using namespace std;
 
-std::list<std::string> ZAisportControlDialog::listSelectedMints;
-std::list<CZerocoinMint> ZAisportControlDialog::listMints;
+std::list<std::string> ZTSCBControlDialog::listSelectedMints;
+std::list<CZerocoinMint> ZTSCBControlDialog::listMints;
 
-ZAisportControlDialog::ZAisportControlDialog(QWidget *parent) :
+ZTSCBControlDialog::ZTSCBControlDialog(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::ZAisportControlDialog),
+    ui(new Ui::ZTSCBControlDialog),
     model(0)
 {
     ui->setupUi(this);
@@ -30,19 +30,19 @@ ZAisportControlDialog::ZAisportControlDialog(QWidget *parent) :
     connect(ui->pushButtonAll, SIGNAL(clicked()), this, SLOT(ButtonAllClicked()));
 }
 
-ZAisportControlDialog::~ZAisportControlDialog()
+ZTSCBControlDialog::~ZTSCBControlDialog()
 {
     delete ui;
 }
 
-void ZAisportControlDialog::setModel(WalletModel *model)
+void ZTSCBControlDialog::setModel(WalletModel *model)
 {
     this->model = model;
     updateList();
 }
 
 //Update the tree widget
-void ZAisportControlDialog::updateList()
+void ZTSCBControlDialog::updateList()
 {
     // need to prevent the slot from being called each time something is changed
     ui->treeWidget->blockSignals(true);
@@ -134,7 +134,7 @@ void ZAisportControlDialog::updateList()
 }
 
 // Update the list when a checkbox is clicked
-void ZAisportControlDialog::updateSelection(QTreeWidgetItem* item, int column)
+void ZTSCBControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 {
     // only want updates from non top level items that are available to spend
     if (item->parent() && column == COLUMN_CHECKBOX && !item->isDisabled()){
@@ -157,7 +157,7 @@ void ZAisportControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 }
 
 // Update the Quantity and Amount display
-void ZAisportControlDialog::updateLabels()
+void ZTSCBControlDialog::updateLabels()
 {
     int64_t nAmount = 0;
     for (const CZerocoinMint mint : listMints) {
@@ -167,14 +167,14 @@ void ZAisportControlDialog::updateLabels()
     }
 
     //update this dialog's labels
-    ui->labelZAisport_int->setText(QString::number(nAmount));
+    ui->labelZTSCB_int->setText(QString::number(nAmount));
     ui->labelQuantity_int->setText(QString::number(listSelectedMints.size()));
 
     //update PrivacyDialog labels
-    privacyDialog->setZAisportControlLabels(nAmount, listSelectedMints.size());
+    privacyDialog->setZTSCBControlLabels(nAmount, listSelectedMints.size());
 }
 
-std::vector<CZerocoinMint> ZAisportControlDialog::GetSelectedMints()
+std::vector<CZerocoinMint> ZTSCBControlDialog::GetSelectedMints()
 {
     std::vector<CZerocoinMint> listReturn;
     for (const CZerocoinMint mint : listMints) {
@@ -187,7 +187,7 @@ std::vector<CZerocoinMint> ZAisportControlDialog::GetSelectedMints()
 }
 
 // select or deselect all of the mints
-void ZAisportControlDialog::ButtonAllClicked()
+void ZTSCBControlDialog::ButtonAllClicked()
 {
     ui->treeWidget->blockSignals(true);
     Qt::CheckState state = Qt::Checked;

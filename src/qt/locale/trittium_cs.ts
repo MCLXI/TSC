@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your Aisport addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše Aisport adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your TSCB addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše TSCB adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your Aisport addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše Aisport adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your TSCB addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše TSCB adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Aisport will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AISs from being stolen by malware infecting your computer.</source>
-        <translation>Aisport se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše AISy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>TSCB will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TSCBs from being stolen by malware infecting your computer.</source>
+        <translation>TSCB se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše TSCBy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AIS&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE AISy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSCB&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE TSCBy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Aisport Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte Aisport adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a TSCB Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte TSCB adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Aisport address to sign the message with</source>
-        <translation>Aisport adresa pro podepsání zprávy</translation>
+        <source>The TSCB address to sign the message with</source>
+        <translation>TSCB adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aisport address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Aisport adresu</translation>
+        <source>Sign the message to prove you own this TSCB address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto TSCB adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The Aisport address the message was signed with</source>
-        <translation>Aisport adresa zprávy byla podpsána</translation>
+        <source>The TSCB address the message was signed with</source>
+        <translation>TSCB adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Aisport adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou TSCB adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
-        <source>Send coins to a Aisport address</source>
-        <translation>Odeslat platbuna Aisport adresu</translation>
+        <source>Send coins to a TSCB address</source>
+        <translation>Odeslat platbuna TSCB adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aisport: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a aisport: URIs)</translation>
+        <source>Request payments (generates QR codes and TSCB: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a TSCB: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Aisport Core</source>
-        <translation>&amp;O Aisport Core</translation>
+        <source>&amp;About TSCB Core</source>
+        <translation>&amp;O TSCB Core</translation>
     </message>
     <message>
-        <source>Show information about Aisport Core</source>
-        <translation>Zobraz informace o Aisport Core</translation>
+        <source>Show information about TSCB Core</source>
+        <translation>Zobraz informace o TSCB Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Aisport</source>
-        <translation>Upravit možnosti konfigurace pro Aisport</translation>
+        <source>Modify configuration options for TSCB</source>
+        <translation>Upravit možnosti konfigurace pro TSCB</translation>
     </message>
     <message>
-        <source>Sign messages with your Aisport addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší Aisport adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your TSCB addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší TSCB adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aisport addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Aisport adresami</translation>
+        <source>Verify messages to ensure they were signed with specified TSCB addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými TSCB adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a Aisport: URI or payment request</source>
-        <translation>Otevřít Aisport: URI nebo platební žádost</translation>
+        <source>Open a TSCB: URI or payment request</source>
+        <translation>Otevřít TSCB: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Aisport Core help message to get a list with possible Aisport command-line options</source>
-        <translation>Zobrazit Aisport Core pomocnou zpráv pro získání seznamu možných parametrů Aisport pro příkazy do příkazové řádky</translation>
+        <source>Show the TSCB Core help message to get a list with possible TSCB command-line options</source>
+        <translation>Zobrazit TSCB Core pomocnou zpráv pro získání seznamu možných parametrů TSCB pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Aisport Core client</source>
-        <translation>Aisport Core klient</translation>
+        <source>TSCB Core client</source>
+        <translation>TSCB Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (aisport2.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (aisport2.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (TSCB2.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (TSCB2.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1066,8 +1066,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Aisport address.</source>
-        <translation>Zadaná adresa "%1" není validní Aisport adresa.</translation>
+        <source>The entered address "%1" is not a valid TSCB address.</source>
+        <translation>Zadaná adresa "%1" není validní TSCB adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1112,12 +1112,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
-        <source>About Aisport Core</source>
-        <translation>O Aisport Core</translation>
+        <source>About TSCB Core</source>
+        <translation>O TSCB Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1151,16 +1151,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Aisport Core.</source>
-        <translation>Vítejte v Aisport Core.</translation>
+        <source>Welcome to TSCB Core.</source>
+        <translation>Vítejte v TSCB Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Aisport Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Aisport Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where TSCB Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude TSCB Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>Aisport Core will download and store a copy of the Aisport block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Aisport Core stáhne a uloží kopii Aisport blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>TSCB Core will download and store a copy of the TSCB block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>TSCB Core stáhne a uloží kopii TSCB blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1171,8 +1171,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1438,24 +1438,24 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vyberte úrpvěň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 AIS</source>
-        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 AIS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 TSCB</source>
+        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 TSCB</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použít 16 oddělených masternodů</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 AIS to anonymize 10000 AIS</source>
-        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 AIS pro anonymizaci 10000 AIS</translation>
+        <source>This option is the quickest and will cost about ~0.025 TSCB to anonymize 10000 TSCB</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 TSCB pro anonymizaci 10000 TSCB</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití maximalní anonymity bude stát</translation>
     </message>
     <message>
-        <source>0.1 AIS per 10000 AIS you anonymize.</source>
-        <translation>0.1 AIS za 10000 AIS anonymizujete.</translation>
+        <source>0.1 TSCB per 10000 TSCB you anonymize.</source>
+        <translation>0.1 TSCB za 10000 TSCB anonymizujete.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1520,12 +1520,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Aisport after logging in to the system.</source>
-        <translation>Automaticky spustit Aisport po přihlášení do systému</translation>
+        <source>Automatically start TSCB after logging in to the system.</source>
+        <translation>Automaticky spustit TSCB po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Aisport on system login</source>
-        <translation>&amp;Spusti Aisport při přihlášení do systému</translation>
+        <source>&amp;Start TSCB on system login</source>
+        <translation>&amp;Spusti TSCB při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2057,8 +2057,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 AIS</source>
-        <translation>0 AIS</translation>
+        <source>0 TSCB</source>
+        <translation>0 TSCB</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2186,8 +2186,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Aisport address to sign the message with</source>
-        <translation>Aisport adresa pro podepsání zprávy</translation>
+        <source>The TSCB address to sign the message with</source>
+        <translation>TSCB adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2214,16 +2214,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aisport address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Aisport adresu</translation>
+        <source>Sign the message to prove you own this TSCB address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto TSCB adresu</translation>
     </message>
     <message>
-        <source>The Aisport address the message was signed with</source>
-        <translation>Aisport adresa zprávy byla podpsána</translation>
+        <source>The TSCB address the message was signed with</source>
+        <translation>TSCB adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Aisport adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou TSCB adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2265,8 +2265,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     </context>
 <context>
@@ -2376,7 +2376,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>aisport-core</name>
+    <name>TSCB-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

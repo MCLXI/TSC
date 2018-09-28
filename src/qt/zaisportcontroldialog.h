@@ -1,10 +1,10 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2017-2018 The Aisport developers
+// Copyright (c) 2017-2018 The TSCB developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZAISPORTCONTROLDIALOG_H
-#define ZAISPORTCONTROLDIALOG_H
+#ifndef ZTSCBCONTROLDIALOG_H
+#define ZTSCBCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -15,16 +15,16 @@ class CZerocoinMint;
 class WalletModel;
 
 namespace Ui {
-class ZAisportControlDialog;
+class ZTSCBControlDialog;
 }
 
-class ZAisportControlDialog : public QDialog
+class ZTSCBControlDialog : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit ZAisportControlDialog(QWidget *parent);
-    ~ZAisportControlDialog();
+    explicit ZTSCBControlDialog(QWidget *parent);
+    ~ZTSCBControlDialog();
 
     void setModel(WalletModel* model);
 
@@ -33,7 +33,7 @@ public:
     static std::vector<CZerocoinMint> GetSelectedMints();
 
 private:
-    Ui::ZAisportControlDialog *ui;
+    Ui::ZTSCBControlDialog *ui;
     WalletModel* model;
     PrivacyDialog* privacyDialog;
 
@@ -53,4 +53,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZAISCONTROLDIALOG_H
+#endif // ZTSCBCONTROLDIALOG_H

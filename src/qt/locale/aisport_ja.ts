@@ -266,6 +266,6 @@
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>aisport-core</name>
+    <name>TSCB-core</name>
     </context>
 </TS>

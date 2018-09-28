@@ -115,8 +115,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Aisport address the message was signed with</source>
-        <translation>Aisport adresa s kojom je potpisana poruka</translation>
+        <source>The TSCB address the message was signed with</source>
+        <translation>TSCB adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -150,8 +150,8 @@
         <translation>Otvori konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -162,8 +162,8 @@
         <translation>&amp;BIP38 alat</translation>
     </message>
     <message>
-        <source>Aisport Core client</source>
-        <translation>Aisport Core klijent</translation>
+        <source>TSCB Core client</source>
+        <translation>TSCB Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -256,15 +256,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -535,8 +535,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 AIS</source>
-        <translation>0 AIS</translation>
+        <source>0 TSCB</source>
+        <translation>0 TSCB</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -597,8 +597,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Aisport Core is shutting down...</source>
-        <translation>Aisport Core se gasi...</translation>
+        <source>TSCB Core is shutting down...</source>
+        <translation>TSCB Core se gasi...</translation>
     </message>
     </context>
 <context>
@@ -620,8 +620,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Aisport address the message was signed with</source>
-        <translation>Aisport adresa s kojom je potpisana poruka</translation>
+        <source>The TSCB address the message was signed with</source>
+        <translation>TSCB adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -635,8 +635,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -790,7 +790,7 @@
     </message>
     </context>
 <context>
-    <name>aisport-core</name>
+    <name>TSCB-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

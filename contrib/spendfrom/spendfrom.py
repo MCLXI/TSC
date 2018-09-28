@@ -35,9 +35,9 @@ def check_json_precision():
 def determine_db_dir():
     """Return the default location of the jiyo data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/AIS/")
+        return os.path.expanduser("~/Library/Application Support/TSCB/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "AIS")
+        return os.path.join(os.environ['APPDATA'], "TSCB")
     return os.path.expanduser("~/.jiyo")
 
 def read_bitcoin_config(dbdir):

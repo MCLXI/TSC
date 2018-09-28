@@ -66,15 +66,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += aisportd
+  bin_PROGRAMS += TSCBd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += aisport-cli aisport-tx
+  bin_PROGRAMS += TSCB-cli TSCB-tx
 endif
 
 .PHONY: FORCE
-# aisport core #
+# TSCB core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \
@@ -190,7 +190,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between aisportd and aisport-qt
+# server: shared between TSCBd and TSCB-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -236,7 +236,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between aisportd and aisport-qt, but only linked
+# wallet: shared between TSCBd and TSCB-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -356,7 +356,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between aisportd, and aisport-qt and non-server tools
+# common: shared between TSCBd, and TSCB-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   accumulators.cpp \
@@ -416,7 +416,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between aisport-cli and aisport-qt
+# cli: shared between TSCB-cli and TSCB-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -426,7 +426,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-aisportd_LDADD = \
+TSCBd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -438,26 +438,26 @@ aisportd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-aisportd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+TSCBd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-aisportd_LDADD += libbitcoin_wallet.a
+TSCBd_LDADD += libbitcoin_wallet.a
 endif
-aisportd_SOURCES = aisportd.cpp
+TSCBd_SOURCES = TSCBd.cpp
 #
 
 if TARGET_WINDOWS
-aisportd_SOURCES += aisportd-res.rc
+TSCBd_SOURCES += TSCBd-res.rc
 endif
 
-aisportd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-aisportd_CPPFLAGS = $(BITCOIN_INCLUDES)
-aisportd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+TSCBd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+TSCBd_CPPFLAGS = $(BITCOIN_INCLUDES)
+TSCBd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# aisport-cli binary #
-aisport_cli_LDADD = \
+# TSCB-cli binary #
+TSCB_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
@@ -465,14 +465,14 @@ aisport_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-aisport_cli_SOURCES = \
-  aisport-cli.cpp
+TSCB_cli_SOURCES = \
+  TSCB-cli.cpp
 
-aisport_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+TSCB_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# aisport-tx binary #
-aisport_tx_LDADD = \
+# TSCB-tx binary #
+TSCB_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -482,15 +482,15 @@ aisport_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-aisport_tx_SOURCES = aisport-tx.cpp
-aisport_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+TSCB_tx_SOURCES = TSCB-tx.cpp
+TSCB_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-aisport_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+TSCB_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-aisport_cli_SOURCES += aisport-cli-res.rc
+TSCB_cli_SOURCES += TSCB-cli-res.rc
 endif
-aisport_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+TSCB_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

@@ -1,12 +1,12 @@
 (note: this is a temporary file, to be added-to by anybody, and moved to release-notes at release time)
 
-Aisport Core version *version* is now available from:
+TSCB Core version *version* is now available from:
 
-  <https://github.com/eastcoastcrypto/Aisport/releases>
+  <https://github.com/eastcoastcrypto/TSCB/releases>
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/eastcoastcrypto/Aisportita/issues>
+  <https://github.com/eastcoastcrypto/TSCBita/issues>
 
 Mandatory Update
 ==============
@@ -16,12 +16,12 @@ simul autem fortior nobis
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/Aisport-Qt (on Mac) or aisportd/aisport-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/TSCB-Qt (on Mac) or TSCBd/TSCB-qt (on Linux).
 
 Compatibility
 ==============
 
-Aisport Core is extensively tested on multiple operating systems using
+TSCB Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
@@ -29,7 +29,7 @@ No attempt is made to prevent installing or running the software on Windows XP, 
 can still do so at your own risk but be aware that there are known instabilities and issues.
 Please do not report issues about Windows XP to the issue tracker.
 
-Aisport Core should also work on most other Unix-like systems but is not
+TSCB Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable Changes

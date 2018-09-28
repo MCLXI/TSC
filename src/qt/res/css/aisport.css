@@ -22,7 +22,7 @@
 /****************************************************************************************/
 
 WalletFrame {
-border-image: url(':/images/aisportbg') 0 0 0 0 stretch stretch;
+border-image: url(':/images/TSCBbg') 0 0 0 0 stretch stretch;
 border-top:0px solid #000;
 margin:0;
 padding:0;
@@ -881,12 +881,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About Aisport Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Aisport Contents */
+/* About TSCB Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About TSCB Contents */
 margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About Aisport text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About TSCB text */
 margin-right:10px;
 }
 
@@ -913,11 +913,11 @@ background-color:#ffffff;
 
 QLabel#labelOverviewHeaderRight {
 qproperty-alignment: 'AlignVCenter | AlignRight';
-background-image: url(':/images/aisport_logo_horizontal');
+background-image: url(':/images/TSCB_logo_horizontal');
 background-repeat: no-repeat;
 }
 
-QWidget .QFrame#frame_Header { /* Header with Page-Title and AISPORT-image */
+QWidget .QFrame#frame_Header { /* Header with Page-Title and TSCB-image */
 min-width:400px;
 background-color:#ffffff;
 }
@@ -1556,7 +1556,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::indicator { /* Coin
 
 }
 
-QDialog#ZAisportControlDialog .QTreeWidget#treeWidget { /* zAisport Control Widget Container */
+QDialog#ZTSCBControlDialog .QTreeWidget#treeWidget { /* zTSCB Control Widget Container */
 outline:0;
 background-color:#ffffff;
 border:1px solid #333;

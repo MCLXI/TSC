@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Aisport developers
+// Copyright (c) 2017-2018 The TSCB developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -91,12 +91,12 @@ Object blockToJSON(const CBlock& block, const CBlockIndex* blockindex, bool txDe
 
     result.push_back(Pair("moneysupply",ValueFromAmount(blockindex->nMoneySupply)));
 
-    Object zaisportObj;
+    Object zTSCBObj;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zaisportObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zTSCBObj.push_back(Pair(to_string(denom), ValueFromAmount(blockindex->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zaisportObj.emplace_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
-    result.emplace_back(Pair("zAISsupply", zaisportObj));
+    zTSCBObj.emplace_back(Pair("total", ValueFromAmount(blockindex->GetZerocoinSupply())));
+    result.emplace_back(Pair("zTSCBsupply", zTSCBObj));
 
     return result;
 }
@@ -176,7 +176,7 @@ Value getrawmempool(const Array& params, bool fHelp)
             "{                           (json object)\n"
             "  \"transactionid\" : {       (json object)\n"
             "    \"size\" : n,             (numeric) transaction size in bytes\n"
-            "    \"fee\" : n,              (numeric) transaction fee in aisport\n"
+            "    \"fee\" : n,              (numeric) transaction fee in TSCB\n"
             "    \"time\" : n,             (numeric) local time transaction entered pool in seconds since 1 Jan 1970 GMT\n"
             "    \"height\" : n,           (numeric) block height when transaction entered pool\n"
             "    \"startingpriority\" : n, (numeric) priority when transaction entered pool\n"
@@ -279,17 +279,17 @@ Value getblock(const Array& params, bool fHelp)
             "  \"previousblockhash\" : \"hash\",  (string) The hash of the previous block\n"
             "  \"nextblockhash\" : \"hash\"       (string) The hash of the next block\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zAISsupply\" :\n"
+            "  \"zTSCBsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zAIS denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zAIS denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zAIS denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zAIS denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zAIS denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zAIS denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zAIS denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zAIS denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zAIS denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zTSCB denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zTSCB denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zTSCB denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zTSCB denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zTSCB denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zTSCB denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zTSCB denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zTSCB denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zTSCB denominations\n"
             "  }\n"
             "}\n"
             "\nResult (for verbose=false):\n"
@@ -429,8 +429,8 @@ Value gettxout(const Array& params, bool fHelp)
             "     \"hex\" : \"hex\",        (string) \n"
             "     \"reqSigs\" : n,          (numeric) Number of required signatures\n"
             "     \"type\" : \"pubkeyhash\", (string) The type, eg pubkeyhash\n"
-            "     \"addresses\" : [          (array of string) array of aisport addresses\n"
-            "     \"aisportaddress\"   	 	(string) aisport address\n"
+            "     \"addresses\" : [          (array of string) array of TSCB addresses\n"
+            "     \"TSCBaddress\"   	 	(string) TSCB address\n"
             "        ,...\n"
             "     ]\n"
             "  },\n"

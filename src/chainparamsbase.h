@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between aisport-cli and aisportd)
- * of a given instance of the Aisport system.
+ * CBaseChainParams defines the base parameters (shared between TSCB-cli and TSCBd)
+ * of a given instance of the TSCB system.
  */
 class CBaseChainParams
 {

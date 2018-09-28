@@ -1,3 +1,3 @@
 Update coming soon!
-# AISCore
-# AISCoin
+# TSCBCore
+# TSCBCoin

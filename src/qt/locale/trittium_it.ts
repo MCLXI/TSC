@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your Aisport addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi Aisport per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your TSCB addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi TSCB per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your Aisport addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi Aisport per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your TSCB addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi TSCB per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Aisport will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AISs from being stolen by malware infecting your computer.</source>
-        <translation>Aisport verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi AIS dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>TSCB will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TSCBs from being stolen by malware infecting your computer.</source>
+        <translation>TSCB verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi TSCB dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AIS&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI AIS&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSCB&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI TSCB&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a Aisport Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo Aisport che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a TSCB Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo TSCB che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The Aisport address to sign the message with</source>
-        <translation>L'indirizzo Aisport per firmare il messaggio con</translation>
+        <source>The TSCB address to sign the message with</source>
+        <translation>L'indirizzo TSCB per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aisport address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Aisport</translation>
+        <source>Sign the message to prove you own this TSCB address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo TSCB</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The Aisport address the message was signed with</source>
-        <translation>L'indirizzo Aisport con cui è stato firmato il messaggio</translation>
+        <source>The TSCB address the message was signed with</source>
+        <translation>L'indirizzo TSCB con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Aisport specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo TSCB specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
-        <source>Send coins to a Aisport address</source>
-        <translation>Invia monete all' indirizzo Aisport</translation>
+        <source>Send coins to a TSCB address</source>
+        <translation>Invia monete all' indirizzo TSCB</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aisport: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e aisport: URIs)</translation>
+        <source>Request payments (generates QR codes and TSCB: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e TSCB: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Aisport Core</source>
-        <translation>&amp;Informazioni Aisport Core</translation>
+        <source>&amp;About TSCB Core</source>
+        <translation>&amp;Informazioni TSCB Core</translation>
     </message>
     <message>
-        <source>Show information about Aisport Core</source>
-        <translation>Visualizza informazioni su Aisport Core</translation>
+        <source>Show information about TSCB Core</source>
+        <translation>Visualizza informazioni su TSCB Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Aisport</source>
-        <translation>Modifica le opzioni di configurazione per Aisport</translation>
+        <source>Modify configuration options for TSCB</source>
+        <translation>Modifica le opzioni di configurazione per TSCB</translation>
     </message>
     <message>
-        <source>Sign messages with your Aisport addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi Aisport per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your TSCB addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi TSCB per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aisport addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Aisport specifici</translation>
+        <source>Verify messages to ensure they were signed with specified TSCB addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi TSCB specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a Aisport: URI or payment request</source>
-        <translation>Apri un Aisport: URI o richiesta di pagamento</translation>
+        <source>Open a TSCB: URI or payment request</source>
+        <translation>Apri un TSCB: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Aisport Core help message to get a list with possible Aisport command-line options</source>
-        <translation>Mostra il messaggio di aiuto Aisport Core per ottenere un elenco con le possibili opzioni di riga di comando Aisport</translation>
+        <source>Show the TSCB Core help message to get a list with possible TSCB command-line options</source>
+        <translation>Mostra il messaggio di aiuto TSCB Core per ottenere un elenco con le possibili opzioni di riga di comando TSCB</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (aisport2.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (aisport2.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (TSCB2.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (TSCB2.conf)</translation>
     </message>
 </context>
 <context>
@@ -888,8 +888,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -915,8 +915,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1144,8 +1144,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Aisport address to sign the message with</source>
-        <translation>L'indirizzo Aisport per firmare il messaggio con</translation>
+        <source>The TSCB address to sign the message with</source>
+        <translation>L'indirizzo TSCB per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1168,16 +1168,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aisport address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Aisport</translation>
+        <source>Sign the message to prove you own this TSCB address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo TSCB</translation>
     </message>
     <message>
-        <source>The Aisport address the message was signed with</source>
-        <translation>L'indirizzo Aisport con cui è stato firmato il messaggio</translation>
+        <source>The TSCB address the message was signed with</source>
+        <translation>L'indirizzo TSCB con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Aisport specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo TSCB specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1215,8 +1215,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     </context>
 <context>
@@ -1314,7 +1314,7 @@ MultiSend: %1</translation>
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>aisport-core</name>
+    <name>TSCB-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

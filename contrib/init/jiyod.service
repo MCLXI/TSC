@@ -1,5 +1,5 @@
 [Unit]
-Description=AIS's distributed currency daemon
+Description=TSCB's distributed currency daemon
 After=network.target
 
 [Service]

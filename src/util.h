@@ -13,7 +13,7 @@
 #define BITCOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/aisport-config.h"
+#include "config/TSCB-config.h"
 #endif
 
 #include "compat.h"
@@ -29,7 +29,7 @@
 #include <boost/filesystem/path.hpp>
 #include <boost/thread/exceptions.hpp>
 
-//Aisport only features
+//TSCB only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;
@@ -38,7 +38,7 @@ extern int nSwiftTXDepth;
 extern int nZeromintPercentage;
 extern const int64_t AUTOMINT_DELAY;
 extern int nPreferredDenom;
-extern int nAnonymizeAisportAmount;
+extern int nAnonymizeTSCBAmount;
 extern int nLiquidityProvider;
 extern bool fEnableZeromint;
 extern int64_t enforceMasternodePaymentsTime;
@@ -215,7 +215,7 @@ void RenameThread(const char* name);
 template <typename Callable>
 void LoopForever(const char* name, Callable func, int64_t msecs)
 {
-    std::string s = strprintf("aisport-%s", name);
+    std::string s = strprintf("TSCB-%s", name);
     RenameThread(s.c_str());
     LogPrintf("%s thread start\n", name);
     try {
@@ -241,7 +241,7 @@ void LoopForever(const char* name, Callable func, int64_t msecs)
 template <typename Callable>
 void TraceThread(const char* name, Callable func)
 {
-    std::string s = strprintf("aisport-%s", name);
+    std::string s = strprintf("TSCB-%s", name);
     RenameThread(s.c_str());
     try {
         LogPrintf("%s thread start\n", name);

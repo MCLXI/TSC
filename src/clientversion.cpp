@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both aisportd and aisport-qt, to make it harder for attackers to
+ * for both TSCBd and TSCB-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Aisport Core");
+const std::string CLIENT_NAME("TSCB Core");
 
 /**
  * Client version number

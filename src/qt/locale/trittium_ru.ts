@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your Aisport addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши Aisport-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your TSCB addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши TSCB-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your Aisport addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши Aisport-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your TSCB addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши TSCB-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Aisport will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AISs from being stolen by malware infecting your computer.</source>
-        <translation>Aisport сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Aisport от кражи с использованием вредоносного ПО.</translation>
+        <source>TSCB will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TSCBs from being stolen by malware infecting your computer.</source>
+        <translation>TSCB сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши TSCB от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AIS&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ AIS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSCB&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ TSCB&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a Aisport Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите Aisport адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a TSCB Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите TSCB адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The Aisport address to sign the message with</source>
-        <translation>Адрес Aisport для подписи сообщения с помощью</translation>
+        <source>The TSCB address to sign the message with</source>
+        <translation>Адрес TSCB для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aisport address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Aisport</translation>
+        <source>Sign the message to prove you own this TSCB address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес TSCB</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The Aisport address the message was signed with</source>
-        <translation>Адрес Aisport, которым подписано сообщение</translation>
+        <source>The TSCB address the message was signed with</source>
+        <translation>Адрес TSCB, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Aisport адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным TSCB адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,23 +594,23 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
-        <source>Send coins to a Aisport address</source>
-        <translation>Отправить монеты на Aisport адрес</translation>
+        <source>Send coins to a TSCB address</source>
+        <translation>Отправить монеты на TSCB адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aisport: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и Aisport: URI)</translation>
+        <source>Request payments (generates QR codes and TSCB: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и TSCB: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;Конфиденциальность</translation>
     </message>
     <message>
-        <source>Privacy Action for zAIS and Obfuscation</source>
+        <source>Privacy Action for zTSCB and Obfuscation</source>
         <translation>Конфиденциальное действие и обфускация</translation>
     </message>
     <message>
@@ -622,24 +622,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About Aisport Core</source>
-        <translation>&amp;О Aisport Core</translation>
+        <source>&amp;About TSCB Core</source>
+        <translation>&amp;О TSCB Core</translation>
     </message>
     <message>
-        <source>Show information about Aisport Core</source>
-        <translation>Показать информацию о Aisport Core</translation>
+        <source>Show information about TSCB Core</source>
+        <translation>Показать информацию о TSCB Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Aisport</source>
-        <translation>Изменение параметров конфигурации Aisport</translation>
+        <source>Modify configuration options for TSCB</source>
+        <translation>Изменение параметров конфигурации TSCB</translation>
     </message>
     <message>
-        <source>Sign messages with your Aisport addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими Aisport адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your TSCB addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими TSCB адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aisport addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным Aisport адресом </translation>
+        <source>Verify messages to ensure they were signed with specified TSCB addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным TSCB адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,8 +670,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a Aisport: URI or payment request</source>
-        <translation>Открыть Aisport: URI или запрос платежа</translation>
+        <source>Open a TSCB: URI or payment request</source>
+        <translation>Открыть TSCB: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,12 +682,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the Aisport Core help message to get a list with possible Aisport command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Aisport</translation>
+        <source>Show the TSCB Core help message to get a list with possible TSCB command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды TSCB</translation>
     </message>
     <message>
-        <source>Aisport Core client</source>
-        <translation>Клиент Aisport Core</translation>
+        <source>TSCB Core client</source>
+        <translation>Клиент TSCB Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -825,8 +825,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (aisport2.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (aisport2.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (TSCB2.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (TSCB2.conf).</translation>
     </message>
 </context>
 <context>
@@ -1110,8 +1110,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Aisport address.</source>
-        <translation>Введенный адрес "%1" не является Aisport адресом.</translation>
+        <source>The entered address "%1" is not a valid TSCB address.</source>
+        <translation>Введенный адрес "%1" не является TSCB адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1156,16 +1156,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Aisport Core</source>
-        <translation>О Aisport Core</translation>
+        <source>About TSCB Core</source>
+        <translation>О TSCB Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1211,16 +1211,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Aisport Core.</source>
-        <translation>Добро пожаловать в Aisport Core.</translation>
+        <source>Welcome to TSCB Core.</source>
+        <translation>Добро пожаловать в TSCB Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Aisport Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Aisport Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where TSCB Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные TSCB Core.</translation>
     </message>
     <message>
-        <source>Aisport Core will download and store a copy of the Aisport block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Aisport Core загрузит и сохранит копию цепочки блоков Aisport. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>TSCB Core will download and store a copy of the TSCB block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>TSCB Core загрузит и сохранит копию цепочки блоков TSCB. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1231,8 +1231,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1373,12 +1373,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Aisport addresses after it matures.
-To Add: enter percentage to give and Aisport address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TSCB addresses after it matures.
+To Add: enter percentage to give and TSCB address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие Aisport адреса.
-Для добавления: введите передаваемый процент и Aisport адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие TSCB адреса.
+Для добавления: введите передаваемый процент и TSCB адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1516,48 +1516,48 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 AIS</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 AIS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 TSCB</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 TSCB</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 AIS</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 AIS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 TSCB</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 TSCB</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 AIS to anonymize 10000 AIS</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 AIS для анонимизации 10000 AIS</translation>
+        <source>This option is the quickest and will cost about ~0.025 TSCB to anonymize 10000 TSCB</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 TSCB для анонимизации 10000 TSCB</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 AIS to anonymize 10000 AIS</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 AIS для анонимизации 10000 AIS</translation>
+        <source>This option is moderately fast and will cost about 0.05 TSCB to anonymize 10000 TSCB</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 TSCB для анонимизации 10000 TSCB</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 AIS per 10000 AIS you anonymize.</source>
-        <translation>0.1 AIS за 10000 AIS которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 TSCB per 10000 TSCB you anonymize.</source>
+        <translation>0.1 TSCB за 10000 TSCB которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки Aisport.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TSCB's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки TSCB.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки Aisport.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TSCB's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки TSCB.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Aisport's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки Aisport.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TSCB's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки TSCB.</translation>
     </message>
 </context>
 <context>
@@ -1618,8 +1618,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the Aisport client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт Aisport через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the TSCB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт TSCB через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1638,12 +1638,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start Aisport after logging in to the system.</source>
-        <translation>Автоматически запускать Aisport после входа в систему.</translation>
+        <source>Automatically start TSCB after logging in to the system.</source>
+        <translation>Автоматически запускать TSCB после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start Aisport on system login</source>
-        <translation>&amp;Запускать Aisport при входе в систему</translation>
+        <source>&amp;Start TSCB on system login</source>
+        <translation>&amp;Запускать TSCB при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1670,34 +1670,34 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Aisport.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Aisport.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TSCB.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска TSCB.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/aisport-project/aisport-project-translations</source>
+https://www.transifex.com/TSCB-project/TSCB-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/aisport-project/aisport-project-translations</translation>
+https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming AIS which get automatically converted to zAIS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих AIS, которые автоматически конвертируются в zAIS благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming TSCB which get automatically converted to zTSCB via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих TSCB, которые автоматически конвертируются в zTSCB благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zAIS</source>
-        <translation>Процент  авточеканненых zAIS</translation>
+        <source>Percentage of autominted zTSCB</source>
+        <translation>Процент  авточеканненых zTSCB</translation>
     </message>
     <message>
-        <source>Preferred Automint zAIS Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zAIS</translation>
+        <source>Preferred Automint zTSCB Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zTSCB</translation>
     </message>
     <message>
-        <source>Connect to the Aisport network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети Aisport через SOCKS5 прокси.</translation>
+        <source>Connect to the TSCB network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети TSCB через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1827,8 +1827,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Вид</translation>
     </message>
     <message>
-        <source>AIS Balances</source>
-        <translation>Баланс AIS</translation>
+        <source>TSCB Balances</source>
+        <translation>Баланс TSCB</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1855,8 +1855,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aisport network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Aisport после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TSCB network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью TSCB после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1891,12 +1891,12 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>AIS:</source>
-        <translation>AIS:</translation>
+        <source>TSCB:</source>
+        <translation>TSCB:</translation>
     </message>
     <message>
-        <source>zAIS:</source>
-        <translation>zAIS:</translation>
+        <source>zTSCB:</source>
+        <translation>zTSCB:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1934,12 +1934,12 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start aisport: click-to-pay handler</source>
-        <translation>Не удалось запустить aisport: обработчик click-to-pay </translation>
+        <source>Cannot start TSCB: click-to-pay handler</source>
+        <translation>Не удалось запустить TSCB: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Aisport address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный Aisport адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid TSCB address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный TSCB адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2020,16 +2020,16 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>AIS which were anonymized via Zerocin Protocol</source>
-        <translation>AIS, который был анонимно использован через Zerocoin протокол</translation>
+        <source>TSCB which were anonymized via Zerocin Protocol</source>
+        <translation>TSCB, который был анонимно использован через Zerocoin протокол</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Действия Zerocoin </translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aisport network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Aisport после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TSCB network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью TSCB после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
@@ -2191,8 +2191,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a Aisport address (e.g. %1)</source>
-        <translation>Введите адрес Aisport (например %1)</translation>
+        <source>Enter a TSCB address (e.g. %1)</source>
+        <translation>Введите адрес TSCB (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2325,8 +2325,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Aisport debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки Aisport. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the TSCB debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки TSCB. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2486,8 +2486,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the Aisport RPC console.</source>
-        <translation>Добро пожаловать в окружение Aisport RPC.</translation>
+        <source>Welcome to the TSCB RPC console.</source>
+        <translation>Добро пожаловать в окружение TSCB RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2706,8 +2706,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 AIS</source>
-        <translation>0 AIS</translation>
+        <source>0 TSCB</source>
+        <translation>0 TSCB</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2786,8 +2786,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid Aisport address</source>
-        <translation>Предупреждение: неправильный Aisport адрес</translation>
+        <source>Warning: Invalid TSCB address</source>
+        <translation>Предупреждение: неправильный TSCB адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2840,8 +2840,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Aisport Core is shutting down...</source>
-        <translation>Aisport Core выключается...</translation>
+        <source>TSCB Core is shutting down...</source>
+        <translation>TSCB Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2851,8 +2851,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Aisport address to sign the message with</source>
-        <translation>Адрес Aisport для подписи сообщения с помощью</translation>
+        <source>The TSCB address to sign the message with</source>
+        <translation>Адрес TSCB для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2875,16 +2875,16 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aisport address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес Aisport</translation>
+        <source>Sign the message to prove you own this TSCB address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес TSCB</translation>
     </message>
     <message>
-        <source>The Aisport address the message was signed with</source>
-        <translation>Адрес Aisport, которым подписано сообщение</translation>
+        <source>The TSCB address the message was signed with</source>
+        <translation>Адрес TSCB, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aisport address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным Aisport адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным TSCB адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2930,8 +2930,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Aisport Core</source>
-        <translation>Aisport Core</translation>
+        <source>TSCB Core</source>
+        <translation>TSCB Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2946,8 +2946,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>The Aisport Core developers</source>
-        <translation>Разработчики Aisport Core</translation>
+        <source>The TSCB Core developers</source>
+        <translation>Разработчики TSCB Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3205,7 +3205,7 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
     </message>
     </context>
 <context>
-    <name>aisport-core</name>
+    <name>TSCB-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>
@@ -3239,8 +3239,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations</translat
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Aisport Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики Aisport Core</translation>
+        <source>Copyright (C) 2015-%i The TSCB Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики TSCB Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

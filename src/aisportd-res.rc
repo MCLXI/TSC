@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Aisport"
-            VALUE "FileDescription",    "aisportd (OSS daemon/client for Aisport)"
+            VALUE "CompanyName",        "TSCB"
+            VALUE "FileDescription",    "TSCBd (OSS daemon/client for TSCB)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "aisportd"
+            VALUE "InternalName",       "TSCBd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "aisportd.exe"
-            VALUE "ProductName",        "aisportd"
+            VALUE "OriginalFilename",   "TSCBd.exe"
+            VALUE "ProductName",        "TSCBd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

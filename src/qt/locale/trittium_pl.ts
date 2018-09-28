@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AIS&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE AIS!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSCB&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE TSCB!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aisport address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Aisport jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this TSCB address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres TSCB jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>&amp;Rdzeń Aisport</translation>
+        <source>TSCB Core</source>
+        <translation>&amp;Rdzeń TSCB</translation>
     </message>
     <message>
-        <source>Send coins to a Aisport address</source>
-        <translation>Wyślij monety do adresu Aisport</translation>
+        <source>Send coins to a TSCB address</source>
+        <translation>Wyślij monety do adresu TSCB</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aisport: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i aisport:URI)</translation>
+        <source>Request payments (generates QR codes and TSCB: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i TSCB:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Aisport Core</source>
+        <source>&amp;About TSCB Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Aisport Core</source>
+        <source>Show information about TSCB Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Aisport</source>
-        <translation>Modyfikuj opcje konfiguracji Aisport</translation>
+        <source>Modify configuration options for TSCB</source>
+        <translation>Modyfikuj opcje konfiguracji TSCB</translation>
     </message>
     <message>
-        <source>Sign messages with your Aisport addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami Aisport, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your TSCB addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami TSCB, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aisport addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Aisport</translation>
+        <source>Verify messages to ensure they were signed with specified TSCB addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu TSCB</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a Aisport: URI or payment request</source>
-        <translation>OtwórzAISX: URI i żądanie zapłaty</translation>
+        <source>Open a TSCB: URI or payment request</source>
+        <translation>OtwórzTSCBX: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Aisport Core help message to get a list with possible Aisport command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Aisport, aby dostać listę możliwych opcji Aisport command-line</translation>
+        <source>Show the TSCB Core help message to get a list with possible TSCB command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia TSCB, aby dostać listę możliwych opcji TSCB command-line</translation>
     </message>
     <message>
-        <source>Aisport Core client</source>
-        <translation>Rdzeń Aisport klient</translation>
+        <source>TSCB Core client</source>
+        <translation>Rdzeń TSCB klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -912,8 +912,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Aisport Core</source>
-        <translation>&amp;Rdzeń Aisport</translation>
+        <source>TSCB Core</source>
+        <translation>&amp;Rdzeń TSCB</translation>
     </message>
     </context>
 <context>
@@ -927,8 +927,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Aisport Core</source>
-        <translation>&amp;Rdzeń Aisport</translation>
+        <source>TSCB Core</source>
+        <translation>&amp;Rdzeń TSCB</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1188,12 +1188,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Aisport after logging in to the system.</source>
-        <translation>Automatycznie uruchom Aisport po zalogowaniu do systemu</translation>
+        <source>Automatically start TSCB after logging in to the system.</source>
+        <translation>Automatycznie uruchom TSCB po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Aisport on system login</source>
-        <translation>&amp;Uruchom Aisport podczas logowania do systemu</translation>
+        <source>&amp;Start TSCB on system login</source>
+        <translation>&amp;Uruchom TSCB podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1212,18 +1212,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Aisport.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Aisport</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TSCB.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie TSCB</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/aisport-project/aisport-project-translations</source>
+https://www.transifex.com/TSCB-project/TSCB-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/aisport-project/aisport-project-translations </translation>
+https://www.transifex.com/TSCB-project/TSCB-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the Aisport network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Aisport poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the TSCB network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią TSCB poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1461,8 +1461,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations </transla
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a Aisport address (e.g. %1)</source>
-        <translation>Wprowadź adres Aisport (np. %1)</translation>
+        <source>Enter a TSCB address (e.g. %1)</source>
+        <translation>Wprowadź adres TSCB (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1900,8 +1900,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations </transla
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aisport address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Aisport jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this TSCB address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres TSCB jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1935,8 +1935,8 @@ https://www.transifex.com/aisport-project/aisport-project-translations </transla
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Aisport Core</source>
-        <translation>&amp;Rdzeń Aisport</translation>
+        <source>TSCB Core</source>
+        <translation>&amp;Rdzeń TSCB</translation>
     </message>
     </context>
 <context>
@@ -2034,7 +2034,7 @@ https://www.transifex.com/aisport-project/aisport-project-translations </transla
     </message>
     </context>
 <context>
-    <name>aisport-core</name>
+    <name>TSCB-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

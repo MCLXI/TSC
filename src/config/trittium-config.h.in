@@ -1,8 +1,8 @@
-/* src/config/aisport-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/TSCB-config.h.in.  Generated from configure.ac by autoheader.  */
 
-#ifndef AIS_CONFIG_H
+#ifndef TSCB_CONFIG_H
 
-#define AIS_CONFIG_H
+#define TSCB_CONFIG_H
 
 /* Define if building universal (internal helper macro) */
 #undef AC_APPLE_UNIVERSAL_BUILD
@@ -339,4 +339,4 @@
 /* Define for large files, on AIX-style hosts. */
 #undef _LARGE_FILES
 
-#endif //AIS_CONFIG_H
+#endif //TSCB_CONFIG_H

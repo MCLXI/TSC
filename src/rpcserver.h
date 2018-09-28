@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * Aisport RPC command dispatcher.
+ * TSCB RPC command dispatcher.
  */
 class CRPCTable
 {

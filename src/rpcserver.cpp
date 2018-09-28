@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The Aisport developers
+// Copyright (c) 2018 The TSCB developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -238,10 +238,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Aisport server.");
+            "\nStop TSCB server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Aisport server stopping";
+    return "TSCB server stopping";
 }
 
 
@@ -319,36 +319,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Aisport features */
-        {"aisport", "masternode", &masternode, true, true, false},
-        {"aisport", "listmasternodes", &listmasternodes, true, true, false},
-        {"aisport", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"aisport", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"aisport", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"aisport", "masternodedebug", &masternodedebug, true, true, false},
-        {"aisport", "startmasternode", &startmasternode, true, true, false},
-        {"aisport", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"aisport", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"aisport", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"aisport", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"aisport", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"aisport", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"aisport", "mnbudget", &mnbudget, true, true, false},
-        {"aisport", "preparebudget", &preparebudget, true, true, false},
-        {"aisport", "submitbudget", &submitbudget, true, true, false},
-        {"aisport", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"aisport", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"aisport", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"aisport", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"aisport", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"aisport", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"aisport", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"aisport", "checkbudgets", &checkbudgets, true, true, false},
-        {"aisport", "mnsync", &mnsync, true, true, false},
-        {"aisport", "spork", &spork, true, true, false},
-        {"aisport", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* TSCB features */
+        {"TSCB", "masternode", &masternode, true, true, false},
+        {"TSCB", "listmasternodes", &listmasternodes, true, true, false},
+        {"TSCB", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"TSCB", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"TSCB", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"TSCB", "masternodedebug", &masternodedebug, true, true, false},
+        {"TSCB", "startmasternode", &startmasternode, true, true, false},
+        {"TSCB", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"TSCB", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"TSCB", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"TSCB", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"TSCB", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"TSCB", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"TSCB", "mnbudget", &mnbudget, true, true, false},
+        {"TSCB", "preparebudget", &preparebudget, true, true, false},
+        {"TSCB", "submitbudget", &submitbudget, true, true, false},
+        {"TSCB", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"TSCB", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"TSCB", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"TSCB", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"TSCB", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"TSCB", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"TSCB", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"TSCB", "checkbudgets", &checkbudgets, true, true, false},
+        {"TSCB", "mnsync", &mnsync, true, true, false},
+        {"TSCB", "spork", &spork, true, true, false},
+        {"TSCB", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"aisport", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"TSCB", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -627,16 +627,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use aisportd, or the -server option to aisport-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use TSCBd, or the -server option to TSCB-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=aisportrpc\n"
+                                               "rpcuser=TSCBrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"Aisport Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"TSCB Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1087,7 +1087,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> aisport-cli " + methodname + " " + args + "\n";
+    return "> TSCB-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

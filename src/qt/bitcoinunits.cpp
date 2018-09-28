@@ -19,18 +19,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(AIS);
-    unitlist.append(mAIS);
-    unitlist.append(uAIS);
+    unitlist.append(TSCB);
+    unitlist.append(mTSCB);
+    unitlist.append(uTSCB);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case AIS:
-    case mAIS:
-    case uAIS:
+    case TSCB:
+    case mTSCB:
+    case uTSCB:
         return true;
     default:
         return false;
@@ -40,12 +40,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case AIS:
-        return QString("aisport");
-    case mAIS:
-        return QString("maisport");
-    case uAIS:
-        return QString::fromUtf8("uaisport");
+    case TSCB:
+        return QString("TSCB");
+    case mTSCB:
+        return QString("mTSCB");
+    case uTSCB:
+        return QString::fromUtf8("uTSCB");
     default:
         return QString("???");
     }
@@ -55,23 +55,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case AIS:
-            return QString("AIS");
-        case mAIS:
-            return QString("mAIS");
-        case uAIS:
-            return QString::fromUtf8("μAIS");
+        case TSCB:
+            return QString("TSCB");
+        case mTSCB:
+            return QString("mTSCB");
+        case uTSCB:
+            return QString::fromUtf8("μTSCB");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case AIS:
-            return QString("tAIS");
-        case mAIS:
-            return QString("mtAIS");
-        case uAIS:
-            return QString::fromUtf8("μtAIS");
+        case TSCB:
+            return QString("tTSCB");
+        case mTSCB:
+            return QString("mtTSCB");
+        case uTSCB:
+            return QString::fromUtf8("μtTSCB");
         default:
             return QString("???");
         }
@@ -82,23 +82,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case AIS:
-            return QString("AIS");
-        case mAIS:
-            return QString("Milli-AIS (1 / 1" THIN_SP_UTF8 "000)");
-        case uAIS:
-            return QString("Micro-AIS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case TSCB:
+            return QString("TSCB");
+        case mTSCB:
+            return QString("Milli-TSCB (1 / 1" THIN_SP_UTF8 "000)");
+        case uTSCB:
+            return QString("Micro-TSCB (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case AIS:
-            return QString("TestAISs");
-        case mAIS:
-            return QString("Milli-TestAIS (1 / 1" THIN_SP_UTF8 "000)");
-        case uAIS:
-            return QString("Micro-TestAIS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case TSCB:
+            return QString("TestTSCBs");
+        case mTSCB:
+            return QString("Milli-TestTSCB (1 / 1" THIN_SP_UTF8 "000)");
+        case uTSCB:
+            return QString("Micro-TestTSCB (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -108,11 +108,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case AIS:
+    case TSCB:
         return 100000000;
-    case mAIS:
+    case mTSCB:
         return 100000;
-    case uAIS:
+    case uTSCB:
         return 100;
     default:
         return 100000000;
@@ -122,11 +122,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case AIS:
+    case TSCB:
         return 8;
-    case mAIS:
+    case mTSCB:
         return 5;
-    case uAIS:
+    case uTSCB:
         return 2;
     default:
         return 0;

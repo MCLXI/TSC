@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/aisport-config.h \
+           src/TSCB-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/aisport-config.h \
+           src/config/TSCB-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/aisport.moc \
+           src/qt/TSCB.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/aisport-cli.cpp \
-           src/aisport-tx.cpp \
-           src/aisport.cpp \
+           src/TSCB-cli.cpp \
+           src/TSCB-tx.cpp \
+           src/TSCB.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/aisport.cpp \
-           src/qt/aisportstrings.cpp \
+           src/qt/TSCB.cpp \
+           src/qt/TSCBstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_aisport.cpp \
+           src/test/test_TSCB.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/aisport.qrc src/qt/aisport_locale.qrc
+RESOURCES += src/qt/TSCB.qrc src/qt/TSCB_locale.qrc
 
-TRANSLATIONS += src/qt/locale/aisport_bg.ts \
-                src/qt/locale/aisport_de.ts \
-                src/qt/locale/aisport_en.ts \
-                src/qt/locale/aisport_es.ts \
-                src/qt/locale/aisport_fi.ts \
-                src/qt/locale/aisport_fr.ts \
-                src/qt/locale/aisport_it.ts \
-                src/qt/locale/aisport_ja.ts \
-                src/qt/locale/aisport_pl.ts \
-                src/qt/locale/aisport_pt.ts \
-                src/qt/locale/aisport_ru.ts \
-                src/qt/locale/aisport_sk.ts \
-                src/qt/locale/aisport_sv.ts \
-                src/qt/locale/aisport_vi.ts \
-                src/qt/locale/aisport_zh_CN.ts \
-                src/qt/locale/aisport_zh_TW.ts
+TRANSLATIONS += src/qt/locale/TSCB_bg.ts \
+                src/qt/locale/TSCB_de.ts \
+                src/qt/locale/TSCB_en.ts \
+                src/qt/locale/TSCB_es.ts \
+                src/qt/locale/TSCB_fi.ts \
+                src/qt/locale/TSCB_fr.ts \
+                src/qt/locale/TSCB_it.ts \
+                src/qt/locale/TSCB_ja.ts \
+                src/qt/locale/TSCB_pl.ts \
+                src/qt/locale/TSCB_pt.ts \
+                src/qt/locale/TSCB_ru.ts \
+                src/qt/locale/TSCB_sk.ts \
+                src/qt/locale/TSCB_sv.ts \
+                src/qt/locale/TSCB_vi.ts \
+                src/qt/locale/TSCB_zh_CN.ts \
+                src/qt/locale/TSCB_zh_TW.ts
