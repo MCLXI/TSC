@@ -18,7 +18,7 @@ For example:
   ./github-merge.py 3077
 
 (in any git repository) will help you merge pull request #3077 for the
-TSCB-Project/TSCB repository.
+TSC-Project/TSC repository.
 
 What it does:
 * Fetch master and the pull request.
@@ -36,16 +36,16 @@ couldn't mess with the sources.
 
 Setup
 ---------
-Configuring the github-merge tool for the TSCB repository is done in the following way:
+Configuring the github-merge tool for the TSC repository is done in the following way:
 
-    git config githubmerge.repository TSCB-Project/TSCB
+    git config githubmerge.repository TSC-Project/TSC
     git config githubmerge.testcmd "make -j4 check" (adapt to whatever you want to use for testing)
     git config --global user.signingkey mykeyid (if you want to GPG sign)
 
 optimize-pngs.py
 ================
 
-A script to optimize png files in the TSCB
+A script to optimize png files in the TSC
 repository (requires pngcrush).
 
 fix-copyright-headers.py

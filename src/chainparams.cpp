@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The TSCB developers
+// Copyright (c) 2018 The TSC developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -106,15 +106,15 @@ public:
         pchMessageStart[3] = 0x67;
         vAlertPubKey = ParseHex("04c32c8ab64b43228550115a862847deb294b776a71d6395e9c49477d13eac413f022e40462770dbc665f8a32aeec2a5d87839239f9a0b91a85269f90e79ab0ccc");
         nDefaultPort = 37888;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // TSCB starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // TSC starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 2100000000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 2 * 60; // TSCB: 1 day
-        nTargetSpacing = 2 * 60; //TSCB: 1 minute
+        nTargetTimespan = 2 * 60; // TSC: 1 day
+        nTargetSpacing = 2 * 60; //TSC: 1 minute
         nMaturity = 90;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 29300000 * COIN; //500,000,000
@@ -140,7 +140,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Hello TSCB2";
+        const char* pszTimestamp = "Hello TSC2";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -251,8 +251,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // TSCB: 1 day
-        nTargetSpacing = 1 * 60;  // TSCB: 1 minute
+        nTargetTimespan = 1 * 60; // TSC: 1 day
+        nTargetSpacing = 1 * 60;  // TSC: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -275,9 +275,9 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("testnet.TSCB.io", "testnet.TSCB.io"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("testnet1.TSCB.io", "testnet1.TSCB.io"));       // Single node address
-        vSeeds.push_back(CDNSSeedData("testnet2.TSCB.io", "testnet2.TSCB.io"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("testnet.TSC.io", "testnet.TSC.io"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("testnet1.TSC.io", "testnet1.TSC.io"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("testnet2.TSC.io", "testnet2.TSC.io"));       // Single node address
 
 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65);
@@ -332,8 +332,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // TSCB: 1 day
-        nTargetSpacing = 1 * 60;        // TSCB: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // TSC: 1 day
+        nTargetSpacing = 1 * 60;        // TSC: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1515524400;
         genesis.nBits = 0x1e0ffff0;

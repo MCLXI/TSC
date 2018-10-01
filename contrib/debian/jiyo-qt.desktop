@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=TSCB
-Comment=TSCB P2P Cryptocurrency
-Comment[fr]=TSCB, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=TSCB, eşten eşe kriptografik sanal para birimi
+Name=TSC
+Comment=TSC P2P Cryptocurrency
+Comment[fr]=TSC, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TSC, eşten eşe kriptografik sanal para birimi
 Exec=jiyo-qt %u
 Terminal=false
 Type=Application

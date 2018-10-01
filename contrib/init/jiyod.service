@@ -1,5 +1,5 @@
 [Unit]
-Description=TSCB's distributed currency daemon
+Description=TSC's distributed currency daemon
 After=network.target
 
 [Service]

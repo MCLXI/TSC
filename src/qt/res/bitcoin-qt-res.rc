@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "TSCB"
-            VALUE "FileDescription",    "TSCB Core - GUI"
+            VALUE "CompanyName",        "TSC"
+            VALUE "FileDescription",    "TSC Core - GUI"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "TSCB-qt"
+            VALUE "InternalName",       "TSC-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "TSCB-qt.exe"
-            VALUE "ProductName",        "TSCB Core"
+            VALUE "OriginalFilename",   "TSC-qt.exe"
+            VALUE "ProductName",        "TSC Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

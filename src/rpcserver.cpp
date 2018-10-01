@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The TSCB developers
+// Copyright (c) 2018 The TSC developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -238,10 +238,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop TSCB server.");
+            "\nStop TSC server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "TSCB server stopping";
+    return "TSC server stopping";
 }
 
 
@@ -319,36 +319,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* TSCB features */
-        {"TSCB", "masternode", &masternode, true, true, false},
-        {"TSCB", "listmasternodes", &listmasternodes, true, true, false},
-        {"TSCB", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"TSCB", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"TSCB", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"TSCB", "masternodedebug", &masternodedebug, true, true, false},
-        {"TSCB", "startmasternode", &startmasternode, true, true, false},
-        {"TSCB", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"TSCB", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"TSCB", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"TSCB", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"TSCB", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"TSCB", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"TSCB", "mnbudget", &mnbudget, true, true, false},
-        {"TSCB", "preparebudget", &preparebudget, true, true, false},
-        {"TSCB", "submitbudget", &submitbudget, true, true, false},
-        {"TSCB", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"TSCB", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"TSCB", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"TSCB", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"TSCB", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"TSCB", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"TSCB", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"TSCB", "checkbudgets", &checkbudgets, true, true, false},
-        {"TSCB", "mnsync", &mnsync, true, true, false},
-        {"TSCB", "spork", &spork, true, true, false},
-        {"TSCB", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* TSC features */
+        {"TSC", "masternode", &masternode, true, true, false},
+        {"TSC", "listmasternodes", &listmasternodes, true, true, false},
+        {"TSC", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"TSC", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"TSC", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"TSC", "masternodedebug", &masternodedebug, true, true, false},
+        {"TSC", "startmasternode", &startmasternode, true, true, false},
+        {"TSC", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"TSC", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"TSC", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"TSC", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"TSC", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"TSC", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"TSC", "mnbudget", &mnbudget, true, true, false},
+        {"TSC", "preparebudget", &preparebudget, true, true, false},
+        {"TSC", "submitbudget", &submitbudget, true, true, false},
+        {"TSC", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"TSC", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"TSC", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"TSC", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"TSC", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"TSC", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"TSC", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"TSC", "checkbudgets", &checkbudgets, true, true, false},
+        {"TSC", "mnsync", &mnsync, true, true, false},
+        {"TSC", "spork", &spork, true, true, false},
+        {"TSC", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"TSCB", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"TSC", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -627,16 +627,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use TSCBd, or the -server option to TSCB-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use TSCd, or the -server option to TSC-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=TSCBrpc\n"
+                                               "rpcuser=TSCrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"TSCB Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"TSC Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1087,7 +1087,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> TSCB-cli " + methodname + " " + args + "\n";
+    return "> TSC-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

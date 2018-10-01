@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your TSCB addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina TSCB adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your TSC addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina TSC adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your TSCB addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina TSCB adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your TSC addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina TSC adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>TSCB will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TSCBs from being stolen by malware infecting your computer.</source>
-        <translation>TSCB kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina TSCBs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>TSC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TSCs from being stolen by malware infecting your computer.</source>
+        <translation>TSC kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina TSCs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSCB&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA TSCB&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSC&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA TSC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a TSCB Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en TSCB adress som du vill kryptera med BIP 38.
+        <source>Enter a TSC Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en TSC adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The TSCB address to sign the message with</source>
-        <translation>TSCB adressen för signera meddelandet med</translation>
+        <source>The TSC address to sign the message with</source>
+        <translation>TSC adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TSCB address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna TSCB adress</translation>
+        <source>Sign the message to prove you own this TSC address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna TSC adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The TSCB address the message was signed with</source>
-        <translation>TSCB adressen meddelandet blev signerat med</translation>
+        <source>The TSC address the message was signed with</source>
+        <translation>TSC adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika TSCB adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified TSC address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika TSC adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Kärna</translation>
+        <source>TSC Core</source>
+        <translation>TSC Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a TSCB address</source>
-        <translation>Skicka mynt till en TSCB adress</translation>
+        <source>Send coins to a TSC address</source>
+        <translation>Skicka mynt till en TSC adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and TSCB: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och TSCB: URls)</translation>
+        <source>Request payments (generates QR codes and TSC: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och TSC: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About TSCB Core</source>
-        <translation>Om TSCB Kärnan</translation>
+        <source>&amp;About TSC Core</source>
+        <translation>Om TSC Kärnan</translation>
     </message>
     <message>
-        <source>Show information about TSCB Core</source>
-        <translation>Visa information om TSCB Kärnan</translation>
+        <source>Show information about TSC Core</source>
+        <translation>Visa information om TSC Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for TSCB</source>
-        <translation>Ändra konfigurationsval för TSCB</translation>
+        <source>Modify configuration options for TSC</source>
+        <translation>Ändra konfigurationsval för TSC</translation>
     </message>
     <message>
-        <source>Sign messages with your TSCB addresses to prove you own them</source>
-        <translation>Signera meddelanden med din TSCB adress för att visa att du äger dem</translation>
+        <source>Sign messages with your TSC addresses to prove you own them</source>
+        <translation>Signera meddelanden med din TSC adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TSCB addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika TSCB adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified TSC addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika TSC adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>TSCB Core client</source>
-        <translation>TSCB kärn klient</translation>
+        <source>TSC Core client</source>
+        <translation>TSC kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Kärna</translation>
+        <source>TSC Core</source>
+        <translation>TSC Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Kärna</translation>
+        <source>TSC Core</source>
+        <translation>TSC Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1157,8 +1157,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The TSCB address to sign the message with</source>
-        <translation>TSCB adressen för signera meddelandet med</translation>
+        <source>The TSC address to sign the message with</source>
+        <translation>TSC adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1181,16 +1181,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TSCB address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna TSCB adress</translation>
+        <source>Sign the message to prove you own this TSC address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna TSC adress</translation>
     </message>
     <message>
-        <source>The TSCB address the message was signed with</source>
-        <translation>TSCB adressen meddelandet blev signerat med</translation>
+        <source>The TSC address the message was signed with</source>
+        <translation>TSC adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika TSCB adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified TSC address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika TSC adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1232,8 +1232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Kärna</translation>
+        <source>TSC Core</source>
+        <translation>TSC Kärna</translation>
     </message>
     </context>
 <context>
@@ -1419,7 +1419,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>TSCB-core</name>
+    <name>TSC-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your TSCB addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše TSCB adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your TSC addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše TSC adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your TSCB addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše TSCB adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your TSC addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše TSC adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>TSCB will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TSCBs from being stolen by malware infecting your computer.</source>
-        <translation>TSCB sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše TSCB pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>TSC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TSCs from being stolen by malware infecting your computer.</source>
+        <translation>TSC sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše TSC pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSCB&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY TSCB &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSC&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY TSC &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a TSCB Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu TSCB, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a TSC Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu TSC, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The TSCB address to sign the message with</source>
-        <translation>Adresa TSCB, ktorou chcete správu podpísať</translation>
+        <source>The TSC address to sign the message with</source>
+        <translation>Adresa TSC, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TSCB address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto TSCB adresy</translation>
+        <source>Sign the message to prove you own this TSC address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto TSC adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The TSCB address the message was signed with</source>
-        <translation>TSCB adresa, ktorou bola správa podpísaná</translation>
+        <source>The TSC address the message was signed with</source>
+        <translation>TSC adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou TSCB adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified TSC address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou TSC adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Core</translation>
+        <source>TSC Core</source>
+        <translation>TSC Core</translation>
     </message>
     <message>
-        <source>Send coins to a TSCB address</source>
-        <translation>Odoslať mince na adresu TSCB</translation>
+        <source>Send coins to a TSC address</source>
+        <translation>Odoslať mince na adresu TSC</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and TSCB: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a TSCB: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and TSC: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a TSC: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About TSCB Core</source>
-        <translation>O TSCB Core</translation>
+        <source>&amp;About TSC Core</source>
+        <translation>O TSC Core</translation>
     </message>
     <message>
-        <source>Show information about TSCB Core</source>
-        <translation>Zobraziť informácie o TSCB Core</translation>
+        <source>Show information about TSC Core</source>
+        <translation>Zobraziť informácie o TSC Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for TSCB</source>
-        <translation>Zmeňte možnosti konfigurácie pre TSCB</translation>
+        <source>Modify configuration options for TSC</source>
+        <translation>Zmeňte možnosti konfigurácie pre TSC</translation>
     </message>
     <message>
-        <source>Sign messages with your TSCB addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy TSCB, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your TSC addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy TSC, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TSCB addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými TSCB adresami</translation>
+        <source>Verify messages to ensure they were signed with specified TSC addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými TSC adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a TSCB: URI or payment request</source>
-        <translation>Otvorte TSCB: URI alebo žiadosť o platbu</translation>
+        <source>Open a TSC: URI or payment request</source>
+        <translation>Otvorte TSC: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the TSCB Core help message to get a list with possible TSCB command-line options</source>
-        <translation>Zobraziť pomocnú správu programu TSCB Core a získajte zoznam možností príkazového riadka TSCB</translation>
+        <source>Show the TSC Core help message to get a list with possible TSC command-line options</source>
+        <translation>Zobraziť pomocnú správu programu TSC Core a získajte zoznam možností príkazového riadka TSC</translation>
     </message>
     <message>
-        <source>TSCB Core client</source>
-        <translation>TSCB Core klient</translation>
+        <source>TSC Core client</source>
+        <translation>TSC Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -813,8 +813,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (TSCB2.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (TSCB2.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (TSC2.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (TSC2.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -904,15 +904,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Core</translation>
+        <source>TSC Core</source>
+        <translation>TSC Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Core</translation>
+        <source>TSC Core</source>
+        <translation>TSC Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1136,8 +1136,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The TSCB address to sign the message with</source>
-        <translation>Adresa TSCB, ktorou chcete správu podpísať</translation>
+        <source>The TSC address to sign the message with</source>
+        <translation>Adresa TSC, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1160,16 +1160,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TSCB address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto TSCB adresy</translation>
+        <source>Sign the message to prove you own this TSC address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto TSC adresy</translation>
     </message>
     <message>
-        <source>The TSCB address the message was signed with</source>
-        <translation>TSCB adresa, ktorou bola správa podpísaná</translation>
+        <source>The TSC address the message was signed with</source>
+        <translation>TSC adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou TSCB adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified TSC address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou TSC adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1207,8 +1207,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Core</translation>
+        <source>TSC Core</source>
+        <translation>TSC Core</translation>
     </message>
     </context>
 <context>
@@ -1306,7 +1306,7 @@ MultiSend: %1</translation>
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>TSCB-core</name>
+    <name>TSC-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

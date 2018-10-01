@@ -19,18 +19,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(TSCB);
-    unitlist.append(mTSCB);
-    unitlist.append(uTSCB);
+    unitlist.append(TSC);
+    unitlist.append(mTSC);
+    unitlist.append(uTSC);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case TSCB:
-    case mTSCB:
-    case uTSCB:
+    case TSC:
+    case mTSC:
+    case uTSC:
         return true;
     default:
         return false;
@@ -40,12 +40,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case TSCB:
-        return QString("TSCB");
-    case mTSCB:
-        return QString("mTSCB");
-    case uTSCB:
-        return QString::fromUtf8("uTSCB");
+    case TSC:
+        return QString("TSC");
+    case mTSC:
+        return QString("mTSC");
+    case uTSC:
+        return QString::fromUtf8("uTSC");
     default:
         return QString("???");
     }
@@ -55,23 +55,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case TSCB:
-            return QString("TSCB");
-        case mTSCB:
-            return QString("mTSCB");
-        case uTSCB:
-            return QString::fromUtf8("μTSCB");
+        case TSC:
+            return QString("TSC");
+        case mTSC:
+            return QString("mTSC");
+        case uTSC:
+            return QString::fromUtf8("μTSC");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case TSCB:
-            return QString("tTSCB");
-        case mTSCB:
-            return QString("mtTSCB");
-        case uTSCB:
-            return QString::fromUtf8("μtTSCB");
+        case TSC:
+            return QString("tTSC");
+        case mTSC:
+            return QString("mtTSC");
+        case uTSC:
+            return QString::fromUtf8("μtTSC");
         default:
             return QString("???");
         }
@@ -82,23 +82,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case TSCB:
-            return QString("TSCB");
-        case mTSCB:
-            return QString("Milli-TSCB (1 / 1" THIN_SP_UTF8 "000)");
-        case uTSCB:
-            return QString("Micro-TSCB (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case TSC:
+            return QString("TSC");
+        case mTSC:
+            return QString("Milli-TSC (1 / 1" THIN_SP_UTF8 "000)");
+        case uTSC:
+            return QString("Micro-TSC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case TSCB:
-            return QString("TestTSCBs");
-        case mTSCB:
-            return QString("Milli-TestTSCB (1 / 1" THIN_SP_UTF8 "000)");
-        case uTSCB:
-            return QString("Micro-TestTSCB (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case TSC:
+            return QString("TestTSCs");
+        case mTSC:
+            return QString("Milli-TestTSC (1 / 1" THIN_SP_UTF8 "000)");
+        case uTSC:
+            return QString("Micro-TestTSC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -108,11 +108,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case TSCB:
+    case TSC:
         return 100000000;
-    case mTSCB:
+    case mTSC:
         return 100000;
-    case uTSCB:
+    case uTSC:
         return 100;
     default:
         return 100000000;
@@ -122,11 +122,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case TSCB:
+    case TSC:
         return 8;
-    case mTSCB:
+    case mTSC:
         return 5;
-    case uTSCB:
+    case uTSC:
         return 2;
     default:
         return 0;

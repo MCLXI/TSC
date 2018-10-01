@@ -1,9 +1,9 @@
-/* src/config/TSCB-config.h.  Generated from TSCB-config.h.in by configure.  */
-/* src/config/TSCB-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/TSC-config.h.  Generated from TSC-config.h.in by configure.  */
+/* src/config/TSC-config.h.in.  Generated from configure.ac by autoheader.  */
 
-#ifndef TSCB_CONFIG_H
+#ifndef TSC_CONFIG_H
 
-#define TSCB_CONFIG_H
+#define TSC_CONFIG_H
 
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
@@ -268,16 +268,16 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "www.TSCB.io"
+#define PACKAGE_BUGREPORT "www.TSC.io"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "TSCB Core"
+#define PACKAGE_NAME "TSC Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "TSCB Core 2.0.1"
+#define PACKAGE_STRING "TSC Core 2.0.1"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "TSCB"
+#define PACKAGE_TARNAME "TSC"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""
@@ -340,4 +340,4 @@
 /* Define for large files, on AIX-style hosts. */
 /* #undef _LARGE_FILES */
 
-#endif //TSCB_CONFIG_H
+#endif //TSC_CONFIG_H

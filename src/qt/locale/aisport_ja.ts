@@ -266,6 +266,6 @@
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>TSCB-core</name>
+    <name>TSC-core</name>
     </context>
 </TS>

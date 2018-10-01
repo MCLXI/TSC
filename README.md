@@ -1,3 +1,3 @@
 Update coming soon!
-# TSCBCore
-# TSCBCoin
+# TSCCore
+# TSCCoin

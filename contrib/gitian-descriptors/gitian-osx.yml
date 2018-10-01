@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/eastcoastcrypto/TSCB"
+- "url": "https://github.com/eastcoastcrypto/TSC"
   "dir": "jiyo"
 files:
 - "MacOSX10.11.sdk.tar.gz"

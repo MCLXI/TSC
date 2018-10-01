@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between TSCB-cli and TSCBd)
- * of a given instance of the TSCB system.
+ * CBaseChainParams defines the base parameters (shared between TSC-cli and TSCd)
+ * of a given instance of the TSC system.
  */
 class CBaseChainParams
 {

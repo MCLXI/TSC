@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your TSCB addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите TSCB адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your TSC addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите TSC адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your TSCB addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите TSCB адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your TSC addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите TSC адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>TSCB will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TSCBs from being stolen by malware infecting your computer.</source>
-        <translation>TSCB сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия TSCB от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>TSC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TSCs from being stolen by malware infecting your computer.</source>
+        <translation>TSC сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия TSC от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSCB&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ TSCB&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSC&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ TSC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Шифриране</translation>
     </message>
     <message>
-        <source>Enter a TSCB Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете TSCB адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
+        <source>Enter a TSC Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете TSC адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The TSCB address to sign the message with</source>
-        <translation>TSCB адреса, с който да подпишете съобщението</translation>
+        <source>The TSC address to sign the message with</source>
+        <translation>TSC адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TSCB address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този TSCB адрес</translation>
+        <source>Sign the message to prove you own this TSC address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този TSC адрес</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Въведете личният си BIP 38 ключ. Въведете тайната фраза в средното поле. Избери Дешифриращия Ключ за да изчислим личния ключ. След като ключа се дешифрира, за да добаите ключа към портфейла, кликнете "Импортирай адрес".</translation>
     </message>
     <message>
-        <source>The TSCB address the message was signed with</source>
-        <translation>TSCB адреса, който е подписано съобщението</translation>
+        <source>The TSC address the message was signed with</source>
+        <translation>TSC адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения TSCB адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified TSC address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения TSC адрес</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,24 +602,24 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Ядро</translation>
+        <source>TSC Core</source>
+        <translation>TSC Ядро</translation>
     </message>
     <message>
-        <source>Send coins to a TSCB address</source>
-        <translation>Изпратете монети до TSCB адрес</translation>
+        <source>Send coins to a TSC address</source>
+        <translation>Изпратете монети до TSC адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and TSCB: URIs)</source>
-        <translation>Поискай плащане (генерира QR кодове и  TSCB:URI)</translation>
+        <source>Request payments (generates QR codes and TSC: URIs)</source>
+        <translation>Поискай плащане (генерира QR кодове и  TSC:URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;Поверителност</translation>
     </message>
     <message>
-        <source>Privacy Action for zTSCB and Obfuscation</source>
-        <translation>Поверителни действия за zTSCB и Обфускация</translation>
+        <source>Privacy Action for zTSC and Obfuscation</source>
+        <translation>Поверителни действия за zTSC и Обфускация</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -630,24 +630,24 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About TSCB Core</source>
-        <translation>&amp;Относно TSCB Ядрото</translation>
+        <source>&amp;About TSC Core</source>
+        <translation>&amp;Относно TSC Ядрото</translation>
     </message>
     <message>
-        <source>Show information about TSCB Core</source>
-        <translation>Информациза за TSCB Ядрото</translation>
+        <source>Show information about TSC Core</source>
+        <translation>Информациза за TSC Ядрото</translation>
     </message>
     <message>
-        <source>Modify configuration options for TSCB</source>
-        <translation>Промени TSCB конфигурацията</translation>
+        <source>Modify configuration options for TSC</source>
+        <translation>Промени TSC конфигурацията</translation>
     </message>
     <message>
-        <source>Sign messages with your TSCB addresses to prove you own them</source>
-        <translation>Подпишете съобщения със своте TSCB адреси, за да докажете че са Ваши</translation>
+        <source>Sign messages with your TSC addresses to prove you own them</source>
+        <translation>Подпишете съобщения със своте TSC адреси, за да докажете че са Ваши</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TSCB addresses</source>
-        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните TSCB адреси</translation>
+        <source>Verify messages to ensure they were signed with specified TSC addresses</source>
+        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните TSC адреси</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -678,8 +678,8 @@
         <translation>Отвори Мастърноуд конфигурационния файл</translation>
     </message>
     <message>
-        <source>Open a TSCB: URI or payment request</source>
-        <translation>Отвори TSCB:URI платежно нареждане</translation>
+        <source>Open a TSC: URI or payment request</source>
+        <translation>Отвори TSC:URI платежно нареждане</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -690,16 +690,16 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the TSCB Core help message to get a list with possible TSCB command-line options</source>
-        <translation>Разкрийте Помощ за TSCB Ядрото, за да видите списък с възможни писмени команди.</translation>
+        <source>Show the TSC Core help message to get a list with possible TSC command-line options</source>
+        <translation>Разкрийте Помощ за TSC Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>TSCB Core client</source>
-        <translation>Клиент TSCB Ядро</translation>
+        <source>TSC Core client</source>
+        <translation>Клиент TSC Ядро</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to TSCB network</source>
-        <translation><numerusform>%n активни връзки към TSCB мрежата</numerusform><numerusform>%n активни свръзки към TSCB мрежата</numerusform></translation>
+        <source>%n active connection(s) to TSC network</source>
+        <translation><numerusform>%n активни връзки към TSC мрежата</numerusform><numerusform>%n активни свръзки към TSC мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -853,8 +853,8 @@ Address: %4
         <translation>ТекстовЕтикет</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (TSCB2.conf).</source>
-        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (TSCB2.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (TSC2.conf).</source>
+        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (TSC2.conf).</translation>
     </message>
 </context>
 <context>
@@ -1142,8 +1142,8 @@ Address: %4
         <translation>Редактирай адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid TSCB address.</source>
-        <translation>Зададения адрес "%1"не е валиден TSCB адрес.</translation>
+        <source>The entered address "%1" is not a valid TSC address.</source>
+        <translation>Зададения адрес "%1"не е валиден TSC адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1188,16 +1188,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Ядро</translation>
+        <source>TSC Core</source>
+        <translation>TSC Ядро</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About TSCB Core</source>
-        <translation>Относно TSCB Ядрото</translation>
+        <source>About TSC Core</source>
+        <translation>Относно TSC Ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1243,16 +1243,16 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to TSCB Core.</source>
-        <translation>Добре Дошли в TSCB Ядрото</translation>
+        <source>Welcome to TSC Core.</source>
+        <translation>Добре Дошли в TSC Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where TSCB Core will store its data.</source>
-        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде TSCB Ядрото ще съхранява своите данни.</translation>
+        <source>As this is the first time the program is launched, you can choose where TSC Core will store its data.</source>
+        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде TSC Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>TSCB Core will download and store a copy of the TSCB block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>TSCB Ядрото ще изтегли и запише копие на целия TSCB блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
+        <source>TSC Core will download and store a copy of the TSC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>TSC Ядрото ще изтегли и запише копие на целия TSC блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1263,8 +1263,8 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Ядро</translation>
+        <source>TSC Core</source>
+        <translation>TSC Ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1405,12 +1405,12 @@ Address: %4
         <translation>Въведете адреса на Получателя</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TSCB addresses after it matures.
-To Add: enter percentage to give and TSCB address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other TSC addresses after it matures.
+To Add: enter percentage to give and TSC address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други TSCB адреси.
-Да Добавите: въведете процент и задайте TSCB адрес към вектора за МултиИзпращане
+        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други TSC адреси.
+Да Добавите: въведете процент и задайте TSC адрес към вектора за МултиИзпращане
 Да Прамахнете: Въведете адрес за изстриване и натиснете истрий (del).
 МултиИзпращането няма да бъде активирано докато не кликнете "Активирай"</translation>
     </message>
@@ -1548,47 +1548,47 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 TSCB</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 TSCB</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 TSC</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 TSC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 TSCB</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 TSCB</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 TSC</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 TSC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 TSCB to anonymize 10000 TSCB</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 TSCB за да скриете 10000 TSCB</translation>
+        <source>This option is the quickest and will cost about ~0.025 TSC to anonymize 10000 TSC</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 TSC за да скриете 10000 TSC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 TSCB to anonymize 10000 TSCB</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 TSCB за да скриете 10000 TSCB</translation>
+        <source>This option is moderately fast and will cost about 0.05 TSC to anonymize 10000 TSC</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 TSC за да скриете 10000 TSC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Това е най-бавния и най-сигурен вариант за скриване на TSCB. Използването й ще струва</translation>
+        <translation>Това е най-бавния и най-сигурен вариант за скриване на TSC. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 TSCB per 10000 TSCB you anonymize.</source>
-        <translation>0.1 TSCB за 10000 скрити TSCB</translation>
+        <source>0.1 TSC per 10000 TSC you anonymize.</source>
+        <translation>0.1 TSC за 10000 скрити TSC</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Конфигурация на Обфускацията</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TSCB's configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening TSC's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на елементарно ниво (%1 и 2 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TSCB's configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening TSC's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на високо ниво (%1 и 8 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TSCB's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening TSC's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на максимално ниво (%1 и 16 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
 </context>
@@ -1650,8 +1650,8 @@ Please check the address and try again.</source>
         <translation>Aко изключите харча на непотвърдено ресто, рестото от превод&lt;br/&gt;не може да се използва, докато превода не получи поне 1 потвърждение. &lt;br/&gt;Това влияе и на начина по който общите Ви средства се преизчисляват.</translation>
     </message>
     <message>
-        <source>Automatically open the TSCB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отвори TSCB порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
+        <source>Automatically open the TSC client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отвори TSC порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1670,12 +1670,12 @@ Please check the address and try again.</source>
         <translation>Експерт</translation>
     </message>
     <message>
-        <source>Automatically start TSCB after logging in to the system.</source>
-        <translation>Стартирай TSCB автоматично след влизане в системата.</translation>
+        <source>Automatically start TSC after logging in to the system.</source>
+        <translation>Стартирай TSC автоматично след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start TSCB on system login</source>
-        <translation>&amp;Стартирай TSCB заедно с операционната система</translation>
+        <source>&amp;Start TSC on system login</source>
+        <translation>&amp;Стартирай TSC заедно с операционната система</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1702,34 +1702,34 @@ Please check the address and try again.</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting TSCB.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting TSC.</source>
         <translation>Промяна на езика. Настройката е активна след рестарт на портфейла.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/TSCB-project/TSCB-project-translations</source>
+https://www.transifex.com/TSC-project/TSC-project-translations</source>
         <translation>Липсващ език или непълен превод? Помогнете с преводите тук:
-https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
+https://www.transifex.com/TSC-project/TSC-project-translations</translation>
     </message>
     <message>
-        <source>Percentage of incoming TSCB which get automatically converted to zTSCB via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите TSCB, който автоматично да се конвертира в zTSCB посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming TSC which get automatically converted to zTSC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите TSC, който автоматично да се конвертира в zTSC посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zTSCB</source>
-        <translation>Процент автоматично сечени zTSCB</translation>
+        <source>Percentage of autominted zTSC</source>
+        <translation>Процент автоматично сечени zTSC</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough TSCB for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zTSCB докато не се съберат достатъчно TSCB за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough TSC for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zTSC докато не се съберат достатъчно TSC за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zTSCB Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zTSCB</translation>
+        <source>Preferred Automint zTSC Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zTSC</translation>
     </message>
     <message>
-        <source>Connect to the TSCB network through a SOCKS5 proxy.</source>
-        <translation>Свържи се с TSCB мрежата със SOCKS5 прокси.</translation>
+        <source>Connect to the TSC network through a SOCKS5 proxy.</source>
+        <translation>Свържи се с TSC мрежата със SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1859,8 +1859,8 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
         <translation>От</translation>
     </message>
     <message>
-        <source>TSCB Balances</source>
-        <translation>TSCB Баланс</translation>
+        <source>TSC Balances</source>
+        <translation>TSC Баланс</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1887,8 +1887,8 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
         <translation>Възнаграждение от стейкване или мастърноуд, които все още не са узрели.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TSCB network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с TSCB мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TSC network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с TSC мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1927,12 +1927,12 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
         <translation>Комбиниран общ баланс (само озрелите монети)</translation>
     </message>
     <message>
-        <source>TSCB:</source>
-        <translation>TSCB:</translation>
+        <source>TSC:</source>
+        <translation>TSC:</translation>
     </message>
     <message>
-        <source>zTSCB:</source>
-        <translation>zTSCB:</translation>
+        <source>zTSC:</source>
+        <translation>zTSC:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1974,12 +1974,12 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start TSCB: click-to-pay handler</source>
-        <translation>Провал при стартирането на TSCB: click-to-pay обработвател</translation>
+        <source>Cannot start TSC: click-to-pay handler</source>
+        <translation>Провал при стартирането на TSC: click-to-pay обработвател</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid TSCB address or malformed URI parameters.</source>
-        <translation>URI не може да се парсне. Вероятна причина е невалиден TSCB адрес или зле-форматирани URI Параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid TSC address or malformed URI parameters.</source>
+        <translation>URI не може да се парсне. Вероятна причина е невалиден TSC адрес или зле-форматирани URI Параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2060,24 +2060,24 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>TSCB which were anonymized via Zerocin Protocol</source>
-        <translation>TSCB скрити посредством Зерокойн протокола</translation>
+        <source>TSC which were anonymized via Zerocin Protocol</source>
+        <translation>TSC скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>Zerocoin TSCB (zTSCB)</source>
-        <translation>Zerocoin TSCB (zTSCB)</translation>
+        <source>Zerocoin TSC (zTSC)</source>
+        <translation>Zerocoin TSC (zTSC)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TSCB network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с TSCB мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TSC network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с TSC мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>Въведете колко TSCB  да се конвертират в zTSCB</translation>
+        <translation>Въведете колко TSC  да се конвертират в zTSC</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2088,16 +2088,16 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zTSCB</source>
-        <translation>zTSCB</translation>
+        <source>zTSC</source>
+        <translation>zTSC</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Налични за сечене:</translation>
     </message>
     <message>
-        <source>0.000 000 00 TSCB</source>
-        <translation>0.000 000 00 TSCB</translation>
+        <source>0.000 000 00 TSC</source>
+        <translation>0.000 000 00 TSC</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2133,11 +2133,11 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
     </message>
     <message>
         <source>zPhr Control</source>
-        <translation>zTSCB Контрол</translation>
+        <translation>zTSC Контрол</translation>
     </message>
     <message>
         <source>zPhr Selected:</source>
-        <translation>Избрани zTSCB:</translation>
+        <translation>Избрани zTSC:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2156,8 +2156,8 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>0 zTSCB</source>
-        <translation>0 zTSCB</translation>
+        <source>0 zTSC</source>
+        <translation>0 zTSC</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2176,7 +2176,7 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The TSCB address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The TSC address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation>Адреса на който да изпратим плащането. Ако е празно - плащането е до себе си.</translation>
     </message>
     <message>
@@ -2209,7 +2209,7 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zTSCB от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zTSC от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2376,8 +2376,8 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
         <translation>Копирай сумата</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the TSCB network yet.</source>
-        <translation>Zerocoin функцията все още не е активирана в TSCB мрежата.</translation>
+        <source>Zerocoin functionality is not enabled on the TSC network yet.</source>
+        <translation>Zerocoin функцията все още не е активирана в TSC мрежата.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2396,8 +2396,8 @@ https://www.transifex.com/TSCB-project/TSCB-project-translations</translation>
         <translation>Успешно изсечени</translation>
     </message>
     <message>
-        <source> zTSCB in </source>
-        <translation>zTSCB в</translation>
+        <source> zTSC in </source>
+        <translation>zTSC в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2430,8 +2430,8 @@ Please be patient...</source>
         <translation>Без 'Плати На' адрес, плащането е локално</translation>
     </message>
     <message>
-        <source>Invalid TSCB Address</source>
-        <translation>Невалиден TSCB адрес</translation>
+        <source>Invalid TSC Address</source>
+        <translation>Невалиден TSC адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2475,7 +2475,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Spend #: </source>
-        <translation>zTSCB Похарчени #:</translation>
+        <translation>zTSC Похарчени #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2499,7 +2499,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Mint</source>
-        <translation>Сечене на zTSCB</translation>
+        <translation>Сечене на zTSC</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -2521,8 +2521,8 @@ Please be patient...</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a TSCB address (e.g. %1)</source>
-        <translation>Задайте TSCB адрес (например %1)</translation>
+        <source>Enter a TSC address (e.g. %1)</source>
+        <translation>Задайте TSC адрес (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2659,8 +2659,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the TSCB debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отвори TSCB дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
+        <source>Open the TSC debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отвори TSC дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2827,8 +2827,8 @@ Please be patient...</source>
         <translation>Изходящи:</translation>
     </message>
     <message>
-        <source>Welcome to the TSCB RPC console.</source>
-        <translation>Добре Дошли в RPC конзолата на TSCB.</translation>
+        <source>Welcome to the TSC RPC console.</source>
+        <translation>Добре Дошли в RPC конзолата на TSC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2898,12 +2898,12 @@ Please be patient...</source>
         <translation>Незадължителен етикет, който да асоциираме с адреса за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TSCB network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по TSCB мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TSC network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по TSC мрежата.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TSCB network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по TSCB мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the TSC network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по TSC мрежата.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3127,8 +3127,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 TSCB</source>
-        <translation>0 TSCB</translation>
+        <source>0 TSC</source>
+        <translation>0 TSC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3179,15 +3179,15 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTSCBs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTSCBs in fee,&lt;br /&gt;while "at least" pays 1000 uTSCBs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uTSCB и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uTSCB входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uTSCB. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uTSCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTSCs in fee,&lt;br /&gt;while "at least" pays 1000 uTSCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uTSC и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uTSC входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uTSC. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uTSCBs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTSCBs in fee,&lt;br /&gt;while "total at least" pays 1000 uTSCBs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uTSCB и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uTSCB входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uTSCB. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uTSCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uTSCs in fee,&lt;br /&gt;while "total at least" pays 1000 uTSCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uTSC и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uTSC входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uTSC. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TSCB transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for TSC transactions than the network can process.</source>
         <translation>Няма проблем да платите минималната такса, стига обема преводи да е по-малък от наличното място в блоковете. &lt;br /&gt;Но имайте впредвид, че това може да се окаже в превод, който никога не получава потвърждение ако заявките за преводи са повече от колкото мрежата може да понесе.</translation>
     </message>
     <message>
@@ -3235,8 +3235,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized TSCB</source>
-        <translation>Анонимизиран TSCB</translation>
+        <source>Anonymized TSC</source>
+        <translation>Анонимизиран TSC</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3295,8 +3295,8 @@ Please be patient...</source>
         <translation>анонимни средства</translation>
     </message>
     <message>
-        <source>Warning: Invalid TSCB address</source>
-        <translation>Предупреждение: Невалиден TSCB адрес</translation>
+        <source>Warning: Invalid TSC address</source>
+        <translation>Предупреждение: Невалиден TSC адрес</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3402,8 +3402,8 @@ Please be patient...</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The TSCB address to send the payment to</source>
-        <translation>TSCB адреса - получател на плащането</translation>
+        <source>The TSC address to send the payment to</source>
+        <translation>TSC адреса - получател на плащането</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3442,8 +3442,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the TSCB: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TSCB network.</source>
-        <translation>Съобщение, което е било прикачено към TSCB:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по TSCB мрежата.</translation>
+        <source>A message that was attached to the TSC: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TSC network.</source>
+        <translation>Съобщение, което е било прикачено към TSC:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по TSC мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3469,8 +3469,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>TSCB Core is shutting down...</source>
-        <translation>Изключване на TSCB Ядрото...</translation>
+        <source>TSC Core is shutting down...</source>
+        <translation>Изключване на TSC Ядрото...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3492,8 +3492,8 @@ Please be patient...</source>
         <translation>Може да подписвате съобщения с Вашите адреси, за да докажете че сте техен притежател. Внимавайте да не подписвате нищо съмнително, тъй като има хакерски атаки, които целят да придобият вашата самоличност. Само подписвайте пълен и ясен текст, с който сте напълно съгласни.</translation>
     </message>
     <message>
-        <source>The TSCB address to sign the message with</source>
-        <translation>TSCB адреса, с който да подпишете съобщението</translation>
+        <source>The TSC address to sign the message with</source>
+        <translation>TSC адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3524,16 +3524,16 @@ Please be patient...</source>
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TSCB address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този TSCB адрес</translation>
+        <source>Sign the message to prove you own this TSC address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този TSC адрес</translation>
     </message>
     <message>
-        <source>The TSCB address the message was signed with</source>
-        <translation>TSCB адреса, който е подписано съобщението</translation>
+        <source>The TSC address the message was signed with</source>
+        <translation>TSC адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения TSCB адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified TSC address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения TSC адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3619,8 +3619,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB Ядро</translation>
+        <source>TSC Core</source>
+        <translation>TSC Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3635,8 +3635,8 @@ Please be patient...</source>
         <translation>Dash Core разработчици</translation>
     </message>
     <message>
-        <source>The TSCB Core developers</source>
-        <translation>TSCB Core разработчици</translation>
+        <source>The TSC Core developers</source>
+        <translation>TSC Core разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3956,23 +3956,23 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted Phr to zPhr</source>
-        <translation>Конвертиран TSCB във zTSCB</translation>
+        <translation>Конвертиран TSC във zTSC</translation>
     </message>
     <message>
         <source>Spent zPhr</source>
-        <translation>Похарчени zTSCB</translation>
+        <translation>Похарчени zTSC</translation>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен TSCB от zTSCB</translation>
+        <translation>Получен TSC от zTSC</translation>
     </message>
     <message>
         <source>Minted Change as zPhr from zPhr Spend</source>
-        <translation>Исечено ресто като zTSCB от похарчените zTSCB</translation>
+        <translation>Исечено ресто като zTSC от похарчените zTSC</translation>
     </message>
     <message>
         <source>Converted zPhr to Phr</source>
-        <translation>Конвертирани zTSCB в TSCB</translation>
+        <translation>Конвертирани zTSC в TSC</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3980,7 +3980,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Accumulator</source>
-        <translation>zTSCB Акумулатор</translation>
+        <translation>zTSC Акумулатор</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4087,7 +4087,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен TSCB от zTSCB</translation>
+        <translation>Получен TSC от zTSC</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4099,7 +4099,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zPhr</source>
-        <translation>Харчене на Zerocoin, Ресто в zTSCB</translation>
+        <translation>Харчене на Zerocoin, Ресто в zTSC</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4215,8 +4215,8 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 TSCB.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 TSCB.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 TSC.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 TSC.</translation>
     </message>
 </context>
 <context>
@@ -4262,7 +4262,7 @@ Please be patient...</source>
     <name>ZPhrControlDialog</name>
     <message>
         <source>Select zPhr to Spend</source>
-        <translation>Изберете zTSCB за Изпращане</translation>
+        <translation>Изберете zTSC за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4274,7 +4274,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr</source>
-        <translation>zTSCB</translation>
+        <translation>zTSC</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4286,7 +4286,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>TSCB-core</name>
+    <name>TSC-core</name>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
         <translation>Промяна на поведението на автоматично финализираното гласоподаване. mode=auto: Гласувай само за точни финализирани бюджети, които съвпадат с моят генериран бюджет. (string, default:auto)</translation>
@@ -4304,8 +4304,8 @@ Please be patient...</source>
         <translation>Изтрий всички преводи от портфейла и възстанови само тези части от блокчейна - сканира при стартиране.</translation>
     </message>
     <message>
-        <source>Disable all TSCB specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключи всякаква TSCB функционалност (Мастърноудове, Обфускация, SwiftTX, Бюджетиране) (0-1 default: %u)</translation>
+        <source>Disable all TSC specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключи всякаква TSC функционалност (Мастърноудове, Обфускация, SwiftTX, Бюджетиране) (0-1 default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4344,12 +4344,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in TSCB/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в TSCB/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in TSC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в TSC/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in TSCB/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в TSCB/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in TSC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в TSC/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

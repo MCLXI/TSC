@@ -1,14 +1,14 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='TSCB2.conf'
-CONFIGFOLDER='/root/.TSCB2'
-COIN_DAEMON='TSCBd'
-COIN_CLI='TSCB-cli'
+CONFIG_FILE='TSC2.conf'
+CONFIGFOLDER='/root/.TSC2'
+COIN_DAEMON='TSCd'
+COIN_CLI='TSC-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/TSCBcoin/TSCB/releases/download/1.0/finalais.tar.gz'
+COIN_TGZ='https://github.com/TSCcoin/TSC/releases/download/1.0/finalais.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='TSCB'
+COIN_NAME='TSC'
 COIN_PORT=37888
 RPC_PORT=6681
 
@@ -26,15 +26,15 @@ MAG='\e[1;35m'
 purgeOldInstallation() {
     echo -e "${GREEN}Searching and removing old $COIN_NAME files and configurations${NC}"
     #kill wallet daemon
-    sudo killall TSCBd > /dev/null 2>&1
+    sudo killall TSCd > /dev/null 2>&1
     #remove old ufw port allow
     sudo ufw delete allow 33888/tcp > /dev/null 2>&1
     #remove old files
-    if [ -d "~/.TSCB" ]; then
-        sudo rm -rf ~/.TSCB > /dev/null 2>&1
+    if [ -d "~/.TSC" ]; then
+        sudo rm -rf ~/.TSC > /dev/null 2>&1
     fi
     #remove binaries and Elbrus utilities
-    cd /usr/local/bin && sudo rm TSCB-cli TSCB-tx TSCBd > /dev/null 2>&1 && cd
+    cd /usr/local/bin && sudo rm TSC-cli TSC-tx TSCd > /dev/null 2>&1 && cd
     echo -e "${GREEN}* Done${NONE}";
 }
 
@@ -241,7 +241,7 @@ clear
 function important_information() {
  echo
  echo -e "${BLUE}================================================================================================================================${NC}"
- echo -e "${PURPLE}Windows Wallet Guide. https://github.com/Realbityoda/TSCB/blob/master/README.md${NC}"
+ echo -e "${PURPLE}Windows Wallet Guide. https://github.com/Realbityoda/TSC/blob/master/README.md${NC}"
  echo -e "${BLUE}================================================================================================================================${NC}"
  echo -e "$COIN_NAME Masternode is up and running listening on port ${GREEN}$COIN_PORT${NC}."
  echo -e "Configuration file is: ${RED}$CONFIGFOLDER/$CONFIG_FILE${NC}"

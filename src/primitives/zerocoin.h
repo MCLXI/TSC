@@ -1,8 +1,8 @@
 // Copyright (c) 2017 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef TSCB_ZEROCOIN_H
-#define TSCB_ZEROCOIN_H
+#ifndef TSC_ZEROCOIN_H
+#define TSC_ZEROCOIN_H
 
 #include <amount.h>
 #include <limits.h>
@@ -189,4 +189,4 @@ public:
     int GetNeededSpends();
 };
 
-#endif //TSCB_ZEROCOIN_H
+#endif //TSC_ZEROCOIN_H

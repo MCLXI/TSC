@@ -47,10 +47,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("TSCB Core TSCB-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("TSC Core TSC-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  TSCB-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded TSCB transaction") + "\n" +
-                               "  TSCB-tx [options] -create [commands]   " + _("Create hex-encoded TSCB transaction") + "\n" +
+                               "  TSC-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded TSC transaction") + "\n" +
+                               "  TSC-tx [options] -create [commands]   " + _("Create hex-encoded TSC transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -552,7 +552,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded TSCB transaction
+            // param: hex-encoded TSC transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef TSCB_CSPORKDB_H
-#define TSCB_CSPORKDB_H
+#ifndef TSC_CSPORKDB_H
+#define TSC_CSPORKDB_H
 
 #include <boost/filesystem/path.hpp>
 #include "leveldbwrapper.h"
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //TSCB_CSPORKDB_H
+#endif //TSC_CSPORKDB_H

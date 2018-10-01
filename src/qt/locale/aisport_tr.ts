@@ -62,12 +62,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your TSCB addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan TSCB adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your TSC addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan TSC adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your TSCB addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan TSCB adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your TSC addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan TSC adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>TSCB will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TSCBs from being stolen by malware infecting your computer.</source>
-        <translation>TSCB şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, TSCB'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>TSC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TSCs from being stolen by malware infecting your computer.</source>
+        <translation>TSC şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, TSC'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSCB&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TSC&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -242,8 +242,8 @@
         <translation>&amp;BIP 38 şifrele</translation>
     </message>
     <message>
-        <source>Enter a TSCB Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir TSCB Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
+        <source>Enter a TSC Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir TSC Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
 </translation>
     </message>
     <message>
@@ -251,8 +251,8 @@
         <translation>adres</translation>
     </message>
     <message>
-        <source>The TSCB address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için TSCB adresi
+        <source>The TSC address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için TSC adresi
 </translation>
     </message>
     <message>
@@ -289,8 +289,8 @@
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TSCB address</source>
-        <translation>Bu TSCB adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this TSC address</source>
+        <translation>Bu TSC adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
@@ -316,12 +316,12 @@
         <translation>BIP 38 şifreli özel anahtarını girin. Orta kutuya şifreyi  girin. Özel anahtarı hesaplamak için Anahtarın Çözülmesini tıklayın. Anahtar çözüldükten sonra 'Alma Adresi'ni tıklamak, bu özel anahtarı cüzdana ekleyecektir.</translation>
     </message>
     <message>
-        <source>The TSCB address the message was signed with</source>
-        <translation>Mesajın imzalandığı TSCB adresi</translation>
+        <source>The TSC address the message was signed with</source>
+        <translation>Mesajın imzalandığı TSC adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
-        <translation>Belirtilen TSCB adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified TSC address</source>
+        <translation>Belirtilen TSC adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -613,16 +613,16 @@
         <translation>Sekme tablosu</translation>
     </message>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB CORE</translation>
+        <source>TSC Core</source>
+        <translation>TSC CORE</translation>
     </message>
     <message>
-        <source>Send coins to a TSCB address</source>
-        <translation>Koinleri TSCB adresine gönder</translation>
+        <source>Send coins to a TSC address</source>
+        <translation>Koinleri TSC adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and TSCB: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve TSCB üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and TSC: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve TSC üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -637,24 +637,24 @@
         <translation>Masternodları ara</translation>
     </message>
     <message>
-        <source>&amp;About TSCB Core</source>
+        <source>&amp;About TSC Core</source>
         <translation>Pıvx core Hakkında</translation>
     </message>
     <message>
-        <source>Show information about TSCB Core</source>
+        <source>Show information about TSC Core</source>
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
-        <source>Modify configuration options for TSCB</source>
-        <translation>TSCB için yapılandırma seçeneklerini değiştirin</translation>
+        <source>Modify configuration options for TSC</source>
+        <translation>TSC için yapılandırma seçeneklerini değiştirin</translation>
     </message>
     <message>
-        <source>Sign messages with your TSCB addresses to prove you own them</source>
-        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı TSCB adresleriyle imzalayın</translation>
+        <source>Sign messages with your TSC addresses to prove you own them</source>
+        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı TSC adresleriyle imzalayın</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified TSCB addresses</source>
-        <translation>Belirtilen TSCB adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
+        <source>Verify messages to ensure they were signed with specified TSC addresses</source>
+        <translation>Belirtilen TSC adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -686,8 +686,8 @@
         <translation>Açık Masternode yapılandırma dosyası</translation>
     </message>
     <message>
-        <source>Open a TSCB: URI or payment request</source>
-        <translation>Bir TSCB: URI veya ödeme isteği açın</translation>
+        <source>Open a TSC: URI or payment request</source>
+        <translation>Bir TSC: URI veya ödeme isteği açın</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -698,12 +698,12 @@
         <translation>Kaşif penceresini engelle</translation>
     </message>
     <message>
-        <source>Show the TSCB Core help message to get a list with possible TSCB command-line options</source>
-        <translation>Olası TSCB komut satırı seçeneklerine sahip bir liste almak için TSCB Core yardım mesajını gösterin</translation>
+        <source>Show the TSC Core help message to get a list with possible TSC command-line options</source>
+        <translation>Olası TSC komut satırı seçeneklerine sahip bir liste almak için TSC Core yardım mesajını gösterin</translation>
     </message>
     <message>
-        <source>TSCB Core client</source>
-        <translation>TSCB Core istemci</translation>
+        <source>TSC Core client</source>
+        <translation>TSC Core istemci</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -834,8 +834,8 @@ Adres: %4</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (TSCB2.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (TSCB2.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (TSC2.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (TSC2.conf).
 </translation>
     </message>
 </context>
@@ -1121,8 +1121,8 @@ Adres: %4</translation>
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB CORE</translation>
+        <source>TSC Core</source>
+        <translation>TSC CORE</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -1144,16 +1144,16 @@ Adres: %4</translation>
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to TSCB Core.</source>
-        <translation>TSCB Core'a hoşgeldiniz.</translation>
+        <source>Welcome to TSC Core.</source>
+        <translation>TSC Core'a hoşgeldiniz.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Varsayılan veri dosyasını kullanınız</translation>
     </message>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB CORE</translation>
+        <source>TSC Core</source>
+        <translation>TSC CORE</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1508,8 +1508,8 @@ Adres: %4</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The TSCB address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için TSCB adresi
+        <source>The TSC address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için TSC adresi
 </translation>
     </message>
     <message>
@@ -1538,17 +1538,17 @@ Adres: %4</translation>
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TSCB address</source>
-        <translation>Bu TSCB adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this TSC address</source>
+        <translation>Bu TSC adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
-        <source>The TSCB address the message was signed with</source>
-        <translation>Mesajın imzalandığı TSCB adresi</translation>
+        <source>The TSC address the message was signed with</source>
+        <translation>Mesajın imzalandığı TSC adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified TSCB address</source>
-        <translation>Belirtilen TSCB adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified TSC address</source>
+        <translation>Belirtilen TSC adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1587,8 +1587,8 @@ Adres: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>TSCB Core</source>
-        <translation>TSCB CORE</translation>
+        <source>TSC Core</source>
+        <translation>TSC CORE</translation>
     </message>
     </context>
 <context>
@@ -1694,7 +1694,7 @@ Adres: %4</translation>
     </message>
     </context>
 <context>
-    <name>TSCB-core</name>
+    <name>TSC-core</name>
     <message>
         <source>Error</source>
         <translation>hata</translation>

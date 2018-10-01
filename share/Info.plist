@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>2.0.0, Copyright © 2009-2017 The Bitcoin Core developers, 2014-2017 The Dash Core developers, 2015-2017 The TSCB Core developers</string>
+  <string>2.0.0, Copyright © 2009-2017 The Bitcoin Core developers, 2014-2017 The Dash Core developers, 2015-2017 The TSC Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>2.0.0</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>TSCB-Qt</string>
+  <string>TSC-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.jiyo.TSCB-Qt</string>
+  <string>io.jiyo.TSC-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.jiyo.TSCBPayment</string>
+      <string>io.jiyo.TSCPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>jiyo</string>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.jiyo.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>TSCB payment request</string>
+      <string>TSC payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both TSCBd and TSCB-qt, to make it harder for attackers to
+ * for both TSCd and TSC-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("TSCB Core");
+const std::string CLIENT_NAME("TSC Core");
 
 /**
  * Client version number
