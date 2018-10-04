@@ -80,7 +80,7 @@ bool fVerifyingBlocks = false;
 unsigned int nCoinCacheSize = 5000;
 bool fAlerts = DEFAULT_ALERTS;
 
-unsigned int nStakeMinAge = 24 * 60 * 60; //24 hours
+unsigned int nStakeMinAge = 2 * 60 * 60; //24 hours
 int64_t nReserveBalance = 0;
 
 /** Fees smaller than this (in duffs) are considered zero fee (for relaying and mining)
@@ -2121,39 +2121,39 @@ int64_t GetBlockValue(int nHeight)
 {
     int64_t nSubsidy = 0;
 
-    if (Params().NetworkID() == CBaseChainParams::TESTNET) {
-        if (nHeight < 200 && nHeight > 0)
-            return 10000 * COIN;
-    }
+  //  if (Params().NetworkID() == CBaseChainParams::TESTNET) {
+    //    if (nHeight < 200 && nHeight > 0)
+      //      return 10000 * COIN;
+   // }
 
     if (nHeight == 0) {
         nSubsidy = 1 * COIN;  //genesis
     } else if(nHeight == 1 ){
-        nSubsidy = 1500000 * COIN;  //1,500,000
-    } else if(nHeight > 1 && nHeight <= 2000) {
-		nSubsidy = 1 * COIN;
-	} else if(nHeight <= 25000) { //PoS phase
-		nSubsidy = 20 * COIN; // "instamine"
-    } else if(nHeight <= 2100000 ) {
-		nSubsidy = 7 * COIN;
-    } else if(nHeight <= 3150000 ) { 
-		nSubsidy = 5 * COIN;
-    } else if(nHeight <= 4200000 ) { 
-		nSubsidy = 4 * COIN;
-    } else if(nHeight <= 5250000 ) { 
-		nSubsidy = 3 * COIN;
-    } else if(nHeight <= 6300000 ) {//switch PoS 
-		nSubsidy = 2 * COIN;
-    } else if(nHeight <= 7350000 ) { 
-		nSubsidy = 1.5 * COIN;
-    } else if(nHeight <= 12600000) { 
-		nSubsidy = 0.5 * COIN;
+        nSubsidy = 350000000 * COIN;  //1,500,000
+    } else if(nHeight > 1 && nHeight <= 260000) {
+		nSubsidy = 1000 * COIN;
+	} else if(nHeight <= 520000) { //PoS phase
+		nSubsidy = 2000 * COIN; // "instamine"
+    } else if(nHeight <= 780000 ) {
+		nSubsidy = 3000 * COIN;
+    } else if(nHeight <= 1040000 ) { 
+		nSubsidy = 5000 * COIN;
+    } else if(nHeight <= 1300000 ) { 
+		nSubsidy = 6000 * COIN;
+    } else if(nHeight <= 1560000 ) { 
+		nSubsidy = 7500 * COIN;
+    //} else if(nHeight <=  ) {//switch PoS 
+//		nSubsidy = 2 * COIN;
+  //  } else if(nHeight <= 7350000 ) { 
+//		nSubsidy = 1.5 * COIN;
+//    } else if(nHeight <= 12600000) { 
+//		nSubsidy = 0.5 * COIN;
     //} else if(nHeight > 630000 && nHeight <= 840000) { 
 //		nSubsidy = 5 * COIN;
   //  } else if(nHeight > 840000 && nHeight <= 1050000) { 
     //            nSubsidy = 3 * COIN;
     } else {
-        nSubsidy = 1 * COIN;
+        nSubsidy = 1000 * COIN;
     }
     return nSubsidy;
 }
@@ -2162,22 +2162,20 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 {
     int64_t ret = 0;
 
-    if (Params().NetworkID() == CBaseChainParams::TESTNET) {
-        if (nHeight < 200)
-            return 0;
-    }
+//    if (Params().NetworkID() == CBaseChainParams::TESTNET) {
+   //     if (nHeight < 200)
+     //       return 0;
+  // }
 	
 	// 80% for Masternodes
-	if (nHeight <= 1500) {
-	      ret = blockValue *.000001;
-	} else if (nHeight > 1 && nHeight < 3000) {
-		  ret = blockValue  / 100 * 85; //85%
-		
-	} else if (nHeight >= 3000) {
-		ret = blockValue / 100 * 70;
+//	if (nHeight <= 1500) {
+//	      ret = blockValue *.000001;
+	if (nHeight > 1) {
+		  ret = blockValue  / 100 * 50; //85%
 	}
-			
-	
+//	} else if (nHeight >= 3000) {
+//		ret = blockValue / 100 * 70;
+//	}
     return ret;
 }
 

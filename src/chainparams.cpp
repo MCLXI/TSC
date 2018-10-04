@@ -113,8 +113,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 2 * 60; // TSC: 1 day
-        nTargetSpacing = 2 * 60; //TSC: 1 minute
+        nTargetTimespan = 3 * 60; // TSC: 1 day
+        nTargetSpacing = 3 * 60; //TSC: 1 minute
         nMaturity = 90;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 29300000 * COIN; //500,000,000
@@ -140,7 +140,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Hello TSC2";
+        const char* pszTimestamp = "Hello Aisport2";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -187,9 +187,9 @@ public:
        vSeeds.push_back(CDNSSeedData("188.166.112.154", "188.166.112.154"));
        vSeeds.push_back(CDNSSeedData("178.128.171.210", "178.128.171.210"));
                 
-		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
+		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);
-		base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 191);
+		base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 65+128);
 		base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
 		base58Prefixes[EXT_SECRET_KEY] = list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
@@ -209,7 +209,8 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "03d88cd66e4a59d4acc52c611cd86daa72dd1b78fc6ae1582174fdea9a7fe05368";
+        //strSporkKey = "03d88cd66e4a59d4acc52c611cd86daa72dd1b78fc6ae1582174fdea9a7fe05368";
+	strSporkKey = "03cd5a1f239cb0b01984b51c18d3e11da9449fefae1c310e02be228e2bfcf178de";
         strObfuscationPoolDummyAddress = "Jeax8jHDQ1s2kHVjysEoTQncVdUrNBuXtp";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
 
