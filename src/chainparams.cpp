@@ -54,10 +54,10 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0000e51fc42786cc9c8d5eecd74c66e9e71b9c8a325a2e63189dbff5d00df757"));
+    (0, uint256("00008023ed70c02881c0ed28d420e4c69b24f172efdd1a91952676f5c32a14cd"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1529618265, // * UNIX timestamp of last checkpoint block
+    1538622916, // * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -113,16 +113,16 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 3 * 60; // TSC: 1 day
-        nTargetSpacing = 3 * 60; //TSC: 1 minute
-        nMaturity = 90;
+        nTargetTimespan = 1 * 60; // TSC: 1 day
+        nTargetSpacing = 1 * 60; //TSC: 1 minute
+        nMaturity = 15;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 29300000 * COIN; //500,000,000
+        nMaxMoneyOut = 18000000000* COIN; //500,000,000
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 100000;
+        nLastPOWBlock = 100;
         nModifierUpdateBlock = 999999999;
-        nZerocoinStartHeight = 100001;
+        nZerocoinStartHeight = 1000;
         nAccumulatorStartHeight = 1;
         nZerocoinStartTime = 1527811200; // Friday, June 1, 2018 12:00:00 AM - GMT
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
@@ -140,7 +140,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Hello Aisport2";
+        const char* pszTimestamp = "Hello TSC2";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -151,10 +151,10 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1529618265;  // Thursday, Saturday, May 5, 2018 8:17:00 PM GNT
+        genesis.nTime = 1538622916;  // Thursday, Saturday, May 5, 2018 8:17:00 PM GNT
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 78007;
-/*		
+        genesis.nNonce = 12331;
+/*
         printf("Generating genesis block...\n");
 
         uint32_t nounce = 1;
@@ -177,15 +177,14 @@ public:
 		} 
 		
         printf("genesis: %s\n",hashGenesisBlock.GetHex().c_str());
-        printf("merklehash: %s\n",genesis.hashMerkleRoot.ToString().c_str());
-*/				
+        printf("merklehash: %s\n",genesis.hashMerkleRoot.ToString().c_str());				*/
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0000e51fc42786cc9c8d5eecd74c66e9e71b9c8a325a2e63189dbff5d00df757"));
-        assert(genesis.hashMerkleRoot == uint256("d664c87d024450a35b32877382fbbeff48cdc42496683b21c20984e505151c85"));
+        assert(hashGenesisBlock == uint256("00008023ed70c02881c0ed28d420e4c69b24f172efdd1a91952676f5c32a14cd"));
+        assert(genesis.hashMerkleRoot == uint256("4d11e2104650810dcfd5ad2518c523beb4aa1f91268efe3b0a86051cd919d351"));
 
-       vSeeds.push_back(CDNSSeedData("209.97.134.147", "209.97.134.147"));
-       vSeeds.push_back(CDNSSeedData("188.166.112.154", "188.166.112.154"));
-       vSeeds.push_back(CDNSSeedData("178.128.171.210", "178.128.171.210"));
+       vSeeds.push_back(CDNSSeedData("45.77.137.45", "45.77.137.45"));
+       vSeeds.push_back(CDNSSeedData("80.240.31.36", "80.240.31.36"));
+       vSeeds.push_back(CDNSSeedData("217.69.15.18", "217.69.15.18"));
                 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);
@@ -254,7 +253,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // TSC: 1 day
         nTargetSpacing = 1 * 60;  // TSC: 1 minute
-        nLastPOWBlock = 200;
+        nLastPOWBlock = 100;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
