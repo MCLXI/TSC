@@ -2117,8 +2117,19 @@ double ConvertBitsToDouble(unsigned int nBits)
     return dDiff;
 }
 
+bool maxSupplyReached()
+{
+    int64_t currentMoneySupply = chainActive.Tip()->nMoneySupply;
+    return currentMoneySupply > Params().MaxMoneyOut();
+}
+
 int64_t GetBlockValue(int nHeight)
 {
+    //Hard cap
+    if (maxSupplyReached()) {
+       return 0;
+    }
+
     int64_t nSubsidy = 0;
 
   //  if (Params().NetworkID() == CBaseChainParams::TESTNET) {
