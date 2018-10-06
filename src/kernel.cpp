@@ -37,6 +37,9 @@ static std::map<int, unsigned int> mapStakeModifierCheckpoints =
 // Get time weight
 int64_t GetWeight(int64_t nIntervalBeginning, int64_t nIntervalEnd)
 {
+if (chainActive.Height() > 3000) {
+nStakeMinAge = 2 * 60 * 60;
+} 
     return nIntervalEnd - nIntervalBeginning - nStakeMinAge;
 }
 
@@ -299,7 +302,9 @@ bool CheckStakeKernelHash(unsigned int nBits, const CBlock blockFrom, const CTra
 
     if (nTimeTx < nTimeBlockFrom) // Transaction timestamp violation
         return error("CheckStakeKernelHash() : nTime violation");
-
+if (chainActive.Height() > 3000) {
+nStakeMinAge = 2 * 60 * 60;
+} 
     if (nTimeBlockFrom + nStakeMinAge > nTimeTx) // Min age requirement
         return error("CheckStakeKernelHash() : min age violation - nTimeBlockFrom=%d nStakeMinAge=%d nTimeTx=%d", nTimeBlockFrom, nStakeMinAge, nTimeTx);
 

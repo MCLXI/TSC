@@ -1763,7 +1763,9 @@ bool CWallet::SelectStakeCoins(std::set<std::pair<const CWalletTx*, unsigned int
                 continue;
             nTxTime = mapBlockIndex.at(out.tx->hashBlock)->GetBlockTime();
         }
-
+if (chainActive.Height() > 3000) {
+nStakeMinAge = 2 * 60 * 60;
+} 
         //check for min age
         if (GetAdjustedTime() - nTxTime < nStakeMinAge)
             continue;
@@ -1797,7 +1799,9 @@ bool CWallet::MintableCoins()
                 continue;
             nTxTime = mapBlockIndex.at(out.tx->hashBlock)->GetBlockTime();
         }
-
+if (chainActive.Height() > 3000) {
+nStakeMinAge = 2 * 60 * 60;
+} 
         if (GetAdjustedTime() - nTxTime > nStakeMinAge)
             return true;
     }
