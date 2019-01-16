@@ -513,9 +513,16 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     if (!streamConfig.good()) {
         // Create empty TSC2.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
-        if (configFile != NULL)
+        if (configFile != NULL) {
+        	AddSeedsToConfigFile(configFile);
             fclose(configFile);
-        return; // Nothing to read, so just return
+        	ReadConfigFile(mapSettingsRet, mapMultiSettingsRet);
+        } else {
+        	LogPrintf("TSC2.conf file not found or can't be created\n");
+        	return; // Nothing to read, so just return
+        }
+
+//        return;  Nothing to read, so just return
     }
 
     set<string> setOptions;
@@ -532,6 +539,42 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     }
     // If datadir is changed in .conf file:
     ClearDatadirCache();
+}
+
+void AddSeedsToConfigFile(FILE* configFile) {
+//	fprintf(configFile,"onlynet=ipv4\r\n");
+//	fprintf(configFile,"addnode=144.202.109.173:13058\r\n");
+//	fprintf(configFile,"addnode=140.143.129.82:13058\r\n");
+//	fprintf(configFile,"addnode=113.243.73.116:13058\r\n");
+//	fprintf(configFile,"addnode=45.32.226.148:13058\r\n");
+//	fprintf(configFile,"addnode=141.101.14.64:13058\r\n");
+//	fprintf(configFile,"addnode=84.55.19.210:13058\r\n");
+//	fprintf(configFile,"addnode=108.61.142.63:13058\r\n");
+//	fprintf(configFile,"addnode=8.12.22.78:13058\r\n");
+//	fprintf(configFile,"addnode=108.160.138.215:13058\r\n");
+//	fprintf(configFile,"addnode=167.99.206.101\r\n");
+//	fprintf(configFile,"addnode=159.65.152.125\r\n");
+//	fprintf(configFile,"addnode=104.236.81.19\r\n");
+//	fprintf(configFile,"addnode=167.88.163.202:13058\r\n");
+//	fprintf(configFile,"addnode=167.88.163.204:13058\r\n");
+//	fprintf(configFile,"addnode=35.178.15.243:13058\r\n");
+//	fprintf(configFile,"addnode=155.94.174.81:13058\r\n");
+fprintf(configFile,"staking=1\r\n");
+fprintf(configFile,"addnode=95.216.109.130:37888\r\n");
+fprintf(configFile,"addnode=176.9.176.102:37888\r\n");
+fprintf(configFile,"addnode=188.40.206.226:37888\r\n");
+fprintf(configFile,"addnode=80.211.153.38:37888\r\n");
+fprintf(configFile,"addnode=45.77.137.45:37888\r\n");
+fprintf(configFile,"addnode=95.179.178.164:37888\r\n");
+fprintf(configFile,"addnode=46.4.170.194:37888\r\n");
+fprintf(configFile,"addnode=140.82.37.227:37888\r\n");
+fprintf(configFile,"addnode=128.204.168.209:37888\r\n");
+fprintf(configFile,"addnode=178.254.28.46:37888\r\n");
+fprintf(configFile,"addnode=91.98.131.152:37888\r\n");
+fprintf(configFile,"addnode=212.237.1.91:37888\r\n");
+fprintf(configFile,"addnode=45.32.30.201:37888\r\n");
+fprintf(configFile,"addnode=209.250.251.214:37888\r\n");
+fprintf(configFile,"addnode=80.240.31.36:37888\r\n");
 }
 
 #ifndef WIN32
